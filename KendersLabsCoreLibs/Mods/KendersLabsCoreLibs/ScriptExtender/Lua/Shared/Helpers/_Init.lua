@@ -1,4 +1,4 @@
-RequireFiles("Shared/Globals/", {
+RequireFiles("Shared/Helpers/", {
     "CF",
     "ModVars"
 })
