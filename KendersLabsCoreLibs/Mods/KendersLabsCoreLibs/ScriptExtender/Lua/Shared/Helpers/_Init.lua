@@ -1,3 +1,4 @@
 RequireFiles("Shared/Globals/", {
-    "Globals"
+    "CF",
+    "ModVars"
 })
