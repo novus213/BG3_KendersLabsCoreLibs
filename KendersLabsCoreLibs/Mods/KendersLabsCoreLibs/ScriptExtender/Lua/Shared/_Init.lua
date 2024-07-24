@@ -9,6 +9,7 @@ function RequireFiles(path, files)
 end
 
 RequireFiles("Shared/", {
+    "MetaClass",
     "Globals/_Init",
     "Helpers/_Init",
 })
