@@ -1,12 +1,4 @@
----@diagnostic disable: missing-parameter
----@class Globals: Globals
-VCHelpers.Globals = _Class:Create("Globals", Globals)
-
-
----@class RaceMod: MetaClass
----@field Deps table
-Globals = _Class:Create("Globals", nil, { -- Example of Instance
-    Deps = {
+deps = {
     GustavDev_GUID           = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
     KendersLabsCoreLibs_GUID = "e460c319-6e1a-4c8f-bb4c-93e124ce7eb5", -- KendersLabsCoreLibs
     VolitionCabinet_GUID     = "f97b43be-7398-4ea5-8fe2-be7eb3d4b5ca", -- VolitionCabinet
@@ -18,4 +10,3 @@ Globals = _Class:Create("Globals", nil, { -- Example of Instance
     MCM_GUID                 = "755a8a72-407f-4f0d-9a33-274ac0f0b53d", -- MCM (not the TV channel ^^)
     AbilityList_UUID         = "b9149c8e-52c8-46e5-9cb6-fc39301c05fe" -- Ability List Default all stats +x
 }
-})
