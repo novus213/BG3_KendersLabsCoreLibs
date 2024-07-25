@@ -1,4 +1,4 @@
-deps = {
+Deps = {
     GustavDev_GUID           = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
     KendersLabsCoreLibs_GUID = "e460c319-6e1a-4c8f-bb4c-93e124ce7eb5", -- KendersLabsCoreLibs
     VolitionCabinet_GUID     = "f97b43be-7398-4ea5-8fe2-be7eb3d4b5ca", -- VolitionCabinet
