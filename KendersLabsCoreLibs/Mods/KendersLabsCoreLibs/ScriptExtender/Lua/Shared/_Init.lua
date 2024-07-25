@@ -26,6 +26,6 @@ end
 
 RequireFiles("Shared/", {
     "MetaClass",
-    "Globals/_Init",
+    "Data/_Init",
     "Helpers/_Init",
 })

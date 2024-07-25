@@ -9,5 +9,5 @@ end
 ---@param modId string modId
 ---@return boolean
 function VCHelpers.ModVars:IsModExist(modId, depsModId)
-    return Ext.Mod.IsModLoaded(depsModId) and Ext.Mod.IsModLoaded(modId) --Deps.Framework_GUID
+    return Ext.Mod.IsModLoaded(depsModId) and Ext.Mod.IsModLoaded(modId) --Data.Deps.Framework_GUID
 end
