@@ -1,6 +1,6 @@
 ---@class HelperModVars: Helper
 
----@param modId modId
+---@param modId string
 ---@return boolean
 function VCHelpers.ModVars:isModLoaded(modId)
     return Ext.Mod.IsModLoaded(modId)

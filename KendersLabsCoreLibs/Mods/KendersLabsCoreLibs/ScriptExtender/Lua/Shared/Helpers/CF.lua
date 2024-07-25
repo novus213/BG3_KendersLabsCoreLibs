@@ -10,7 +10,7 @@ VCHelpers.CF = _Class:Create("HelperCF", Helper)
 ---@param modGuid string mod modGuid
 ---@param target string Target UUID
 ---@param type string (Boosts ect.)
----@param strings string Strings abilities
+---@param strings table Strings abilities
 ---@return table payload
 function VCHelpers.CF:addStringPayload(modGuid, target, type, strings)
     modGuid = modGuid or deps.GustavDev_GUID
@@ -29,7 +29,7 @@ end
 ---@param modGuid string mod modGuid
 ---@param target string Target UUID
 ---@param type string (Boosts ect.)
----@param strings string Strings abilities
+---@param strings table Strings abilities
 ---@return table payload
 function VCHelpers.CF:removeStringPayload(modGuid, target, type, strings)
     modGuid = modGuid or deps.GustavDev_GUID
@@ -70,11 +70,11 @@ end
 ---@param target string Target UUID
 ---@param type string Function (SelectAbilityBonus ect.)
 ---@param sabUUID string SelectAbilityBonus UUID
----@param sabAmount string SelectAbilityBonus Amount
----@param sab string SelectAbilityBonus Amounts
+---@param sabAmount table SelectAbilityBonus Amount ex. {"2","1"}
+---@param sabAmounts integer SelectAbilityBonus Amounts ex. here 2
 ---@param BonusType string BonusType UUID
 ---@return table payload
-function VCHelpers.CF:InsertSelectorsPayload(modGuid, target, type, sabUUID, sabAmount, sab, BonusType)
+function VCHelpers.CF:InsertSelectorsPayload(modGuid, target, type, sabUUID, sabAmount, sabAmounts, BonusType)
     modGuid = modGuid or deps.GustavDev_GUID
     type = type or "SelectAbilityBonus"
     if type == "SelectAbilityBonus" then
@@ -90,7 +90,7 @@ function VCHelpers.CF:InsertSelectorsPayload(modGuid, target, type, sabUUID, sab
         Params = {
             Guid = sabUUID,
             Amount = sabAmount,
-            Amounts = sab,
+            Amounts = sabAmounts,
             BonusType = BonusType
         }
         }
@@ -101,10 +101,12 @@ end
 --- Add SelectAbilityBonus Payload
 ---@param modGuid string race mod modGuid
 ---@param target string Target UUID
+---@param type string Function (SelectAbilityBonus ect.)
 ---@param sabUUID string SelectAbilityBonus UUID
----@param sab string SelectAbilityBonus Amounts
+---@param sabAmounts integer SelectAbilityBonus Amounts
+---@param BonusType string BonusType UUID
 ---@return table payload
-function VCHelpers.CF:addSelectAbilityBonusPayload(modGuid, target, type, sabUUID, amounts, BonusType)
+function VCHelpers.CF:addSelectAbilityBonusPayload(modGuid, target, type, sabUUID, sabAmounts, BonusType)
     modGuid = modGuid or deps.GustavDev_GUID
     type = type or "SelectAbilityBonus"
     if type == "SelectAbilityBonus" then
@@ -119,7 +121,7 @@ function VCHelpers.CF:addSelectAbilityBonusPayload(modGuid, target, type, sabUUI
             Params = {
                 Guid = sabUUID,
                 BonusType = BonusType,
-                Amounts = amounts
+                Amounts = sabAmounts
             }
         }
     }
@@ -129,7 +131,6 @@ end
 --- Add SelectSpells Payload
 ---@param modGuid string race mod modGuid
 ---@param target string Target UUID
----@param type string (Boosts ect.)
 ---@param ssUUID string SelectAbilityBonus UUID
 ---@param ssAmount string addSelectSpells Amount
 ---@param payload table payload
@@ -189,6 +190,7 @@ end
 ---@param target string Target UUID
 ---@param spUUID string SelectAbilityBonus UUID
 ---@param spAmount string addSelectSpells Amount
+---@param selector string addSelectSpells selector
 ---@return table payload
 function VCHelpers.CF:addSelectPassivesPayload(modGuid, target, spUUID, spAmount, selector)
     modGuid = modGuid or deps.GustavDev_GUID
