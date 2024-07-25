@@ -1,3 +1,4 @@
 RequireFiles("Shared/Data/", {
-    "DepsGUID"
+    "DepsGUID",
+    "Libs/_Init"
 })
