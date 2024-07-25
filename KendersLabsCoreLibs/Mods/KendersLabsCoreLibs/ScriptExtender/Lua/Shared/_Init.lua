@@ -6,7 +6,7 @@ DevelReady = Ext.Utils:Version() >= 17 or Ext.Debug.IsDeveloperMode()
 local deps = {
     VCModuleUUID = "f97b43be-7398-4ea5-8fe2-be7eb3d4b5ca",
 }
-if not Ext.Mod.IsModLoaded(deps.VCModuleUUID) then
+if not Ext.Mod.isModLoaded(deps.VCModuleUUID) then
     Ext.Utils.Print(
         "Volition Cabinet is missing and is a hard requirement. PLEASE MAKE SURE IT IS ENABLED IN YOUR MOD MANAGER.")
 end

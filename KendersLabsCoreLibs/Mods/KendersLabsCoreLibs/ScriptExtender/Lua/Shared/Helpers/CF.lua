@@ -2,7 +2,7 @@
 VCHelpers.CF = _Class:Create("HelperCF", Helper)
 
 
--- if Ext.Mod.IsModLoaded(Deps.Framework_GUID) then
+-- if Ext.Mod.isModLoaded(Deps.Framework_GUID) then
 --     Ext.Events.StatsLoaded:Subscribe(function() Mods.SubclassCompatibilityFramework.Api.ToggleDebug(true) end)
 -- end
 
