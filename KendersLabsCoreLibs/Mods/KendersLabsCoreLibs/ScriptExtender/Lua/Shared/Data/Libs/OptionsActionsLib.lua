@@ -1,3 +1,4 @@
+Data.Libs = {}
 --- Define Actions and Payloads
 Data.Libs.OptionActions = {
     AddHalfElf_Skills = {

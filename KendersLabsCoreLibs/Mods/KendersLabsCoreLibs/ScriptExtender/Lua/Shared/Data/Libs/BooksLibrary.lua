@@ -1,3 +1,5 @@
+Data.Libs.Books = {}
+
 --[[Books = { Officials Sources list ]]
 Data.Libs.Books.Dnd5eLimited = { --[[ Core Rule Books (5e Limited) ]]
 	{bookRef = "PHB",			bookName = "Player’s Handbook",								},
