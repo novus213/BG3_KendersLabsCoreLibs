@@ -1,4 +1,4 @@
 RequireFiles("Shared/Helpers/", {
-    "CF",
-    "ModVars"
+    "ModVars",
+    "CF"
 })
