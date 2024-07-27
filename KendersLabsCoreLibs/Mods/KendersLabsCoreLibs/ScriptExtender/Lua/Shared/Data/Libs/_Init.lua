@@ -1,4 +1,3 @@
-Libs = {}
 RequireFiles("Shared/Data/Libs/", {
     "BooksLibrary",
     "ClassesLibrary",
