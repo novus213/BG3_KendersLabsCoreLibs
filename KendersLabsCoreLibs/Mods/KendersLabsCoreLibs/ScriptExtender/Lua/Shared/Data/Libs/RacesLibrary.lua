@@ -20,6 +20,38 @@ end
 local HumanFix = checkHumanFM()
 
 Data.Libs.RaceLibrary = {
+
+--[[
+
+IDEA ?????
+
+	{
+		Name 				=	"Race default",
+		modURL				= 	{"https://xxxxxxx"},
+		modGuid 			=	"xxxxxx",
+		progressionUUID		=	{
+									[1]	=	"xxxxxxxxx"
+								},
+		raceLsxUUID			=	"",
+		Author				=	"Example",
+		MainRace			=	false,
+		SourceBook			=	{
+				PHB = {
+				Stats		=	{"1", "1", "1", "1", "1", "1"},
+				},
+				DSotDQ = {
+				Stats				=	{"0", "0", "0", "0", "0", "2"}, 
+				Sab					=	{"1","1"}, 
+				}
+		},
+		
+		NoDefStats			=	false
+	},
+
+]]--
+
+
+
 --[[
 |	.____                 .__                ____   ____             .__.__  .__
 |	|    |   _____ _______|__|____    ____   \   \ /   /____    ____ |__|  | |  | _____
@@ -1299,23 +1331,6 @@ Data.Libs.RaceLibrary = {
 		SourceBook			=	"VGtML",
 		MainRace			=	false,
 		Stats				=	{"0", "0", "1", "0", "0", "2"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-		NoDefStats			=	false
-	},
-	{
-		Name 				=	"Rising Tides - Playable Sea Elves",
-		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/11284"},
-		modGuid 			=	"23dae00e-c5b6-41ac-9464-55117f0bb95d",
-		progressionUUID		=	{
-									[1]	=	"8d901d19-7e5d-4491-a195-1e8a88cddd77"
-								},
-		Author				=	"tepkunset",
-		SourceBook			=	"MToF",
-		Comments			=	"The Sea Elves and the Shadar-kai, originally published as playtest material in this Unearthed Arcana,\
-were officially released today (May 29, 2018) as part of Mordenkainen's Tome of Foes;\
-the Eladrin elf subrace was included as well.\
-The Avariel and Grugach, as far as I know, were not released.",
-		MainRace			=	false,
-		Stats				=	{"0", "2", "1", "0", "0", "0"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
 		NoDefStats			=	false
 	},
 	{
