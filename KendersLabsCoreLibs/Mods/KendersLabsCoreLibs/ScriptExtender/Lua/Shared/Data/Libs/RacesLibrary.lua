@@ -1302,6 +1302,23 @@ Data.Libs.RaceLibrary = {
 		NoDefStats			=	false
 	},
 	{
+		Name 				=	"Rising Tides - Playable Sea Elves",
+		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/11284"},
+		modGuid 			=	"23dae00e-c5b6-41ac-9464-55117f0bb95d",
+		progressionUUID		=	{
+									[1]	=	"8d901d19-7e5d-4491-a195-1e8a88cddd77"
+								},
+		Author				=	"tepkunset",
+		SourceBook			=	"MToF",
+		Comments			=	"The Sea Elves and the Shadar-kai, originally published as playtest material in this Unearthed Arcana,\
+were officially released today (May 29, 2018) as part of Mordenkainen's Tome of Foes;\
+the Eladrin elf subrace was included as well.\
+The Avariel and Grugach, as far as I know, were not released.",
+		MainRace			=	false,
+		Stats				=	{"0", "2", "1", "0", "0", "0"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+		NoDefStats			=	false
+	},
+	{
 		Name 				=	"Raven Queen's Chosen - Shadar-Kai",
 		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/1305"},
 		modGuid 			=	"c36d595f-70d1-44f1-8ca6-4ad14186f489",
