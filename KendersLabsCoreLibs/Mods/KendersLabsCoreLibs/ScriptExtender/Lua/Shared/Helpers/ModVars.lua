@@ -19,7 +19,7 @@ function VCHelpers.ModVars:InscribeTableMods(t)
   for index in pairs(t) do
     local str = t[index].ModuleUUID
     local modData = Ext.Mod.GetMod(str)
-    if modData.Info.ModuleUUID ~= nil and str ~= "b9149c8e-52c8-46e5-9cb6-fc39301c05fe" then --AbilityList_UUID
+    if modData ~= nil and modData.Info.ModuleUUID ~= nil and str ~= "b9149c8e-52c8-46e5-9cb6-fc39301c05fe" then --AbilityList_UUID
       CLUtils.RegisterModToDictionary(modData.Info.Directory, modData.Info.ModuleUUID, modData.Info.Name, modData.Info.Author)
     end
   end

@@ -13,7 +13,7 @@ Data.Libs.OptionActions = {
             FileType = "Progression",
             Function = "SelectSkills",
             Params = {
-              Guid = "f974ebd6-3725-4b90-bb5c-2b647d41615d",               -- Used in All
+              Guid = "f974ebd6-3725-4b90-bb5c-2b647d41615d", -- Used in All
               Amount = "2"
             }
           }
@@ -33,9 +33,10 @@ Data.Libs.OptionActions = {
             FileType = "Progression",
             Function = "AddSpells",
             Params = {
-              Guid = "7cdd46a5-ab1e-474a-a430-40769fd7e2fd",               -- Used in All
-              PrepareType = "AlwaysPrepared",                              -- Used in SelectSpells, AddSpells. Values: Default, AlwaysPrepared
-              CooldownType = "UntilRest"                                   -- Used in SelectSpells, AddSpells. Values: Default, UntilRest
+              Guid = "7cdd46a5-ab1e-474a-a430-40769fd7e2fd", -- Used in All
+              PrepareType = "AlwaysPrepared",                -- Used in SelectSpells, AddSpells. Values: Default, AlwaysPrepared
+              CooldownType =
+              "UntilRest"                                    -- Used in SelectSpells, AddSpells. Values: Default, UntilRest
             }
           }
         }
@@ -54,9 +55,10 @@ Data.Libs.OptionActions = {
             FileType = "Progression",
             Function = "AddSpells",
             Params = {
-              Guid = "5fdb4bd0-8122-4ce6-9191-fffc951cf3a3",               -- Used in All
-              PrepareType = "AlwaysPrepared",                              -- Used in SelectSpells, AddSpells. Values: Default, AlwaysPrepared
-              CooldownType = "UntilRest"                                   -- Used in SelectSpells, AddSpells. Values: Default, UntilRest
+              Guid = "5fdb4bd0-8122-4ce6-9191-fffc951cf3a3", -- Used in All
+              PrepareType = "AlwaysPrepared",                -- Used in SelectSpells, AddSpells. Values: Default, AlwaysPrepared
+              CooldownType =
+              "UntilRest"                                    -- Used in SelectSpells, AddSpells. Values: Default, UntilRest
             }
           }
         }
@@ -92,27 +94,27 @@ Data.Libs.OptionActions = {
           },
           {
             modGuid = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-            Target = "dc9e985a-6b20-4066-ab3d-eed16191122b",             --ASTRL_HalfLorendrow_LevelOne
+            Target = "dc9e985a-6b20-4066-ab3d-eed16191122b", --ASTRL_HalfLorendrow_LevelOne
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "LightSensitivity" }
           },
           {
             modGuid = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-            Target = "3140a061-8e1f-4c9e-bca2-1c0ed5a3ae65",             -- ASTRL_HalfLorendrow_LevelOne
+            Target = "3140a061-8e1f-4c9e-bca2-1c0ed5a3ae65", -- ASTRL_HalfLorendrow_LevelOne
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "LightSensitivity" }
           },
           {
-            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",             -- Deep Gnome Osi.AddExplorationExperience(GetHostCharacter(), 9000000)
+            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019", -- Deep Gnome Osi.AddExplorationExperience(GetHostCharacter(), 9000000)
             Target = "938b6f72-18a6-4af0-924b-5292251d32bf",
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "MagicResistance", "SunlightSensitivity" }
           },
           {
-            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",             -- sunstone Gnome
+            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019", -- sunstone Gnome
             Target = "3d7c0866-0357-43e1-ace0-b9c7f8bd90be",
             FileType = "Progression",
             Type = "PassivesAdded",
@@ -128,14 +130,14 @@ Data.Libs.OptionActions = {
         action = "InsertPassives",
         payloads = {
           {
-            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",             -- UndeadGhastly Ghouls Add REAL Undead Passive to Undead Race
+            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019", -- UndeadGhastly Ghouls Add REAL Undead Passive to Undead Race
             Target = "fd58a3fe-9d5f-4ae0-a7cd-724914cb7c1b",
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "Fenrules_Undeath", "Fenrules_Undying_Fervor" }
           },
           {
-            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",             -- UndeadGhastly Ghouls
+            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019", -- UndeadGhastly Ghouls
             Target = "a21579fc-b7d7-4295-bf5c-d2111be3f13a",
             FileType = "Progression",
             Type = "PassivesAdded",
@@ -158,14 +160,14 @@ Data.Libs.OptionActions = {
         payloads = {
           {
             modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",
-            Target = "139e1b8c-dfa1-4b2d-895c-efb170736093",             -- Fantastic M Human Passives
+            Target = "139e1b8c-dfa1-4b2d-895c-efb170736093", -- Fantastic M Human Passives
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "HumanMilitia", "HumanVersatility" }
           },
           {
             modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",
-            Target = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276",             -- Larian Human Passives
+            Target = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", -- Larian Human Passives
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "HumanMilitia", "HumanVersatility" }
@@ -199,7 +201,7 @@ Data.Libs.OptionActions = {
         action = "InsertPassives",
         payloads = {
           {
-            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",             -- half Drow
+            modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019", -- half Drow
             Target = "58dae581-c25a-4dfb-8a57-589bf4b34f62",
             FileType = "Progression",
             Type = "PassivesAdded",
@@ -207,14 +209,14 @@ Data.Libs.OptionActions = {
           },
           {
             modGuid = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-            Target = "dc9e985a-6b20-4066-ab3d-eed16191122b",             --ASTRL_HalfLorendrow_LevelOne
+            Target = "dc9e985a-6b20-4066-ab3d-eed16191122b", --ASTRL_HalfLorendrow_LevelOne
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "Drow_DrowWeaponTraining" }
           },
           {
             modGuid = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-            Target = "3140a061-8e1f-4c9e-bca2-1c0ed5a3ae65",             -- ASTRL_HalfLorendrow_LevelOne
+            Target = "3140a061-8e1f-4c9e-bca2-1c0ed5a3ae65", -- ASTRL_HalfLorendrow_LevelOne
             FileType = "Progression",
             Type = "PassivesAdded",
             Strings = { "Drow_DrowWeaponTraining" }
