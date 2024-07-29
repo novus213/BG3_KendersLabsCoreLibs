@@ -1,6 +1,6 @@
 if Ext.Mod.IsModLoaded("755a8a72-407f-4f0d-9a33-274ac0f0b53d") then
   KLPrinter = VolitionCabinetPrinter:New { Prefix = "KendersLibsPrinter", ApplyColor = true,
-    DebugLevel = 1 }
+    DebugLevel = 0 }
 
   function KLPrint(debugLevel, ...)
     KLPrinter:SetFontColor(0, 255, 255)
