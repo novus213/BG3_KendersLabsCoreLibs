@@ -1,17 +1,19 @@
 local function checkHumanFM()
-  if Ext.Mod.IsModLoaded(Data.Deps.Framework_FM_GUID.ModuleUUID) then
+  if Ext.Mod.IsModLoaded(Data.Deps.Framework_FM_GUID.ModuleUUID) and Ext.Mod.IsModLoaded(Data.Deps.VariantHuman_FM_GUID.ModuleUUID) then
     return {
       humanMainRace = false,
       humanUUID     = "139e1b8c-dfa1-4b2d-895c-efb170736093", --Human default Fantastic M
-      modGuid       = Data.Deps.Framework_FM_GUID.ModuleUUID,
+      modGuid       = Data.Deps.VariantHuman_FM_GUID.ModuleUUID,
       Author        = "Fantastic Multiverse",
+      modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" }
     }
   else
     return {
       humanMainRace = true,
       humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian,
-      modGuid       = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
-      Author        = "Larian"
+      modGuid       = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
+      Author        = "Larian",
+      modURL        = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" }
     }
   end
 end
@@ -20,38 +22,7 @@ local HumanFix = checkHumanFM()
 
 Data.Libs.RaceLibrary = {
 
-  --[[
-
-IDEA ?????
-
-	{
-		Name 				=	"Race default",
-		modURL				= 	{"https://xxxxxxx"},
-		modGuid 			=	"xxxxxx",
-		progressionUUID		=	{
-									[1]	=	"xxxxxxxxx"
-								},
-		raceLsxUUID			=	"",
-		Author				=	"Example",
-		MainRace			=	false,
-		SourceBook			=	{
-				PHB = {
-				Stats		=	{"1", "1", "1", "1", "1", "1"},
-				},
-				DSotDQ = {
-				Stats				=	{"0", "0", "0", "0", "0", "2"},
-				Sab					=	{"1","1"},
-				}
-		},
-		
-		NoDefStats			=	false
-	},
-
-]] --
-
-
-
-  --[[
+--[[
 |	.____                 .__                ____   ____             .__.__  .__
 |	|    |   _____ _______|__|____    ____   \   \ /   /____    ____ |__|  | |  | _____
 |	|    |   \__  \\_  __ \  \__  \  /    \   \   Y   /\__  \  /    \|  |  | |  | \__  \
@@ -62,7 +33,7 @@ IDEA ?????
 ]] --
   {
     Name            = "Human default",
-    modURL          = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" },
+    modURL          = HumanFix["modURL"],
     modGuid         = HumanFix["modGuid"],
     progressionUUID = {
       [1] = HumanFix["humanUUID"]
@@ -77,7 +48,7 @@ IDEA ?????
   {
     Name             = "Elf default",
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "eb9db11d-1091-49fa-9006-2f52bbb76f6a",
     progressionUUID  = {
       [1] = "496486a4-b5f2-4f91-90ea-6cad9023952e",
@@ -93,7 +64,7 @@ IDEA ?????
   {
     Name             = "High Elf default",
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9",
     progressionUUID  = {
       [1] = "db13a1fb-7d64-4309-a1c8-e2a5c752ded5",
@@ -110,7 +81,7 @@ IDEA ?????
   {
     Name             = "Wood Elf default",
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c0210455-03b5-437c-9d80-3cc4e3c61a9f",
     progressionUUID  = {
       [1] = "b262db2c-7a80-4c76-a1e8-0efdb9c1db13"
@@ -125,7 +96,7 @@ IDEA ?????
   {
     Name             = "Drow default",
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "a43498f5-d72f-4a05-b721-1feea9acb3ad",
     progressionUUID  = {
       [1] = "4a634f24-bdcb-4559-b8be-7847133ad1c3",
@@ -141,7 +112,7 @@ IDEA ?????
   {
     Name             = "Drow - Lolth default",
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "cda01bce-b09b-459a-bdb0-b162de09e54d",
     progressionUUID  = {
       [1] = "c91bb3ce-73d0-4330-80e1-562880a53472"
@@ -155,7 +126,7 @@ IDEA ?????
   {
     Name             = "Drow - Seldarine default",
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1037326e-43ed-4840-9f37-10f1efb3779a",
     progressionUUID  = {
       [1] = "3feba964-0ae4-4ae5-b2a1-e515f0973efe"
@@ -169,7 +140,7 @@ IDEA ?????
   {
     Name             = "Dwarf default",
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "d93def5b-a2df-4675-8a33-e47c9647eeae",
     progressionUUID  = {
       [1] = "3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"
@@ -182,7 +153,7 @@ IDEA ?????
   {
     Name             = "Dwarf - Duergar default",
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0f8458cb-9edd-401d-8066-86ba8e1529cf",
     progressionUUID  = {
       [1] = "bd012f5b-0a0b-424e-ab7c-186dbd82ab30",
@@ -198,7 +169,7 @@ IDEA ?????
   {
     Name             = "Dwarf - Mountian default",
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c19dc7fa-0a57-459c-ae4a-648472cbb8fe",
     progressionUUID  = {
       [1] = "3576f8c6-e515-49c5-808c-b68b77154ffd"
@@ -212,7 +183,7 @@ IDEA ?????
   {
     Name             = "Dwarf - Hill default",
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "fa449725-ed8a-4d8c-8908-9ff1469c2e21",
     progressionUUID  = {
       [1] = "207d038e-1add-4335-81d1-b0861f524c19",
@@ -231,7 +202,7 @@ IDEA ?????
   {
     Name             = "Half-Elf default",
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5f06db9e-31b0-41d9-bfbe-3446323c4bf6",
     progressionUUID  = {
       [1] = "a1729574-2f7b-4561-91d8-3766cf940420",
@@ -246,7 +217,7 @@ IDEA ?????
   {
     Name             = "Half-Elf - Half High Elf default",
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "9efb7794-dc6f-45f3-8cf9-74ad5286c792",
     progressionUUID  = {
       [1] = "43bfa29a-fd63-4f47-850e-6714f0333022"
@@ -261,7 +232,7 @@ IDEA ?????
   {
     Name             = "Half-Elf - Half Wood Elf default",
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "685d3b16-1f7f-49b3-906d-d7726276926b",
     progressionUUID  = {
       [1] = "cb0f84ec-1b1d-4ecc-9ab5-76261e332f5a"
@@ -276,7 +247,7 @@ IDEA ?????
   {
     Name             = "Half-Elf - Half Drow default",
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "4ef615e7-e401-4304-bedc-5c229caa1dc2",
     progressionUUID  = {
       [1] = "58dae581-c25a-4dfb-8a57-589bf4b34f62",
@@ -295,7 +266,7 @@ IDEA ?????
     Name             = "Gnome default",
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
     Comments         = "The Alpha Main Race !",
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c1d4adfe-9f00-44b4-a433-a45250d00631",
     progressionUUID  = {
       [1] = "d48f8fb3-4351-4b5d-a28c-946fd33be726"
@@ -308,7 +279,7 @@ IDEA ?????
   {
     Name             = "Gnome - Rock default",
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1e9f254e-6aa4-4e54-9937-82065b3182ee",
     progressionUUID  = {
       [1] = "aa2257a9-1779-4d8b-be65-8a08eede07fa"
@@ -322,7 +293,7 @@ IDEA ?????
   {
     Name             = "Gnome - Deep default",
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0f6d9f53-a2d0-422b-beea-a2fdfd88628a",
     progressionUUID  = {
       [1] = "938b6f72-18a6-4af0-924b-5292251d32bf"
@@ -336,7 +307,7 @@ IDEA ?????
   {
     Name             = "Gnome - Forest default",
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "f0a6b572-9612-403f-981c-978c21225845",
     progressionUUID  = {
       [1] = "a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"
@@ -350,7 +321,7 @@ IDEA ?????
   {
     Name             = "Halfling default",
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "7e1ae395-6f2a-456b-ab64-1012c18065d4",
     progressionUUID  = {
       [1] = "963edcba-c572-4f51-b447-8810bbb43a8e"
@@ -363,7 +334,7 @@ IDEA ?????
   {
     Name             = "Halfling - Lightfoot default",
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "fa29312c-6ec6-4bf9-9613-6d99feb57467",
     progressionUUID  = {
       [1] = "bc2d257b-a405-4f58-891e-3083c5f71127"
@@ -377,7 +348,7 @@ IDEA ?????
   {
     Name             = "Halfling - Strongheart default",
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "786cb743-3286-462b-af46-3b1ba84c801e",
     progressionUUID  = {
       [1] = "b7a39730-2820-40c7-be96-2c134fead68a"
@@ -391,7 +362,7 @@ IDEA ?????
   {
     Name             = "Tiefling default",
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1640733f-c32b-4d9d-9132-5ca6e985155c",
     progressionUUID  = {
       [1] = "56529178-3df2-4067-b1c0-e35fe82fbd37"
@@ -404,7 +375,7 @@ IDEA ?????
   {
     Name             = "Tiefling - Asmodeus default",
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5ae9c280-64fd-43fb-85f3-40d1796c5b24",
     progressionUUID  = {
       [1] = "a8b18f0c-fe70-4f13-9dbc-23f4dbc3d648",
@@ -421,7 +392,7 @@ IDEA ?????
   {
     Name             = "Tiefling - Mephistopheles default",
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0d83cb0b-1f39-47bb-97bc-a6e49cd8a5c5",
     progressionUUID  = {
       [1] = "bdd1cf22-1b3c-4bc6-8313-898a49fcfe49",
@@ -438,7 +409,7 @@ IDEA ?????
   {
     Name             = "Tiefling - Zariel default",
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "957ba6a9-68f4-4190-a432-25675d00f434",
     progressionUUID  = {
       [1] = "89d57acd-85ff-4da6-b989-9b82d0241e46",
@@ -455,7 +426,7 @@ IDEA ?????
   {
     Name             = "Dragonborn default",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "e2472b4f-682a-4ac8-b11c-723f921fd7a1",
     progressionUUID  = {
       [1] = "cabc4d46-f08e-4a48-8937-0bd1067ab43d"
@@ -468,7 +439,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Black defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "445a41db-995d-4e35-892a-4ab0e34d4594",
     progressionUUID  = {
       [1] = "f5a766a1-9379-47ed-bfeb-cccbba64346f"
@@ -482,7 +453,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Blue defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "dbe8c9aa-8a1d-49d2-b0b1-816966fe2c8c",
     progressionUUID  = {
       [1] = "fc46455a-24f8-4b5f-9340-05806e44257b"
@@ -496,7 +467,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Brass defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "d5338f29-2047-40a7-ad72-f65241150858",
     progressionUUID  = {
       [1] = "ec92e1f3-b8cf-42a8-aefc-29c053d22c44"
@@ -510,7 +481,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Bronze defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "829ed0e9-25dc-49ca-aee2-2494bbca180b",
     progressionUUID  = {
       [1] = "02abcdb7-301c-4ed5-9a39-223359e8d5fa"
@@ -524,7 +495,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Copper defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "f0747c54-dccd-4a1b-89d3-adee8bcc8b76",
     progressionUUID  = {
       [1] = "37b52fb8-71be-45c7-889d-aca8110e931b"
@@ -538,7 +509,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Gold defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "8aeadd65-f951-4004-8f65-b3cd127e1e6d",
     progressionUUID  = {
       [1] = "f6fa4014-79fc-4c9c-910b-8e3738424cac"
@@ -552,7 +523,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Green defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "cc914fb7-e0eb-49f0-a195-20d11917bf1a",
     progressionUUID  = {
       [1] = "b7e781e6-fa09-4a35-993a-b59e1e52a66f"
@@ -566,7 +537,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Red defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "ed5b3a12-7f18-46c2-8fe9-1ff96d44ed96",
     progressionUUID  = {
       [1] = "c0202100-b905-4791-8eaa-1c110fe0bd02"
@@ -580,7 +551,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - Silver defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "ccbbbf91-53a4-4777-9676-5469d3d5b821",
     progressionUUID  = {
       [1] = "04ec0b37-ddb6-405d-989a-4f3e25ed1dfe"
@@ -594,7 +565,7 @@ IDEA ?????
   {
     Name             = "Dragonborn - White defaut",
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "91577000-c8f7-465b-b56f-eb6d87d173d2",
     progressionUUID  = {
       [1] = "e557c3b8-7cc1-43f8-bd8a-6838ff01e6d1"
@@ -608,7 +579,7 @@ IDEA ?????
   {
     Name             = "Half-Orc default",
     modURL           = { "https://bg3.wiki/wiki/Half-Orc", "https://baldursgate3.wiki.fextralife.com/Half-Orc" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6",
     progressionUUID  = {
       [1] = "816fa8c7-7648-48f7-8309-cb4e7383e45f"
@@ -622,7 +593,7 @@ IDEA ?????
   {
     Name             = "Githyanki default",
     modURL           = { "https://bg3.wiki/wiki/Githyanki", "https://baldursgate3.wiki.fextralife.com/Githyanki" },
-    modGuid          = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
+    modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "81e2cb57-6a12-4429-b3a5-f72549355b3b",
     progressionUUID  = {
       [1] = "f653d537-bc14-4fea-b7d2-25734ec928a2",
