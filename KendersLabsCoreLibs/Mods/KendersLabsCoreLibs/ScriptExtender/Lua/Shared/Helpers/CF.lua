@@ -69,8 +69,8 @@ end
 ---@param target string Target UUID
 ---@param type string Function (SelectAbilityBonus ect.)
 ---@param sabUUID string SelectAbilityBonus UUID
----@param sabAmount table SelectAbilityBonus Amount ex. {"2","1"}
----@param sabAmounts integer SelectAbilityBonus Amounts ex. here 2
+---@param sabAmount integer SelectAbilityBonus Amounts ex. here 2
+---@param sabAmounts table SelectAbilityBonus Amount ex. {"2","1"}
 ---@param BonusType string BonusType UUID
 ---@return table payload
 function VCHelpers.CF:InsertSelectorsPayload(modGuid, target, type, sabUUID, sabAmount, sabAmounts, BonusType)

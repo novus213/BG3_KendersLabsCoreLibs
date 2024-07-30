@@ -241,7 +241,6 @@ IDEA ?????
     Author           = "Larian",
     SourceBook       = "PHB",
     MainRace         = true,
-    Stats            = { "0", "0", "2", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats       = false
   },
   {
@@ -775,7 +774,7 @@ IDEA ?????
     Author           = "Astralities",
     SourceBook       = "SCAG",
     MainRace         = false,
-    specialAbList    = "0a42b87b-a001-4091-8072-a611a85fa465",
+    specialAbList    = "98ad0c19-5493-4629-bd87-77efa8acd70b", -- \BG3-Community-Library\CommunityLibrary\Public\CommunityLibrary\Lists\AbilityLists.lsx
     Stats            = { "0", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "2" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
@@ -957,7 +956,7 @@ IDEA ?????
     Author           = "Astralities",
     SourceBook       = "",
     MainRace         = false,
-    specialAbList    = "002d957b-ed24-4efa-afdb-ccf86bac00dd",
+    specialAbList    = "f87fc239-4cab-48bb-8df2-6d272fdacd4f", -- \BG3-Community-Library\CommunityLibrary\Public\CommunityLibrary\Lists\AbilityLists.lsx
     Stats            = { "0", "2", "0", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
@@ -1350,6 +1349,23 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
+    Name            = "Rising Tides - Playable Sea Elves",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11284" },
+    modGuid         = "23dae00e-c5b6-41ac-9464-55117f0bb95d",
+    progressionUUID = {
+      [1] = "8d901d19-7e5d-4491-a195-1e8a88cddd77"
+    },
+    Author          = "tepkunset",
+    SourceBook      = "MToF",
+    Comments        = "The Sea Elves and the Shadar-kai, originally published as playtest material in this Unearthed Arcana,\
+were officially released today (May 29, 2018) as part of Mordenkainen's Tome of Foes;\
+the Eladrin elf subrace was included as well.\
+The Avariel and Grugach, as far as I know, were not released.",
+    MainRace        = false,
+    Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats      = false
+  },
+  {
     Name            = "Shadar-Kai with Drow dialogue tags",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2476" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
@@ -1387,7 +1403,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
     modGuid         = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
     progressionUUID = {
-      [1] = "da629716-fd76-477d-9934-0473904fe04b",    -- old "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20"
+      [1] = "da629716-fd76-477d-9934-0473904fe04b",           -- old "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20"
     },
     Author          = "HornbirdDotMod",
     SourceBook      = "SACoC",
@@ -1591,7 +1607,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionUUID = {
-      [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20",    --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
+      [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20", --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
     },
     Author          = "Sassandra Baerne",
     SourceBook      = "P",
@@ -2306,7 +2322,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
     modGuid         = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionUUID = {
-      [1] = "677de788-81da-4f2f-b0d1-75c6aa9a1c35",    -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1);
+      [1] = "677de788-81da-4f2f-b0d1-75c6aa9a1c35", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1);
     },
     Author          = "Ghouls0Rules",
     SourceBook      = "",
@@ -3134,4 +3150,5 @@ Todo
 	- Barbarian Half-Orc and others Combined - https://www.nexusmods.com/baldursgate3/mods/3371
 	- Arcane Trickster Drow Race Combined - https://www.nexusmods.com/baldursgate3/mods/3373
 	- Slightly Better Dragonborn - https://www.nexusmods.com/baldursgate3/mods/3300
-]]--
+]]
+   --
