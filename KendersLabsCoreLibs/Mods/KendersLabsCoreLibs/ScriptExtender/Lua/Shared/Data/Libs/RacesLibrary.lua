@@ -1770,7 +1770,7 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Enter Maztica - Desert Dwarf by SydMeier - https://www.nexusmods.com/baldursgate3/mods/9210
   --
   {
-    Name            = "Desert Dwarf",
+    Name            = "Enter Maztica: Desert Dwarf Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9210" },
     modGuid         = "1a3a0820-48e3-45b4-822a-7ee31e5d25c5",
     progressionUUID = {
@@ -1802,7 +1802,7 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Beyond Faerun - Whisper Gnome by SydMeier - https://www.nexusmods.com/baldursgate3/mods/9546
   --
   {
-    Name            = "Whisper Gnome",
+    Name            = "Beyond Faerûn: Whisper Gnome Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9546" },
     modGuid         = "f13d31f7-c897-494c-a988-bca2a71ccddc",
     progressionUUID = {
@@ -1818,7 +1818,7 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Haunted Warriors - Ghostwise Halfling by SydMeier - https://www.nexusmods.com/baldursgate3/mods/8617
   --
   {
-    Name            = "Ghostwise Halfling",
+    Name            = "Haunted Warriors: Ghostwise Halfling Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8617" },
     modGuid         = "f8f5f704-d463-4616-a321-9460060538ff",
     progressionUUID = {
