@@ -1185,61 +1185,88 @@ Data.Libs.RaceLibrary = {
   },
 
   --[[
-|	 __      __       __ ________       _____                .__                   ____________________
-|	/  \    /  \_____/  |\______ \     /  _  \ _____    _____|__| _____ _____     /   _____/\_   _____/
-|	\   \/\/   /  _ \   __\    |  \   /  /_\  \\__  \  /  ___/  |/     \\__  \    \_____  \  |    __)_
-|	 \        (  <_> )  | |    `   \ /    |    \/ __ \_\___ \|  |  Y Y  \/ __ \_  /        \ |        \
-|	  \__/\  / \____/|__|/_______  / \____|__  (____  /____  >__|__|_|  (____  / /_______  //_______  /
-|	       \/                    \/          \/     \/     \/         \/     \/          \/         \/
-|	        \_ WotD Aasimar - Script Extender Edition from Nexus
+|  __      __       __ ________       _____                .__                         ____________________
+| /  \    /  \_____/  |\______ \     /  _  \ _____    _____|__| _____ _____ _______   /   _____/\_   _____/
+| \   \/\/   /  _ \   __\    |  \   /  /_\  \\__  \  /  ___/  |/     \\__  \\_  __ \  \_____  \  |    __)_ 
+|  \        (  <_> )  | |    `   \ /    |    \/ __ \_\___ \|  |  Y Y  \/ __ \|  | \/  /        \ |        \
+|   \__/\  / \____/|__|/_______  / \____|__  (____  /____  >__|__|_|  (____  /__|    /_______  //_______  /
+|        \/                    \/          \/     \/     \/         \/     \/                \/         \/ 
+|	        \_ WotD Aasimar - Script Extender from Nexus
 ]] --
   {
-    Name            = "Protector",
-    modGuid         = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
-    progressionUUID = {
-      [1] = "63e0259e-4721-4f7e-bb75-c5d26a55dc74"
+    Name              = "Aasimar",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "829a8a20-3d8f-4b69-b9bc-97d1e99f2f81",
+    progressionUUID   = {
+      [1] = "459fe764-6f12-4533-9b84-a69d16a8832e",
+      [3] = "cef8ad61-c0af-43af-ba28-8617679d192e",
+      [10] = "d55baec2-5e5d-42e7-a172-b65654aa1ce2"
     },
-    Author          = "Trips ♥",
-    SourceBook      = "VGtML",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = true,
+    NoDefStats        = false
   },
   {
-    Name            = "Scourge",
-    modGuid         = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
-    progressionUUID = {
-      [1] = "2d88948b-45ec-42ce-8dc9-755b6987a8f6"
+    Name              = "Aasimar - Protector",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "33223fd6-6eeb-4581-8368-3edef0225e95",
+    progressionUUID   = {
+      [1] = "63e0259e-4721-4f7e-bb75-c5d26a55dc74",
+      [3] = "015ca540-22c7-4293-bf03-cedba20b1ee4"
     },
-    Author          = "Trips ♥",
-    SourceBook      = "VGtML",
-    MainRace        = false,
-    Stats           = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Fallen",
-    modGuid         = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
-    progressionUUID = {
-      [1] = "adab8d9e-904b-436e-ba9b-9657dd5216c6"
+    Name              = "Aasimar - Scourge",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "5ff931a1-6120-4bd6-ba72-cb0864cbad04",
+    progressionUUID   = {
+      [1] = "2d88948b-45ec-42ce-8dc9-755b6987a8f6",
+      [3] = "fa24028e-f59f-43a5-803f-ae44d19e21b5"
     },
-    Author          = "Trips ♥",
-    SourceBook      = "VGtML",
-    MainRace        = false,
-    Stats           = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Stats             = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Herault / Variant",
-    modGuid         = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
-    progressionUUID = {
-      [1] = "70ed9582-33c5-44c1-8710-2fbf8281543d"
+    Name              = "Aasimar - Fallen",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "9fb769b4-b7a1-43d2-bc9b-95bea9d58258",
+    progressionUUID   = {
+      [1] = "adab8d9e-904b-436e-ba9b-9657dd5216c6",
+      [3] = "ca305d48-f13d-4698-a9bb-b4270d2068c5"
     },
-    Author          = "Trips ♥",
-    SourceBook      = "VGtML",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Stats             = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Aasimar - Harbinger",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "54d12c65-ae54-4acf-9e38-66acb975da16",
+    progressionUUID   = {
+      [1] = "70ed9582-33c5-44c1-8710-2fbf8281543d",
+      [3] = "c78f3980-bd70-4099-a977-424ed68502ae"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   --[[
 |	_________                 __                   __________
