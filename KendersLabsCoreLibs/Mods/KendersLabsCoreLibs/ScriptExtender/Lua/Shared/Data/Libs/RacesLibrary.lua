@@ -2340,17 +2340,13 @@ The Avariel and Grugach, as far as I know, were not released.",
 |	      \_Fantastical Multiverse from Nexus
 ]] --
 
-  {
-    Name             = "Variant Human - Fantastical",
+  {-- Two other Humain in the mod to verify
+    Name             = "Variant Human",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "5e53f556-ba7a-46fd-9dee-ba1ff456d8db",
-    progressionTable = "",
+    progressionTable = "3b047c50-aaae-4000-93f7-37bd8804f7fb",
     progressionUUID  = {
-      [1]  = "0b88cad4-c5d0-4cde-a661-a8ede3f7d113",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "0b88cad4-c5d0-4cde-a661-a8ede3f7d113"
     },
     Author           = "Dungeons and Souls",
     Comments         = "optional feat rules from the Player’s Handbook, \
@@ -2359,9 +2355,9 @@ The Avariel and Grugach, as far as I know, were not released.",
     MainRace         = false,
     Sab              = { "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
-  },
+  },-- Two other Humain in the mod to verify
   {
-    Name             = "Fantastical Astral Elf",
+    Name             = "Astral Elf",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "e7071309-78a8-4fad-949b-d4dd326dd39b",
     progressionTable = "3f2a743a-0dd6-4f1e-8e7d-7cb72791d6b2",
@@ -2379,16 +2375,30 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Reborn(Humanoid)",
+    Name             = "Reborn (Lineage)",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
-    progressionTable = "",
+    progressionTable = "c52c58fc-3d9e-43bd-a822-964b9618e040",
     progressionUUID  = {
-      [1]  = "1253592f-5c8b-41b5-9ae7-b83b08ab92bb",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "de3a8294-d913-412e-82ee-6015716b2ac6",
+      [5]  = "f39762bc-e448-4762-8b0d-58320c917435",
+      [9]  = "38722e23-e2fc-45fd-8708-cd12dc427e97",
+      [13] = "7e29e9ed-0ab5-44dc-82b9-298a826159e9",
+      [17] = "4ffcf4ab-2603-4fb3-9afa-e24e26472d32"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "VRGtR",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Reborn (Humanoid)",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
+    progressionTable = "f9deeded-805f-4f13-9bc1-cbe4fad1ff43",
+    progressionUUID  = {
+      [1]  = "1253592f-5c8b-41b5-9ae7-b83b08ab92bb"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "VRGtR",
@@ -2397,34 +2407,71 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Downcast",
+    Name             = "Downcast",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
-    progressionTable = "",
+    progressionTable = "ef4ff936-4f31-45ef-92fd-12626ea66e04",
     progressionUUID  = {
-      [1]  = "aa03e8ed-a301-4e4a-bfde-ff7144e1fbb1",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]   = "aa03e8ed-a301-4e4a-bfde-ff7144e1fbb1",
+      [2]   = "f11f218d-b871-45a7-9fe0-1376b839efde",
+      [3]   = "9d9b3661-ae19-49d3-be8d-3b4f81330afe",
+      [4]   = "e3259d2e-09ae-4cb5-9d29-ae70d6bbd2b2",
+      [5]   = "b82d7f04-3187-43d4-a508-d2578ccc72b4",
+      [6]   = "23adc02d-ef7d-41e8-9f36-0309fd69458d",
+      [7]   = "b6c37a5f-33ac-44a1-8dc6-f824941ceafd",
+      [8]   = "313340b8-a2b8-44bf-b25b-ea735f2c98a3",
+      [9]   = "841bfefd-3cdf-480a-908d-d017ac09625a",
+      [10]  = "4d141b8a-a71e-49f0-95df-4224bceeae84",
+      [11]  = "e0ac38ec-a01c-46a5-bc36-4a1c91d136a4",
+      [12]  = "e2bb218c-9901-4387-a7ee-ed7b1534b07a",
+      [13]  = "75381bf2-9272-4a76-9acc-355c6a9047eb",
+      [14]  = "bb18614b-673e-40c2-9505-ea70bf8a00f8",
+      [15]  = "ec128205-a5bd-4cdd-8da9-ff23fdc04e02",
+      [17]  = "2bf90f36-4045-4920-bdba-8abe83775599",
+      [18]  = "a76faabd-71d9-4ed3-98fe-38e611aa2dcc",
+      [19]  = "e7218d31-7116-474d-8750-ab5b2a41cb76",
+      [20]  = "4c2aba90-ac6c-43f8-b041-e840161f59b1"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Elezen",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
+    progressionTable = "a9baf07d-092f-4d76-a964-a1ee3f8bbdce",
+    progressionUUID  = {
+      [1]  = "9be04b6b-c89f-4e67-8431-d0cd9b97db15"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "EFFXIV",
+    MainRace         = true,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Elezen - Wildwood",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
+    progressionTable = "a7a08f36-46fd-43ec-9e4e-b562eedbf23d",
+    progressionUUID  = {
+      [1]  = "a8310439-9a0b-411a-92c2-8911cc50e7f2"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "EFFXIV",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Elezen",
+    Name             = "Elezen - Duskwight",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
-    progressionTable = "",
+    progressionTable = "1157213d-456f-4d28-b4b2-ad2c35a1b4f4",
     progressionUUID  = {
-      [1]  = "9be04b6b-c89f-4e67-8431-d0cd9b97db15",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "9c0e5775-6d44-4f35-807c-195ba0b7f803"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "EFFXIV",
@@ -2484,16 +2531,16 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Kender",
+    Name             = "Kender",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "4508d3bd-e721-47a4-894d-0e61c7b0380d",
-    progressionTable = "",
+    progressionTable = "9ea712e7-2507-4d26-8f3d-5e1a8715fa29",
     progressionUUID  = {
-      [1]  = "",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "727ce5d7-2c90-4cbb-bd52-6bd45067e27b",
+      [5]  = "44a2ff5a-ab0c-4fe0-aa85-f94e6d746d69",
+      [9]  = "e916fa5d-ed04-4830-9244-a735f10ab143",
+      [13] = "b576d063-8c64-448a-a04c-0e0200cc7175",
+      [17] = "e2d8d417-a85f-4372-bfd0-4131bbd5c787"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "DSotDQ",
@@ -2502,88 +2549,17 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Water Genasi",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "95d5279b-e063-459d-81d2-d4fa0cec27ca",
-    progressionTable = "",
-    progressionUUID  = {
-      [1]  = "43759dcb-f50f-4c22-906c-d79c40a3dbb0",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "MPMotM",
-    MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
-  {
-    Name             = "Fantastical Shadar-kai",
+    Name             = "Shadar-kai",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "6abf0f64-62d6-4e80-a141-5582e29783e7",
-    progressionTable = "",
+    progressionTable = "5de13126-8919-4cfa-807f-4d173a056f8c",
     progressionUUID  = {
       [1]  = "24991da3-14d0-4c65-85c6-9c62168415eb",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "MPMotM",
-    MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
-  {
-    Name             = "Fantastical Air Genasi",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "35fd2505-5eff-45c5-96e9-98d848f35da4",
-    progressionTable = "",
-    progressionUUID  = {
-      [1]  = "58af38d8-b039-4a75-91fa-4ef079318d8b",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "MPMotM",
-    MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
-  {
-    Name             = "Fantastical Earth Genasi",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "3fe9bc5e-2723-4044-a06b-060aed98e40b",
-    progressionTable = "",
-    progressionUUID  = {
-      [1]  = "47372143-e2a7-4cc5-9810-7caea80bd46a",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "MPMotM",
-    MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
-  {
-    Name             = "Fantastical Firbolg",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "2b5c5a5b-5da3-4c65-b852-92ff75dda75a",
-    progressionTable = "",
-    progressionUUID  = {
-      [1]  = "003cf78d-7db5-444e-9a2f-e41f9836c8c3",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [3]  = "8a9da5a9-f8f5-4a40-bd4c-eefd94e04f41",
+      [5]  = "f114625a-5281-4240-a32b-c7e969295226",
+      [9]  = "dfa5457d-4b63-46e7-8e55-c6ae46bd02f5",
+      [13] = "c0771798-15ad-49c3-aace-0c6655318255",
+      [17] = "a653c4cb-381b-41a1-8ebc-2d313ae5ca94"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
@@ -2592,34 +2568,98 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Fire Genasi",
+    Name             = "Water Genasi",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "410f1b65-e8a1-4f13-b4e8-ae25e5460a7e",
-    progressionTable = "",
+    modGuid          = "95d5279b-e063-459d-81d2-d4fa0cec27ca",
+    progressionTable = "5d5a49e8-124e-4b79-a7a8-67b500673f34",
     progressionUUID  = {
-      [1]  = "5a33238e-313f-4cce-8bac-f36db533b704",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "43759dcb-f50f-4c22-906c-d79c40a3dbb0",
+      [3]  = "27037ac0-d3ca-4899-a2cd-c5bf79bde545",
+      [5]  = "d4096312-066a-4fb8-b95c-18c955859025"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
-    MainRace         = false,
+    MainRace         = true,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Githzerai",
+    Name             = "Air Genasi",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "35fd2505-5eff-45c5-96e9-98d848f35da4",
+    progressionTable = "c7a9163f-9519-43a5-95f5-f04f69b4edaf",
+    progressionUUID  = {
+      [1]  = "58af38d8-b039-4a75-91fa-4ef079318d8b",
+      [3]  = "7d7f30ec-449b-4399-a739-69c4c8d8d6e9",
+      [5]  = "0957dda3-57f9-4d27-90d3-57fb4d635ff8"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "MPMotM",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Earth Genasi",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "3fe9bc5e-2723-4044-a06b-060aed98e40b",
+    progressionTable = "e0c0ba89-69aa-40b4-9b4e-4f329eeca617",
+    progressionUUID  = {
+      [1]  = "47372143-e2a7-4cc5-9810-7caea80bd46a",
+      [5]  = "26acdd6e-a7a4-40ca-8392-f95c61e5d4ec",
+      [9]  = "9c01a03e-41b8-4e6d-ab6e-bc07f8d802a2",
+      [13] = "ae80cccb-4c4f-4393-b233-d093197e27c6",
+      [17] = "271d3311-2546-4da6-823e-e92b4c085290"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "MPMotM",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Fire Genasi",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "410f1b65-e8a1-4f13-b4e8-ae25e5460a7e",
+    progressionTable = "bfba96a1-6fb8-487f-9ac8-71d902850ccf",
+    progressionUUID  = {
+      [1]  = "5a33238e-313f-4cce-8bac-f36db533b704",
+      [3]  = "4ebd8b2f-2432-432b-a97c-ac0872f2fbf2",
+      [5]  = "2906c3c7-8b2c-40b4-9d08-8748967e7b2d"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "MPMotM",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Firbolg",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "2b5c5a5b-5da3-4c65-b852-92ff75dda75a",
+    progressionTable = "268ca7a8-b96c-41f4-9f66-1a67a22334e7",
+    progressionUUID  = {
+      [1]  = "003cf78d-7db5-444e-9a2f-e41f9836c8c3",
+      [5]  = "42921a0b-bf94-4a29-b2c2-ac859b1dc8f8",
+      [9]  = "e6186746-ed40-455d-a6e8-1ea39f0e78a1",
+      [13] = "287480b3-edab-4715-a16c-211e2bfa4f0a",
+      [17] = "5b7fd93c-5649-427f-87bf-4abf6d7b6312"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "MPMotM",
+    MainRace         = true,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats       = false
+  },
+  {
+    Name             = "Githzerai",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "dc812cdf-7fdb-4372-81c7-72df0e00f542",
-    progressionTable = "",
+    progressionTable = "f51f4e7c-c6a5-4b50-87fa-1790c9edff7a",
     progressionUUID  = {
       [1]  = "8ffe5132-b5ad-424c-befb-eb4fc640a18b",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [3]  = "9833eb57-a5cf-4da7-a3bb-0f9bf6b04f24",
+      [5]  = "76392372-679a-453b-b7e1-4f6bc702a5bf"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "PAitM",
@@ -2646,16 +2686,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Kobold",
+    Name             = "Kobold",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
-    progressionTable = "",
+    progressionTable = "32ff7635-4711-4878-84c7-68947afc0f1d",
     progressionUUID  = {
-      [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
@@ -2663,17 +2699,56 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
+--  {
+--    Name             = "Kobold - Legacy Craftiness",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+--    progressionTable = "3e272b43-aaf7-418d-8ce0-0eed49aaeb0c",
+--    progressionUUID  = {
+--      [1]  = "9b859a49-4c5a-4d38-baef-308bfa6753f1"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "VGtML",
+--    MainRace         = false,
+--    NoDefStats       = false
+--  },
+--  {
+--    Name             = "Kobold - Legacy Defiance",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+--    progressionTable = "56268188-707a-48f6-8ca3-835ddce34877"",
+--    progressionUUID  = {
+--      [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "VGtML",
+--    MainRace         = false,
+--    NoDefStats       = false
+--  },
+--  {
+--    Name             = "Kobold - Legacy Draconic Sorcery",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+--    progressionTable = "ca989b4e-a99e-4573-ac0c-941e5c83b960",
+--    progressionUUID  = {
+--      [1]  = "1c224cd0-0617-4bc9-89ec-9370d4bef988"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "VGtML",
+--    MainRace         = false,
+--    NoDefStats       = false
+--  },
   {
-    Name             = "Fantastical Lizardfolk",
+    Name             = "Lizardfolk",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "44aeee6c-5a35-4733-89a1-420451c6a559",
-    progressionTable = "",
+    progressionTable = "97154b38-f9b2-401c-99c4-b652bfe2b206",
     progressionUUID  = {
       [1]  = "fc81b68e-2835-4791-8a22-bfedee977765",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [5]  = "1e70d8bd-6ece-4a8f-8f38-1c2820c8dec8",
+      [9]  = "33786926-c1ad-48ff-ac0b-7f345e62e700",
+      [13] = "48c22894-a744-4473-93ed-2ace873511f7",
+      [17] = "2bbaf479-a680-45cd-bf1d-e5f033437b1a"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
@@ -2682,16 +2757,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Minotaur",
+    Name             = "Minotaur",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "35e9d7e9-716d-4fdb-8b0b-6dac2526389d",
-    progressionTable = "",
+    progressionTable = "3ce4b60a-7301-4bfa-b6e2-f466e4ec56f2",
     progressionUUID  = {
-      [1]  = "82319b4e-f38e-49b0-81cd-59953d54d824",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "82319b4e-f38e-49b0-81cd-59953d54d824"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
@@ -2700,34 +2771,28 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Sea Elf",
+    Name             = "Sea Elf",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "13871336-692e-4af3-9e52-68cdf58330fb",
-    progressionTable = "",
+    progressionTable = "700ec281-1e9f-45ce-b358-e2ef0a047601",
     progressionUUID  = {
-      [1]  = "08bcd922-ef05-49e0-8e6f-3f6574c4d54c",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "08bcd922-ef05-49e0-8e6f-3f6574c4d54c"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
-    MainRace         = false,
+    MainRace         = true,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Triton",
+    Name             = "Triton",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "41e6aeb8-e8ae-41b8-b303-8ad2f8b43f61",
-    progressionTable = "",
+    progressionTable = "2150c0c6-1e90-4a64-97ae-d0f68379f5d4",
     progressionUUID  = {
       [1]  = "328aafb6-9e72-4702-b3ab-10bdbc5e953e",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [3]  = "9663730a-f5b6-4f60-8143-22ef9fdfd93f",
+      [5]  = "6b1ce3e8-7e60-4594-86e9-95f18c18de5d"
     },
     Author           = "",
     SourceBook       = "MPMotM",
@@ -2736,16 +2801,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Yuan-ti",
+    Name             = "Yuan-ti",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
-    progressionTable = "",
+    progressionTable = "b4ada3a0-f98b-452c-a1e6-da0704b00736",
     progressionUUID  = {
       [1]  = "3fbd5365-bb01-4741-965d-2be2f11156bd",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [3]  = "017874f0-8d02-4948-8cd3-2605ee04e99d"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "MPMotM",
@@ -2754,16 +2816,16 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Ogresh",
+    Name             = "Ogresh",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "0cc2683d-c407-40d6-ad65-8c5f95d7ef4b",
-    progressionTable = "",
+    progressionTable = "efce75a6-0c22-4d2a-aaf6-4c26e07abd32",
     progressionUUID  = {
       [1]  = "11d3fa5d-3e88-4c8c-b21c-e183d7208533",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [5]  = "53144ecc-716c-49cc-b390-02db4e441863",
+      [9]  = "0bbc7c45-e455-4766-8f5c-040617155e9a",
+      [13] = "310e1d68-5ef0-42f3-be3a-2a33bf178f1b",
+      [17] = "0e8dfc2b-6e11-47ca-98b2-d5920b244476"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
@@ -2772,16 +2834,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Yuan-ti Pureblood",
+    Name             = "Yuan-ti Pureblood",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "94710eae-8809-42fe-ab17-5681ceae8714",
-    progressionTable = "",
+    progressionTable = "ba0ef186-feaa-4ff9-904e-d58f3b7fba82",
     progressionUUID  = {
       [1]  = "69a8edff-fdec-4ef5-aeb6-dcb15562b062",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [3]  = "800550e4-4c07-46b3-a4de-536b5063b2f5"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
@@ -2806,16 +2865,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Vedalken",
+    Name             = "Vedalken",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "58474556-4b69-494d-b290-1421010d1742",
-    progressionTable = "",
+    progressionTable = "930b392c-3a2d-4270-bf4b-5802e12b2839",
     progressionUUID  = {
-      [1]  = "d17424ad-839d-4733-b16d-f7cb007c865f",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "d17424ad-839d-4733-b16d-f7cb007c865f"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "GGtR",
@@ -2824,16 +2879,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Kobold Legacy",
+    Name             = "Kobold (Legacy)",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "866dee81-42b5-4647-9fb7-ec39271f6c96",
-    progressionTable = "",
+    progressionTable = "561fb98e-ddc2-44ad-842a-aa26837ab8d4",
     progressionUUID  = {
-      [1]  = "ee0bbb70-b8f7-44ec-9419-565ab963f664",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "ee0bbb70-b8f7-44ec-9419-565ab963f664"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
@@ -2842,16 +2893,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Kalashtar",
+    Name             = "Kalashtar",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "cbd0f091-d2a7-4569-bdf8-56511cea3076",
-    progressionTable = "",
+    progressionTable = "b859aa61-d1eb-442e-9efc-9200922685ae",
     progressionUUID  = {
-      [1]  = "0e35ec74-a63c-4d24-8912-4afa4a9930d8",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "0e35ec74-a63c-4d24-8912-4afa4a9930d8"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
@@ -2860,16 +2907,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
-    Name             = "Fantastical Bugbear",
+    Name             = "Bugbear",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "f4361c10-b197-4490-ae30-06ce796f950e",
-    progressionTable = "",
+    progressionTable = "7ce6c941-4964-41a2-906f-71d4e1527003",
     progressionUUID  = {
-      [1]  = "d01d244f-3ae2-4d15-b0ba-9aed04fc16ac",
-      [5]  = "",
-      [9]  = "",
-      [13] = "",
-      [17] = ""
+      [1]  = "d01d244f-3ae2-4d15-b0ba-9aed04fc16ac"
     },
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
