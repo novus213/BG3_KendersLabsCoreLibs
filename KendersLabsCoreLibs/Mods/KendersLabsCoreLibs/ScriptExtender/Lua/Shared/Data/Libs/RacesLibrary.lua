@@ -2349,6 +2349,22 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab             = { "1", "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   },
+  --
+  -- Playable Ogre M-F by dunHozzie - https://www.nexusmods.com/baldursgate3/mods/425
+  --
+  {
+    Name            = "Playable Ogre M-F",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/425" },
+    modGuid         = "562861e5-4434-43fc-9eb1-3d6cf3e031fd",
+    progressionUUID = {
+      [1] = "526226b2-c9b2-4428-95a4-abcdefe1d533"
+    },
+    Author          = "dunHozzie",
+    SourceBook      = "PHB",
+    MainRace        = true,
+    Stats           = { "4", "-1", "3", "-3", "-2", "-2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats      = false
+  },
   --[[
 |	  ________.__                     __  .__            ________.__                 .__            ____ ___           .___                 .___ __________
 |	 /  _____/|  |__ _____    _______/  |_|  | ___.__.  /  _____/|  |__   ____  __ __|  |   ______ |    |   \____    __| _/____ _____     __| _/ \______   \_____    ____  ____
