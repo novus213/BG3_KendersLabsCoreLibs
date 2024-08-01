@@ -1379,18 +1379,25 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
+  --
+  -- Flutter and Whimsy - Fairy by labotor - https://www.nexusmods.com/baldursgate3/mods/5127
+  --
   {
-    Name            = "Fairy (Flutter and Whimsy)",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5127" },
-    modGuid         = "673c5b7b-a274-4916-ad89-4e3c591e1187",
-    progressionUUID = {
-      [1] = "7b4d6e73-c54f-41ed-bd69-c25be95e9717"
+    Name              = "Fairy",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5127" },
+    modGuid           = "673c5b7b-a274-4916-ad89-4e3c591e1187",
+    progressionTable  = "2a6c5f35-1019-49de-9b6f-bccc9311078a",
+    progressionUUID   = {
+      [1] = "7b4d6e73-c54f-41ed-bd69-c25be95e9717",
+      [3] = "43d8f11c-e269-4f3c-a2ad-fa6492528958",
+      [5] = "6825e6ca-51cb-431c-8fb6-095061959c07",
+      [7] = "9a1b4d92-e087-415c-a552-0051984c11ec"
     },
-    Author          = "labotor",
-    SourceBook      = "MPMotM",
-    MainRace        = true,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "labotor",
+    SourceBook        = "MPMotM",
+    MainRace          = true,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   --
   -- Owlin by HornbirdDotMod - https://www.nexusmods.com/baldursgate3/mods/8113
@@ -1881,17 +1888,18 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Forest Friends - Firbolgs by tepkunset - https://www.nexusmods.com/baldursgate3/mods/7757
   --
   {
-    Name            = "Firbolgs",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7757" },
-    modGuid         = "ecfb9910-1b38-4bbc-a873-4f2812fff276",
-    progressionUUID = {
+    Name              = "Firbolgs",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/7757" },
+    modGuid           = "ecfb9910-1b38-4bbc-a873-4f2812fff276",
+    progressionTable  = "6964d589-a2e3-484f-8a58-35a6042713a5",
+    progressionUUID   = {
       [1] = "7eede716-00f0-43aa-ad18-f001f8c7c283"
     },
-    Author          = "tepkunset",
-    SourceBook      = "MPMotM",
-    MainRace        = true,
-    Stats           = { "1", "0", "0", "0", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "tepkunset",
+    SourceBook        = "MPMotM",
+    MainRace          = true,
+    Stats             = { "1", "0", "0", "0", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   --
   -- Enter Maztica - unstone Gnome by SydMeier - https://www.nexusmods.com/baldursgate3/mods/9205
@@ -2339,6 +2347,22 @@ The Avariel and Grugach, as far as I know, were not released.",
     Comments        = "The Alpha Race :-D",
     MainRace        = false,
     Sab             = { "1", "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  --
+  -- Playable Ogre M-F by dunHozzie - https://www.nexusmods.com/baldursgate3/mods/425
+  --
+  {
+    Name            = "Playable Ogre M-F",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/425" },
+    modGuid         = "562861e5-4434-43fc-9eb1-3d6cf3e031fd",
+    progressionUUID = {
+      [1] = "526226b2-c9b2-4428-95a4-abcdefe1d533"
+    },
+    Author          = "dunHozzie",
+    SourceBook      = "PHB",
+    MainRace        = true,
+    Stats           = { "4", "-1", "3", "-3", "-2", "-2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
   --[[
