@@ -2392,20 +2392,20 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
-  {
-    Name             = "Reborn (Humanoid)",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
-    progressionTable = "f9deeded-805f-4f13-9bc1-cbe4fad1ff43",
-    progressionUUID  = {
-      [1]  = "1253592f-5c8b-41b5-9ae7-b83b08ab92bb"
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "VRGtR",
-    MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
+--  {
+--    Name             = "Reborn (Humanoid)",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
+--    progressionTable = "f9deeded-805f-4f13-9bc1-cbe4fad1ff43",
+--    progressionUUID  = {
+--      [1]  = "1253592f-5c8b-41b5-9ae7-b83b08ab92bb"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "VRGtR",
+--    MainRace         = false,
+--    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+--    NoDefStats       = false
+--  },
   {
     Name             = "Downcast",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
@@ -2498,20 +2498,19 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
-  {
-    Name             = "Dhampir - Humanoid",
-    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-    modGuid          = "f34c3aca-0b14-4001-af29-27e130cf5c5c",
-    progressionTable = "3025ad42-1bce-411c-bf9d-eb97b31cc3a2",
-    progressionUUID  = {
-      [1] = "4f0a047b-fd6f-488d-a627-966ed2d4e6fb"
-    },
-    Author           = "Dungeons and Souls",
-    SourceBook       = "VRGtR",
-    MainRace         = true,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
-  },
+--  {
+--    Name             = "Dhampir - Humanoid",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "f34c3aca-0b14-4001-af29-27e130cf5c5c",
+--    progressionTable = "3025ad42-1bce-411c-bf9d-eb97b31cc3a2",
+--    progressionUUID  = {
+--      [1] = "4f0a047b-fd6f-488d-a627-966ed2d4e6fb"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "VRGtR",
+--    MainRace         = true,
+--    NoDefStats       = false
+--  },
   {
     Name             = "Orc",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
@@ -2815,6 +2814,32 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
+--  {
+--    Name             = "Yuan-ti - Serpent",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
+--    progressionTable = "61ed638b-1b83-4b79-a131-cae506d0d219",
+--    progressionUUID  = {
+--      [1]  = "85f21e44-6bb4-4782-affa-d5a7aa1d8a9a"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "MPMotM",
+--    MainRace         = false,
+--    NoDefStats       = false
+--  },
+--  {
+--    Name             = "Yuan-ti - Humanity",
+--    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+--    modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
+--    progressionTable = "1fdbcd97-9c06-4bf6-8094-58c52c60987f",
+--    progressionUUID  = {
+--      [1]  = "d756b55f-d72a-4469-9624-d6d3e57f1e91"
+--    },
+--    Author           = "Dungeons and Souls",
+--    SourceBook       = "MPMotM",
+--    MainRace         = false,
+--    NoDefStats       = false
+--  },
   {
     Name             = "Ogresh",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
