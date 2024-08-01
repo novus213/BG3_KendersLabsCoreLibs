@@ -1148,7 +1148,6 @@ Data.Libs.RaceLibrary = {
     Author           = "Astralities",
     SourceBook       = "PHB",
     MainRace         = true,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
   {
@@ -1397,42 +1396,46 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Owlin by HornbirdDotMod - https://www.nexusmods.com/baldursgate3/mods/8113
   --
   {
-    Name            = "Owlin",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
-    modGuid         = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
-    progressionUUID = {
+    Name              = "Owlin",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
+    modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "a15bb8f0-1edf-4724-99db-06093627dba1",
+    progressionUUID   = {
       [1] = "da629716-fd76-477d-9934-0473904fe04b",           -- old "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20"
+      [3] = "e69323c9-2b75-4ca7-9d6e-fb8e1f872bb0"
     },
-    Author          = "HornbirdDotMod",
-    SourceBook      = "SACoC",
-    MainRace        = true,
-    NoDefStats      = false
+    Author            = "HornbirdDotMod",
+    SourceBook        = "SACoC",
+    MainRace          = true,
+    NoDefStats        = false
   },
   {
-    Name            = "Owlin - Forest",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
-    modGuid         = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
-    progressionUUID = {
+    Name              = "Owlin - Forest",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
+    modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "d82020ea-455a-4330-889b-a1f953dd53be",
+    progressionUUID   = {
       [1] = "9bb01d19-30fb-4478-bf55-d98dcacb228b"
     },
-    Author          = "HornbirdDotMod",
-    SourceBook      = "SACoC",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "HornbirdDotMod",
+    SourceBook        = "SACoC",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Owlin - Snow",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
-    modGuid         = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
-    progressionUUID = {
+    Name              = "Owlin - Snow",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
+    modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "3c60049b-f15d-47a9-adfc-3533259dbf2c",
+    progressionUUID   = {
       [1] = "837d45f1-17fb-407b-8c3c-ed83427036cf"
     },
-    Author          = "HornbirdDotMod",
-    SourceBook      = "SACoC",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "HornbirdDotMod",
+    SourceBook        = "SACoC",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   --
   -- Myconid by Porridge - https://www.nexusmods.com/baldursgate3/mods/5535
@@ -1451,71 +1454,184 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --
+  -- Playable Genasi race by Saveiro - https://www.nexusmods.com/baldursgate3/mods/4557
+  --
+  {
+    Name              = "Genasi",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "40e1b9aa-045c-4b2b-842b-e6e5b676eb31",
+    progressionUUID   = {
+      [1] = "e4192766-499e-471b-a2a5-66c163daca84"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = true,
+    NoDefStats        = false
+  },
+  {
+    Name              = "Genasi - Air",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "473e8c541-2387-4f7b-92a8-a34bcc800adc",
+    progressionUUID   = {
+      [1] = "fb1fde77-b497-4516-a40e-8427677e59ca",
+      [3] = "a013bc79-1563-4419-9d94-e9af261afb99"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Genasi - Earth",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "a09e6a27-473c-41d2-a2a9-dfdd0db141d3",
+    progressionUUID   = {
+      [1] = "cffa916e-3999-4d6a-b15d-37c37fceca64"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Genasi - Fire",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "5f194c5b-e22b-403e-945b-8212f0d1760d",
+    progressionUUID   = {
+      [1] = "fd0889a1-2b2f-4d88-a49a-972c4c07da87",
+      [3] = "0427b7eb-3f01-4d1e-b52d-6598378f631d",
+      [5] = "74ee1c40-5042-40bf-b37a-5fc7a79e3ce2"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Genasi - Slime",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "8ea665e2-efd9-471c-9fe4-4fb9a0bc4796",
+    progressionUUID   = {
+      [1] = "042348d8-dcf2-4948-80b9-a85bc906d45d",
+      [3] = "df46332f-6068-42a4-82a3-ea5b2dc12cd8"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Genasi - Water",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
+    modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
+    progressionTable  = "64bba33e-9a97-4f18-9f29-717302fe2168",
+    progressionUUID   = {
+      [1] = "65262b80-81f7-48cb-b67d-7cb0024d13d9",
+      [3] = "cd8a8e67-249c-49d1-b082-c88a3923a1c5",
+      [5] = "9cc3a788-7d4c-475b-be36-56d27d50dc0e"
+    },
+    Author            = "Saveiro",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
   -- Elemental Power - Genasi by tekunset - https://www.nexusmods.com/baldursgate3/mods/4741
   --
   {
-    Name            = "Genasi",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
-    modGuid         = "97954f72-711b-4938-a5ae-6a477b2ed574",
-    progressionUUID = {
+    Name              = "Genasi",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
+    modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    progressionTable  = "7fd5b820-63d8-4c31-ab3e-b8a05b92f220",
+    progressionUUID   = {
       [1] = "e808d2a5-a9eb-403f-bab9-90a5114a699c"
     },
-    Author          = "tekunset",
-    SourceBook      = "MPMotM",
-    MainRace        = true,
-    NoDefStats      = false
+    Author            = "tekunset",
+    SourceBook        = "MPMotM",
+    MainRace          = true,
+    NoDefStats        = false
   },
   {
-    Name            = "Genasi - Fire",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
-    modGuid         = "97954f72-711b-4938-a5ae-6a477b2ed574",
-    progressionUUID = {
-      [1] = "ce1b1155-fc91-4dde-9ebb-ec06c103b944"
+    Name              = "Genasi - Fire",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
+    modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    progressionTable  = "81b3ae87-b67f-41d2-a208-c47ffa778b3e",
+    progressionUUID   = {
+      [1] = "ce1b1155-fc91-4dde-9ebb-ec06c103b944",
+      [2] = "3bd8c520-6e26-4366-a175-926703c108db",
+      [3] = "6bd1d862-1d09-46bf-8dbc-8e3b6260d6e0",
+      [4] = "71b47a8c-96bc-4376-9f5f-a4f48615693f",
+      [5] = "a11ba265-b732-4ed5-8125-438226a3f39c"
     },
-    Author          = "tekunset",
-    SourceBook      = "MPMotM",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "tekunset",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Genasi - Air",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
-    modGuid         = "97954f72-711b-4938-a5ae-6a477b2ed574",
-    progressionUUID = {
-      [1] = "1b933d13-bb4b-4806-97ed-92ef7dc75738"
+    Name              = "Genasi - Air",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
+    modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    progressionTable  = "d701b6c6-d54e-4142-a68f-1ba58432d17f",
+    progressionUUID   = {
+      [1] = "1b933d13-bb4b-4806-97ed-92ef7dc75738",
+      [2] = "dab820a0-d59c-4c13-a0b1-6b5391095854",
+      [3] = "83f945c7-28b2-4881-bd8a-247fcad7cfce",
+      [4] = "e99453e9-50ba-467a-bf71-1322426681ef",
+      [5] = "d1867424-60d0-4464-a955-48d714160291"
     },
-    Author          = "tekunset",
-    SourceBook      = "MPMotM",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "tekunset",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Genasi - Earth",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
-    modGuid         = "97954f72-711b-4938-a5ae-6a477b2ed574",
-    progressionUUID = {
-      [1] = "ffcdbf2d-9500-46a0-9827-a8898e7e0553"
+    Name              = "Genasi - Earth",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
+    modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    progressionTable  = "8abe538b-08d5-4a5d-b7ba-5014e297233e",
+    progressionUUID   = {
+      [1] = "ffcdbf2d-9500-46a0-9827-a8898e7e0553",
+      [2] = "97410e2d-43b9-436a-866a-ef47c22fed3c",
+      [3] = "97d705e1-4a11-4cef-862f-bf7893c3c675",
+      [4] = "77cd8f50-7cb2-48cc-8618-8d2334a4fdc9",
+      [5] = "505a3857-cd02-4ae2-bf3b-fe217af3906e"
     },
-    Author          = "tekunset",
-    SourceBook      = "MPMotM",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "tekunset",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Genasi - Water",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
-    modGuid         = "97954f72-711b-4938-a5ae-6a477b2ed574",
-    progressionUUID = {
-      [1] = "ca4b22d5-24b2-43f2-a550-b9d9e7d4d7bc"
+    Name              = "Genasi - Water",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
+    modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    progressionTable  = "08b69cc8-cd34-4ff5-ab55-f6ba9adb5bd2",
+    progressionUUID   = {
+      [1] = "ca4b22d5-24b2-43f2-a550-b9d9e7d4d7bc",
+      [2] = "75d50042-b97e-4622-a236-23dee51046dc",
+      [3] = "58aec2c1-3e2e-47a0-baf8-55ed70df2d2d",
+      [4] = "7a7a591b-b47e-4c4a-ae70-44ee1b4d80e8",
+      [5] = "00d4051a-a8e1-4566-9540-8a9400a134ef"
     },
-    Author          = "tekunset",
-    SourceBook      = "MPMotM",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "tekunset",
+    SourceBook        = "MPMotM",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
   --
   -- Half-Dragon by Val aka Jo - https://www.nexusmods.com/baldursgate3/mods/2634
@@ -2218,39 +2334,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     progressionUUID = {
       [1] = "7551c355-8311-4c2f-b91b-9877ef608267"
     },
-    Author          = "8465",
+    Author          = "Syd Meier",
     SourceBook      = "DSotDQ",
     Comments        = "The Alpha Race :-D",
     MainRace        = false,
     Sab             = { "1", "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   },
-  --[[
-|	__________.__  __    __              __________                  __       _____             .___
-|	\______   \__|/  |__/  |_  __________\______   \_____    _______/  |_    /     \   ____   __| _/______
-|	 |    |  _/  \   __\   __\/ __ \_  __ \     ___/\__  \  /  ___/\   __\  /  \ /  \ /  _ \ / __ |/  ___/
-|	 |    |   \  ||  |  |  | \  ___/|  | \/    |     / __ \_\___ \  |  |   /    Y    (  <_> ) /_/ |\___ \
-|	 |______  /__||__|  |__|  \___  >__|  |____|    (____  /____  > |__|   \____|__  /\____/\____ /____  >
-|			\/                    \/                     \/     \/                 \/            \/    \/
-|			 \_BitterPast Mods
-]] --
-  --
-  -- Underdark's Chosen - Drow RP by BitterPast - https://www.nexusmods.com/baldursgate3/mods/3485
-  --
-  --	{
-  --		Name				=	"Assassin Drow",
-  --		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/3485"},
-  --		modGuid				=	"76015234-1bb4-42dc-adb9-c86c7f4cbb39",
-  --		progressionUUID		=	{
-  --									[1]	=	"4a634f24-bdcb-4559-b8be-7847133ad1c3"
-  --								},
-  --		Author				=	"BitterPast",
-  --		SourceBook			=	"",
-  --		MainRace			=	true,
-  --		Stats				=	{"0", "2", "0", "0", "0", "1"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-  --		NoDefStats			=	false
-  --	},
-
   --[[
 |	  ________.__                     __  .__            ________.__                 .__            ____ ___           .___                 .___ __________
 |	 /  _____/|  |__ _____    _______/  |_|  | ___.__.  /  _____/|  |__   ____  __ __|  |   ______ |    |   \____    __| _/____ _____     __| _/ \______   \_____    ____  ____
@@ -2263,71 +2353,94 @@ The Avariel and Grugach, as far as I know, were not released.",
 
   --[[
 	{
-        Name				=	"Undead (Ghastly Ghouls) MAIN",
-		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/5895"},
-        modGuid				=	"f3d4e722-e576-43ce-a585-cfffcfcbcf40",
-        progressionUUID		=	{
-									[1]	=	""
+    Name				      =	"Undead",
+		modURL				    =	{"https://www.nexusmods.com/baldursgate3/mods/5895"},
+    modGuid				    =	"f3d4e722-e576-43ce-a585-cfffcfcbcf40",
+    progressionTable  = "d3b77de3-b977-46f4-bd1c-f85882b26489",
+    progressionUUID 	=	{
+			[1]	=	"a21579fc-b7d7-4295-bf5c-d2111be3f13a",
+      [5] = "640be951-bdbf-4d7b-acf8-df8266fb70fe",
+      [10] = "ec193217-1c9b-4cdb-8bee-2f51cd1dc027"
 								},
-		Author				=	"Ghouls0Rules",
+		Author				  =	"Ghouls0Rules",
 		SourceBook			=	"",
-		MainRace			=	true,
+		MainRace			  =	true,
 		NoDefStats			=	false
     },
 ]] --
 
   {
-    Name            = "Undead (Ghastly Ghouls) Lich",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
-    modGuid         = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
-    progressionUUID = {
-      [1] = "7123242e-9e00-4b9e-8e4f-aa1b0477fe13"
+    Name              = "Undead - Archlich",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
+    modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
+    progressionTable  = "cf1674f1-af50-4878-8f0a-2497941e5034",
+    progressionUUID   = {
+      [1] = "7123242e-9e00-4b9e-8e4f-aa1b0477fe13",
+      [3] = "d924cae6-b610-43da-82c9-8c521cae5a1b",
+      [4] = "a4c8d0ae-3e06-444e-ae96-b7cea020f1a0",
+      [6] = "4975cc5b-a4b9-465d-b468-8ce809cc951d",
+      [7] = "1e55dde5-743f-48aa-9d8f-e5d3ea4fd0df",
+      [9] = "9bf3c83e-7bb2-4298-b2b6-091edca820b7",
+      [12] = "186b103d-1b2c-4f93-af0c-bc6d3176ea19"
     },
-    Author          = "Ghouls0Rules",
-    SourceBook      = "",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "2", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Ghouls0Rules",
+    SourceBook        = "",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "2", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Undead (Ghastly Ghouls) Ghoul",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
-    modGuid         = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
-    progressionUUID = {
-      [1] = "cfabed72-38b8-424d-a07d-058fbd4dd1a9"
+    Name              = "Undead - Ghoul",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
+    modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
+    progressionTable  = "ff5eac8f-6074-4b22-9d29-b438382f733d",
+    progressionUUID   = {
+      [1] = "cfabed72-38b8-424d-a07d-058fbd4dd1a9",
+      [3] = "84f2f366-f5c5-4c66-820a-42d569519c32",
+      [6] = "fe495adf-47b5-4824-b810-e5ff7d6dbea5",
+      [9] = "40430000-6428-4ca5-8330-87b6a9c41331"
     },
-    Author          = "Ghouls0Rules",
-    SourceBook      = "",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    Author            = "Ghouls0Rules",
+    SourceBook        = "",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
   },
   {
-    Name            = "Undead (Ghastly Ghouls) Mummy",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
-    modGuid         = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
-    progressionUUID = {
-      [1] = "3a4465df-49a2-4278-9d16-f17ed876aede"
+    Name              = "Undead - Mummy",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
+    modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
+    progressionTable  = "1cf239c2-bc90-4135-94ac-f090ea59f89a",
+    progressionUUID   = {
+      [1] = "3a4465df-49a2-4278-9d16-f17ed876aede",
+      [4] = "95ff9536-5c8d-4e05-a66d-34b81fd09f9d",
+      [5] = "845362c3-0fcc-465f-b88f-3306270a2cd9",
+      [7] = "a28768cb-8e44-4c19-89fd-3dbc119e1621",
+      [10] = "d0ae0e8c-d6ff-4af6-80ec-c90aada21824"
     },
-    Author          = "Ghouls0Rules",
-    SourceBook      = "",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "1", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
-  },
+    Author            = "Ghouls0Rules",
+    SourceBook        = "",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "1", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = false
+  },  
   {
-    Name            = "Undead (Ghastly Ghouls) Wight",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
-    modGuid         = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
-    progressionUUID = {
+    Name              = "Undead - Wight",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
+    modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
+    progressionTable  = "8a473472-a21c-4795-9d53-b2b757207e98",
+    progressionUUID   = {
       [1] = "677de788-81da-4f2f-b0d1-75c6aa9a1c35", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1);
+      [4] = "27cb1d31-57ce-46b9-91bf-e294e2a2a2e4",
+      [7] = "478b3404-f0ad-4b5c-a54c-36d3e1a9a94a",
+      [10] = "647b94a1-4a94-40c3-91ab-459a35e4cef6"
     },
-    Author          = "Ghouls0Rules",
-    SourceBook      = "",
-    MainRace        = false,
-    Stats           = { "0", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    Sab             = { "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    Author            = "Ghouls0Rules",
+    SourceBook        = "",
+    MainRace          = false,
+    Stats             = { "0", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    Sab               = { "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
   },
 
   --[[
@@ -2447,7 +2560,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       [1]  = "9be04b6b-c89f-4e67-8431-d0cd9b97db15"
     },
     Author           = "Dungeons and Souls",
-    SourceBook       = "EFFXIV",
+    SourceBook       = "",
     MainRace         = true,
     NoDefStats       = false
   },
@@ -2460,7 +2573,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       [1]  = "a8310439-9a0b-411a-92c2-8911cc50e7f2"
     },
     Author           = "Dungeons and Souls",
-    SourceBook       = "EFFXIV",
+    SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
@@ -2474,7 +2587,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       [1]  = "9c0e5775-6d44-4f35-807c-195ba0b7f803"
     },
     Author           = "Dungeons and Souls",
-    SourceBook       = "EFFXIV",
+    SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
@@ -3162,6 +3275,32 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   }
+  --[[
+|	__________.__  __    __              __________                  __       _____             .___
+|	\______   \__|/  |__/  |_  __________\______   \_____    _______/  |_    /     \   ____   __| _/______
+|	 |    |  _/  \   __\   __\/ __ \_  __ \     ___/\__  \  /  ___/\   __\  /  \ /  \ /  _ \ / __ |/  ___/
+|	 |    |   \  ||  |  |  | \  ___/|  | \/    |     / __ \_\___ \  |  |   /    Y    (  <_> ) /_/ |\___ \
+|	 |______  /__||__|  |__|  \___  >__|  |____|    (____  /____  > |__|   \____|__  /\____/\____ /____  >
+|			\/                    \/                     \/     \/                 \/            \/    \/
+|			 \_BitterPast Mods
+]] --
+  --
+  -- Underdark's Chosen - Drow RP by BitterPast - https://www.nexusmods.com/baldursgate3/mods/3485
+  --
+  --	{
+  --		Name				=	"Assassin Drow",
+  --		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/3485"},
+  --		modGuid				=	"76015234-1bb4-42dc-adb9-c86c7f4cbb39",
+  --		progressionUUID		=	{
+  --									[1]	=	"4a634f24-bdcb-4559-b8be-7847133ad1c3"
+  --								},
+  --		Author				=	"BitterPast",
+  --		SourceBook			=	"",
+  --		MainRace			=	true,
+  --		Stats				=	{"0", "2", "0", "0", "0", "1"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+  --		NoDefStats			=	false
+  --	},
+
 }
 
 --[[
@@ -3176,7 +3315,6 @@ Todo
 
 
 	5e Extended
-	- Playable Genasi race - https://www.nexusmods.com/baldursgate3/mods/4557
 	- Mori's Astral Elves - https://www.nexusmods.com/baldursgate3/mods/7718
 	- Astral Elves 5E - https://www.nexusmods.com/baldursgate3/mods/1780
 	- Astral Elves - https://www.nexusmods.com/baldursgate3/mods/1388
