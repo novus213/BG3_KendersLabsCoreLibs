@@ -2576,6 +2576,58 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats       = false
   },
   {
+    Name             = "Downcast - Aurelian",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
+    progressionTable = "756208e7-49fb-493b-8b30-a38f0a54ef67",
+    progressionUUID  = {
+      [1]  = "8d1bed2a-a657-4d0b-89f2-f3c484c70808"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "GHPG",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Downcast - Ulmyrite",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
+    progressionTable = "febbb692-bf50-4c7d-8058-58f3d70710c2",
+    progressionUUID  = {
+      [1]  = "f1544d24-c5c3-41e8-871f-c05b5eac3e67"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "GHPG",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Downcast - Maliganti",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
+    progressionTable = "867830a8-1cb6-41b3-b018-58c8f80a1136",
+    progressionUUID  = {
+      [1]  = "700cc489-049d-40dc-8189-0a07948d582e"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "GHPG",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Downcast - Galtian",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
+    progressionTable = "c9ffe574-0f83-46dc-96a8-4aad32453478",
+    progressionUUID  = {
+      [1]  = "acb741fe-8dac-4ff9-9972-70e9d3ad8628"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "GHPG",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
     Name             = "Elezen",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
@@ -2835,45 +2887,45 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = false
   },
---  {
---    Name             = "Kobold - Legacy Craftiness",
---    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
---    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
---    progressionTable = "3e272b43-aaf7-418d-8ce0-0eed49aaeb0c",
---    progressionUUID  = {
---      [1]  = "9b859a49-4c5a-4d38-baef-308bfa6753f1"
---    },
---    Author           = "Dungeons and Souls",
---    SourceBook       = "VGtML",
---    MainRace         = false,
---    NoDefStats       = false
---  },
---  {
---    Name             = "Kobold - Legacy Defiance",
---    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
---    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
---    progressionTable = "56268188-707a-48f6-8ca3-835ddce34877"",
---    progressionUUID  = {
---      [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
---    },
---    Author           = "Dungeons and Souls",
---    SourceBook       = "VGtML",
---    MainRace         = false,
---    NoDefStats       = false
---  },
---  {
---    Name             = "Kobold - Legacy Draconic Sorcery",
---    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
---    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
---    progressionTable = "ca989b4e-a99e-4573-ac0c-941e5c83b960",
---    progressionUUID  = {
---      [1]  = "1c224cd0-0617-4bc9-89ec-9370d4bef988"
---    },
---    Author           = "Dungeons and Souls",
---    SourceBook       = "VGtML",
---    MainRace         = false,
---    NoDefStats       = false
---  },
+  {
+    Name             = "Kobold - Legacy Craftiness",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+    progressionTable = "3e272b43-aaf7-418d-8ce0-0eed49aaeb0c",
+    progressionUUID  = {
+      [1]  = "9b859a49-4c5a-4d38-baef-308bfa6753f1"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "VGtML",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Kobold - Legacy Defiance",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+    progressionTable = "56268188-707a-48f6-8ca3-835ddce34877",
+    progressionUUID  = {
+      [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "VGtML",
+    MainRace         = false,
+    NoDefStats       = false
+  },
+  {
+    Name             = "Kobold - Legacy Draconic Sorcery",
+    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+    modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
+    progressionTable = "ca989b4e-a99e-4573-ac0c-941e5c83b960",
+    progressionUUID  = {
+      [1]  = "1c224cd0-0617-4bc9-89ec-9370d4bef988"
+    },
+    Author           = "Dungeons and Souls",
+    SourceBook       = "VGtML",
+    MainRace         = false,
+    NoDefStats       = false
+  },
   {
     Name             = "Lizardfolk",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
