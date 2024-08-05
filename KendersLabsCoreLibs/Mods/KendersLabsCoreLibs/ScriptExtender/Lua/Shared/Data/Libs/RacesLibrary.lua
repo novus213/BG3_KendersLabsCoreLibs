@@ -4,8 +4,9 @@ local function checkHumanFM()
       humanMainRace = false,
       humanUUID     = "139e1b8c-dfa1-4b2d-895c-efb170736093", --Human default Fantastic M
       modGuid       = Data.Deps.VariantHuman_FM_GUID.ModuleUUID,
-      Author        = "Fantastic Multiverse",
-      modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" }
+      Author        = "Dungeons and Souls",
+      modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+      NoDefStats      = false
     }
   else
     return {
@@ -13,7 +14,8 @@ local function checkHumanFM()
       humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian,
       modGuid       = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
       Author        = "Larian",
-      modURL        = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" }
+      modURL        = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" },
+      NoDefStats      = true
     }
   end
 end
@@ -43,7 +45,7 @@ Data.Libs.RaceLibrary = {
     SourceBook      = "PHB",
     MainRace        = HumanFix["humanMainRace"],
     Stats           = { "1", "1", "1", "1", "1", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = HumanFix["NoDefStats"]
   },
   {
     Name             = "Elf default",
@@ -76,7 +78,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "2", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Wood Elf default",
@@ -91,7 +93,7 @@ Data.Libs.RaceLibrary = {
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Bonus            = { "ProficiencyBonus(Skill,Stealth)" },
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow default",
@@ -121,7 +123,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow - Seldarine default",
@@ -135,7 +137,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dwarf default",
@@ -164,7 +166,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "1", "0", "2", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dwarf - Mountian default",
@@ -178,7 +180,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "2", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dwarf - Hill default",
@@ -197,7 +199,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "0", "2", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf default",
@@ -227,7 +229,7 @@ Data.Libs.RaceLibrary = {
     MainRace         = false,
     Stats            = { "0", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Half Wood Elf default",
@@ -242,7 +244,7 @@ Data.Libs.RaceLibrary = {
     MainRace         = false,
     Stats            = { "0", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Half Drow default",
@@ -260,7 +262,7 @@ Data.Libs.RaceLibrary = {
     MainRace         = false,
     Stats            = { "0", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Gnome default",
@@ -288,7 +290,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "0", "1", "2", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Gnome - Deep default",
@@ -302,7 +304,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "1", "0", "2", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Gnome - Forest default",
@@ -316,7 +318,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "1", "0", "2", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Halfling default",
@@ -343,7 +345,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Halfling - Strongheart default",
@@ -357,7 +359,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling default",
@@ -387,7 +389,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "0", "0", "1", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Mephistopheles default",
@@ -404,7 +406,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "0", "0", "0", "1", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Zariel default",
@@ -421,7 +423,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn default",
@@ -448,7 +450,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Blue defaut",
@@ -462,7 +464,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Brass defaut",
@@ -476,7 +478,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Bronze defaut",
@@ -490,7 +492,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Copper defaut",
@@ -504,7 +506,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Gold defaut",
@@ -518,7 +520,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Green defaut",
@@ -532,7 +534,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Red defaut",
@@ -546,7 +548,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - Silver defaut",
@@ -560,7 +562,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dragonborn - White defaut",
@@ -574,7 +576,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Stats            = { "2", "0", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Orc default",
@@ -588,7 +590,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = true,
     Stats            = { "2", "0", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Githyanki default",
@@ -605,7 +607,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = true,
     Stats            = { "2", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --[[
 

@@ -2,10 +2,10 @@ Data.Libs = {}
 --- Define Actions and Payloads
 Data.Libs.OptionActions = {
   AddHalfElf_Skills = {
+    ruleset = "5eLimited",
     actions = {
       {
         action = "InsertSelectors",
-        ruleset = "5eLimited",
         payloads = {
           {
             modGuid = "1ebf4a1c-01d4-41ed-8aa1-5b3975c6d019",
@@ -125,6 +125,7 @@ Data.Libs.OptionActions = {
     }
   },
   AddUndeadGhastlyGhouls_TruePotion_and_LightSensitivity_Passives = {
+    ruleset = "5eLimited",
     actions = {
       {
         action = "InsertPassives",

@@ -13,14 +13,13 @@ VCHelpers.CF = _Class:Create("HelperCF", Helper)
 ---@return table payload
 function VCHelpers.CF:addStringPayload(modGuid, target, type, strings)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Type = type,
-      Strings = strings
-    }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Type = type,
+    Strings = strings
   }
 end
 
@@ -32,14 +31,13 @@ end
 ---@return table payload
 function VCHelpers.CF:removeStringPayload(modGuid, target, type, strings)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Type = type,
-      Strings = strings
-    }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Type = type,
+    Strings = strings
   }
 end
 
@@ -53,14 +51,13 @@ function VCHelpers.CF:removeSelectorsPayload(modGuid, target, type, sabUUID)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
   type = type or "SelectAbilityBonus"
   sabUUID = sabUUID or Data.Deps.AbilityList_UUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      TargetUUID = target,
-      Function = type,
-      ListUUID = sabUUID
-    }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    TargetUUID = target,
+    Function = type,
+    ListUUID = sabUUID
   }
 end
 
@@ -80,18 +77,17 @@ function VCHelpers.CF:InsertSelectorsPayload(modGuid, target, type, sabUUID, sab
     BonusType = "AbilityBonus"
   end
   sabUUID = sabUUID or Data.Deps.AbilityList_UUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Function = type,
-      Target = target,
-      Params = {
-        Guid = sabUUID,
-        Amount = sabAmount,
-        Amounts = sabAmounts,
-        BonusType = BonusType
-      }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Function = type,
+    Target = target,
+    Params = {
+      Guid = sabUUID,
+      Amount = sabAmount,
+      Amounts = sabAmounts,
+      BonusType = BonusType
     }
   }
 end
@@ -110,17 +106,16 @@ function VCHelpers.CF:addSelectAbilityBonusPayload(modGuid, target, type, sabUUI
   if type == "SelectAbilityBonus" then
     BonusType = "AbilityBonus"
   end
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Function = type,
-      Params = {
-        Guid = sabUUID,
-        BonusType = BonusType,
-        Amounts = sabAmounts
-      }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Function = type,
+    Params = {
+      Guid = sabUUID,
+      BonusType = BonusType,
+      Amounts = sabAmounts
     }
   }
 end
@@ -134,22 +129,21 @@ end
 ---@return table payload
 function VCHelpers.CF:addSelectSpellsPayload(modGuid, target, ssUUID, ssAmount, payload)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Function = "SelectSpells",
-      Params = {
-        Guid = ssUUID,
-        Amount = ssAmount,
-        SwapAmount = payload.SwapAmount or 0,
-        SelectorId = payload.SelectorId,
-        CastingAbility = payload.CastingAbility,
-        ActionResource = payload.ActionResource,
-        PrepareType = payload.PrepareType or "AlwaysPrepared",
-        CooldownType = payload.CooldownType
-      }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Function = "SelectSpells",
+    Params = {
+      Guid = ssUUID,
+      Amount = ssAmount,
+      SwapAmount = payload.SwapAmount or 0,
+      SelectorId = payload.SelectorId,
+      CastingAbility = payload.CastingAbility,
+      ActionResource = payload.ActionResource,
+      PrepareType = payload.PrepareType or "AlwaysPrepared",
+      CooldownType = payload.CooldownType
     }
   }
 end
@@ -162,20 +156,19 @@ end
 ---@return table payload
 function VCHelpers.CF:addAddSpellsPayload(modGuid, target, ssUUID, payload)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Function = "AddSpells",
-      Params = {
-        Guid = ssUUID,
-        SelectorId = payload.SelectorId,
-        CastingAbility = payload.CastingAbility,
-        ActionResource = payload.ActionResource,
-        PrepareType = payload.PrepareType or "AlwaysPrepared",
-        CooldownType = payload.CooldownType
-      }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Function = "AddSpells",
+    Params = {
+      Guid = ssUUID,
+      SelectorId = payload.SelectorId,
+      CastingAbility = payload.CastingAbility,
+      ActionResource = payload.ActionResource,
+      PrepareType = payload.PrepareType or "AlwaysPrepared",
+      CooldownType = payload.CooldownType
     }
   }
 end
@@ -189,17 +182,16 @@ end
 ---@return table payload
 function VCHelpers.CF:addSelectPassivesPayload(modGuid, target, spUUID, spAmount, selector)
   modGuid = modGuid or Data.Deps.GustavDev_GUID.ModuleUUID
-  return {
-    {
-      modGuid = modGuid,
-      FileType = "Progression",
-      Target = target,
-      Function = "SelectPassives",
-      Params = {
-        Guid = spUUID,
-        Amount = spAmount,
-        SelectorId = selector
-      }
+  return
+  {
+    modGuid = modGuid,
+    FileType = "Progression",
+    Target = target,
+    Function = "SelectPassives",
+    Params = {
+      Guid = spUUID,
+      Amount = spAmount,
+      SelectorId = selector
     }
   }
 end
