@@ -652,7 +652,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "0", "0", "1", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Dispater",
@@ -668,7 +668,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "1", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Fierna",
@@ -684,7 +684,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Glasya",
@@ -700,7 +700,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "1", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Levistus",
@@ -716,7 +716,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Mammon",
@@ -732,7 +732,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "MToF",
     MainRace         = false,
     Stats            = { "0", "0", "0", "1", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Variant",
@@ -750,7 +750,7 @@ Data.Libs.RaceLibrary = {
     specialAbList    = "98ad0c19-5493-4629-bd87-77efa8acd70b", -- \BG3-Community-Library\CommunityLibrary\Public\CommunityLibrary\Lists\AbilityLists.lsx
     Stats            = { "0", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "2" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Winged",
@@ -767,7 +767,7 @@ Data.Libs.RaceLibrary = {
     MainRace         = false,
     Stats            = { "0", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "2" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Nightborn",
@@ -799,7 +799,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Elamshinae",
@@ -815,7 +815,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Velkyn'bol",
@@ -831,7 +831,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Tiefling - Isilmnir'el",
@@ -847,7 +847,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --[[
 |	   _____    ______________________________.____      ___________.__
@@ -874,7 +874,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "SCAG",
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elf - Snow",
@@ -888,7 +888,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Stats            = { "0", "0", "2", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elf - Sun",
@@ -902,7 +902,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "SCAG",
     MainRace         = false,
     Stats            = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elf - Lythari",
@@ -916,7 +916,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elf - Star",
@@ -932,7 +932,7 @@ Data.Libs.RaceLibrary = {
     specialAbList    = "f87fc239-4cab-48bb-8df2-6d272fdacd4f", -- \BG3-Community-Library\CommunityLibrary\Public\CommunityLibrary\Lists\AbilityLists.lsx
     Stats            = { "0", "2", "0", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     Sab              = { "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elf - Dusk",
@@ -946,7 +946,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "VRGtR",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --
   -- Drow
@@ -965,7 +965,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow - Lorendrow",
@@ -979,7 +979,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow - Lolthtouched",
@@ -994,7 +994,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow - Zarithra",
@@ -1010,7 +1010,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --
   -- Half-Elves
@@ -1027,7 +1027,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Moon",
@@ -1043,7 +1043,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Snow",
@@ -1057,7 +1057,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Star",
@@ -1071,7 +1071,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Sun",
@@ -1085,7 +1085,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Elf - Lythari",
@@ -1099,7 +1099,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --
   -- Half-Drow
@@ -1118,7 +1118,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Half-Drow - Lorendrow",
@@ -1132,7 +1132,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   --
   -- Overwrite
@@ -1166,7 +1166,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Drow - Seldarine",
@@ -1182,7 +1182,7 @@ Data.Libs.RaceLibrary = {
     SourceBook       = "PHB",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
 
   --[[
@@ -1222,7 +1222,7 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Aasimar - Scourge",
@@ -1237,7 +1237,7 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Aasimar - Fallen",
@@ -1252,7 +1252,7 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Aasimar - Harbinger",
@@ -1267,7 +1267,7 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   --[[
 |	_________                 __                   __________
@@ -1302,7 +1302,7 @@ Data.Libs.RaceLibrary = {
     SourceBook      = "VGtML",
     MainRace        = false,
     Stats           = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Aasimar(Radiant Consumption)",
@@ -1315,7 +1315,7 @@ Data.Libs.RaceLibrary = {
     SourceBook      = "VGtML",
     MainRace        = false,
     Stats           = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Aasimar(Necrotic Shroud)",
@@ -1328,7 +1328,7 @@ Data.Libs.RaceLibrary = {
     SourceBook      = "VGtML",
     MainRace        = false,
     Stats           = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Raven Queen's Chosen - Shadar-Kai",
@@ -1345,7 +1345,7 @@ the Eladrin elf subrace was included as well.\
 The Avariel and Grugach, as far as I know, were not released.",
     MainRace        = false,
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Playable shadar-kai",
@@ -1362,7 +1362,7 @@ the Eladrin elf subrace was included as well.\
 The Avariel and Grugach, as far as I know, were not released.",
     MainRace        = false,
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Rising Tides - Playable Sea Elves",
@@ -1379,7 +1379,7 @@ the Eladrin elf subrace was included as well.\
 The Avariel and Grugach, as far as I know, were not released.",
     MainRace        = false,
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Shadar-Kai with Drow dialogue tags",
@@ -1396,7 +1396,7 @@ the Eladrin elf subrace was included as well.\
 The Avariel and Grugach, as far as I know, were not released.",
     MainRace        = false,
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   --
   -- Flutter and Whimsy - Fairy by labotor - https://www.nexusmods.com/baldursgate3/mods/5127
@@ -1416,7 +1416,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = true,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true --cuz not have subrace
   },
   --
   -- Owlin by HornbirdDotMod - https://www.nexusmods.com/baldursgate3/mods/8113
@@ -1447,7 +1447,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "SACoC",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Owlin - Snow",
@@ -1461,7 +1461,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "SACoC",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   --
   -- Myconid by Porridge - https://www.nexusmods.com/baldursgate3/mods/5535
@@ -1477,7 +1477,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = true,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true --cuz not have subrace
   },
   --
   -- Playable Genasi race by Saveiro - https://www.nexusmods.com/baldursgate3/mods/4557
@@ -1508,7 +1508,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Earth",
@@ -1522,7 +1522,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Fire",
@@ -1538,7 +1538,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Slime",
@@ -1553,7 +1553,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Water",
@@ -1569,7 +1569,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   --
   -- Elemental Power - Genasi by tekunset - https://www.nexusmods.com/baldursgate3/mods/4741
@@ -1603,7 +1603,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Air",
@@ -1621,7 +1621,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Earth",
@@ -1639,7 +1639,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   {
     Name              = "Genasi - Water",
@@ -1657,7 +1657,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook        = "MPMotM",
     MainRace          = false,
     Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats        = false
+    NoDefStats        = true
   },
   --
   -- Half-Dragon by Val aka Jo - https://www.nexusmods.com/baldursgate3/mods/2634
@@ -1673,7 +1673,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = true,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true --cuz not have subrace
   },
   --
   -- Hobgoblin by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
@@ -1691,6 +1691,11 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   },
+
+  --[[
+  TODO SUBRACE HOBGOBELIN
+  ]]---
+
   --
   -- Witch Elf by CovenElf - https://www.nexusmods.com/baldursgate3/mods/3490
   --
@@ -1705,7 +1710,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   --
   -- Wine and Revelry - Satyr by labotor - https://www.nexusmods.com/baldursgate3/mods/428
@@ -2605,7 +2610,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Downcast - Ulmyrite",
@@ -2618,7 +2623,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Downcast - Maliganti",
@@ -2631,7 +2636,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Downcast - Galtian",
@@ -2644,7 +2649,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "GHPG",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elezen",
@@ -2671,7 +2676,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Elezen - Duskwight",
@@ -2685,7 +2690,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook       = "",
     MainRace         = false,
     Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Dhampir - Lineage",
@@ -2917,7 +2922,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Kobold - Legacy Defiance",
@@ -2930,7 +2935,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Kobold - Legacy Draconic Sorcery",
@@ -2943,7 +2948,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author           = "Dungeons and Souls",
     SourceBook       = "VGtML",
     MainRace         = false,
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Lizardfolk",
@@ -3095,7 +3100,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook       = "EGtW",
     MainRace         = false,
     Stats            = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats       = false
+    NoDefStats       = true
   },
   {
     Name             = "Vedalken",
@@ -3175,7 +3180,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Crystal Dragonborn",
@@ -3188,7 +3193,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Emerald Dragonborn",
@@ -3201,7 +3206,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Sapphire Dragonborn",
@@ -3214,7 +3219,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Topaz Dragonborn",
@@ -3227,7 +3232,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
 
   --[[
@@ -3250,7 +3255,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Shadow Dragonborn",
@@ -3264,7 +3269,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Solar Dragonborn",
@@ -3277,7 +3282,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Lunar Dragonborn",
@@ -3290,7 +3295,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Deep Dragonborn",
@@ -3303,7 +3308,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Moonstone Dragonborn",
@@ -3316,7 +3321,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Grey Dragonborn",
@@ -3329,7 +3334,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Yellow Dragonborn",
@@ -3342,7 +3347,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Orange Dragonborn",
@@ -3355,7 +3360,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Purple Dragonborn",
@@ -3368,7 +3373,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   }
   --[[
 |	__________.__  __    __              __________                  __       _____             .___
