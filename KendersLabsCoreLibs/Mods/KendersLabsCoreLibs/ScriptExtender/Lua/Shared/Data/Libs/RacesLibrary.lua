@@ -1348,6 +1348,23 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
+    Name            = "Playable shadar-kai",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
+    modGuid         = "f65633b8-1af5-476e-87c8-3a9d64992ada",
+    progressionUUID = {
+      [1] = "119e981f-bf64-447a-af08-50a471320087"
+    },
+    Author          = "tepkunset",
+    SourceBook      = "MToF",
+    Comments        = "The Sea Elves and the Shadar-kai, originally published as playtest material in this Unearthed Arcana,\
+were officially released today (May 29, 2018) as part of Mordenkainen's Tome of Foes;\
+the Eladrin elf subrace was included as well.\
+The Avariel and Grugach, as far as I know, were not released.",
+    MainRace        = false,
+    Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats      = false
+  },
+  {
     Name            = "Rising Tides - Playable Sea Elves",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11284" },
     modGuid         = "23dae00e-c5b6-41ac-9464-55117f0bb95d",
