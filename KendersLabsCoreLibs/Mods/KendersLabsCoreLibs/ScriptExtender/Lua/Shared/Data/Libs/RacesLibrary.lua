@@ -609,27 +609,7 @@ Data.Libs.RaceLibrary = {
     Stats            = { "2", "0", "0", "1", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats       = true
   },
-  --[[
-
-		TAG ?? not a race ??
-
-		Full-illithid !!!!!! Ability Score Increase. Your Intelligence score increases by 2, and either your Wisdom or Charisma score increases by 1.
-		modURL				=	{"https://bg3.wiki/wiki/Full-illithid", "https://baldursgate3.wiki.fextralife.com/Full-illithid"},
-		Stats				=	{"1", "0", "0", "2", "0", "0"},
-		Sab					=	{"1"}
-
-		ability uuid 002d957b-ed24-4efa-afdb-ccf86bac00dd
-
-
-		Partial-illithid   !!!! Ability Score Increase. Your Intelligence score increases by 2, and either your Wisdom or Charisma score increases by 1.
-		modURL				=	{"https://bg3.wiki/wiki/Partial-illithid", "https://baldursgate3.wiki.fextralife.com/Partial-illithid"},
-		Stats				=	{"0", "0", "0", "2", "0", "0"},
-		Sab					=	{"1"}
-
-		ability uuid 002d957b-ed24-4efa-afdb-ccf86bac00dd
-   },  ]] --
-
-  --[[
+--[[
 |	   _____    ______________________________.____      ___________.__        _____.__  .__
 |	  /  _  \  /   _____/\__    ___/\______   \    |     \__    ___/|__| _____/ ____\  | |__| ____    ____  ______
 |	 /  /_\  \ \_____  \   |    |    |       _/    |       |    |   |  |/ __ \   __\|  | |  |/    \  / ___\/  ___/
@@ -866,9 +846,11 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Moon",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "556f1daf-5111-43ba-b4f9-a7a8b3a6369f",
     progressionUUID  = {
-      [1] = "934762bb-eebd-4b42-b050-540148507a4a"
+      [1] = "934762bb-eebd-4b42-b050-540148507a4a",
+      [3] = "209c6c50-32d9-4f20-a43a-bad874903dd5",
+      [5] = "634197a3-1a33-40f3-a75d-57095a2f60f8"
     },
     Author           = "Astralities",
     SourceBook       = "SCAG",
@@ -880,7 +862,7 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Snow",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
     progressionUUID  = {
       [1] = "02e1d9ac-bcc4-4391-9e78-5df33f60ca64"
     },
@@ -894,7 +876,7 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Sun",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "db7176ff-abf3-4ce6-9230-4151bc5bb2d8",
     progressionUUID  = {
       [1] = "1089dddf-4e75-4e1b-bf2a-33affd0f6093"
     },
@@ -908,9 +890,11 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Lythari",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "5e11771a-9aae-4b85-92fd-d6eb6c335c09",
     progressionUUID  = {
-      [1] = "9b37ca29-0d77-4a27-a662-8464ce9998bb"
+      [1] = "9b37ca29-0d77-4a27-a662-8464ce9998bb",
+      [5] = "6a0655d6-f3da-4598-8b6b-7a8191874a30",
+      [9] = "29e41507-9229-4d8a-b13e-8e18b7e43b90"
     },
     Author           = "Astralities",
     SourceBook       = "",
@@ -922,7 +906,7 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Star",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "905c3b50-906e-4394-b0fb-d8af25e718f3",
     progressionUUID  = {
       [1] = "e4c4c550-d4c7-43c5-92ba-49f93691356a"
     },
@@ -938,7 +922,7 @@ Data.Libs.RaceLibrary = {
     Name             = "Elf - Dusk",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
-    progressionTable = "",
+    progressionTable = "8625f132-b495-49d8-a72d-624003dbd7f6",
     progressionUUID  = {
       [1] = "50d5a39d-4497-4d71-9368-d6c8c04f97dd"
     },
@@ -1277,12 +1261,15 @@ Data.Libs.RaceLibrary = {
 |	 \______  /____//____  > |__|  \____/|__|_|  /  |____|_  /(____  /\___  >___  >____  >
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
-]] --
+]]
+  --
+  -- Half angel - Aasimar by DarthRen - https://www.nexusmods.com/baldursgate3/mods/1824
+  --
   {
-    Name            = "Aasimar Main",
+    Name            = "Aasimar",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
-    progressionTable  = "",
+    progressionTable  = "5ab019ab-45e4-484f-bcc9-26e5fa2d7df5",
     progressionUUID = {
       [1]         = "06e918ad-be2c-48b6-a098-0288539de744",
       raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298"
@@ -1293,10 +1280,10 @@ Data.Libs.RaceLibrary = {
     NoDefStats      = false
   },
   {
-    Name            = "Aasimar(Radiant Soul)",
+    Name            = "Aasimar - Radiant Soul",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
-    progressionTable  = "",
+    progressionTable  = "0bbf96f6-713d-430c-885c-9b26b6e1bcf1",
     progressionUUID = {
       [1] = "4c2c61ae-5904-4576-a8c5-efecce67ab82"
     },
@@ -1307,10 +1294,10 @@ Data.Libs.RaceLibrary = {
     NoDefStats      = true
   },
   {
-    Name            = "Aasimar(Radiant Consumption)",
+    Name            = "Aasimar - Radiant Consumption",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
-    progressionTable  = "",
+    progressionTable  = "6e2215dd-4806-4fe2-9024-33728293e0b5",
     progressionUUID = {
       [1] = "56d62681-9769-4ad7-9bbf-4f72db44f070"
     },
@@ -1321,10 +1308,10 @@ Data.Libs.RaceLibrary = {
     NoDefStats      = true
   },
   {
-    Name            = "Aasimar(Necrotic Shroud)",
+    Name            = "Aasimar - Necrotic Shroud",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
-    progressionTable  = "",
+    progressionTable  = "61fc67e9-5eae-4a32-8413-05c1e327e6ba",
     progressionUUID = {
       [1] = "1b07140b-98c1-42e8-b4ec-072622862dc2"
     },
@@ -1334,8 +1321,11 @@ Data.Libs.RaceLibrary = {
     Stats           = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = true
   },
+  --
+  -- Raven Queen's Chosen - Shadar-Kai by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/1305
+  --
   {
-    Name            = "Raven Queen's Chosen - Shadar-Kai",
+    Name            = "Shadar-Kai",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
     progressionTable  = "",
@@ -1352,12 +1342,17 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = true
   },
+  --
+  -- Cryptic Shadows - Shadar-Kai by tepkunset - https://www.nexusmods.com/baldursgate3/mods/11454
+  --
   {
-    Name            = "Playable shadar-kai",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
+    Name            = "Shadar-Kai",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11454" },
     modGuid         = "f65633b8-1af5-476e-87c8-3a9d64992ada",
+    progressionTable  = "8a914d2d-62e6-4af9-9ecc-8caff547c464",
     progressionUUID = {
-      [1] = "119e981f-bf64-447a-af08-50a471320087"
+      [1] = "119e981f-bf64-447a-af08-50a471320087",
+      [1] = "318b5b0a-0d83-484d-87e7-8a9442f15cc9"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
@@ -1369,11 +1364,14 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = true
   },
+  --
+  -- Rising Tides - Sea Elves by tepkunset - https://www.nexusmods.com/baldursgate3/mods/11284
+  --
   {
-    Name            = "Rising Tides - Playable Sea Elves",
+    Name            = "Sea Elves",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11284" },
     modGuid         = "23dae00e-c5b6-41ac-9464-55117f0bb95d",
-    progressionTable  = "",
+    progressionTable  = "3a98253e-7940-456f-884d-f86c33e33537",
     progressionUUID = {
       [1] = "8d901d19-7e5d-4491-a195-1e8a88cddd77"
     },
@@ -1387,13 +1385,21 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = true
   },
+  --
+  -- Shadar-Kai (drow tag) by WintersPast - https://www.nexusmods.com/baldursgate3/mods/2476
+  --
   {
-    Name            = "Shadar-Kai with Drow dialogue tags",
+    Name            = "Shadar-Kai",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2476" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
-    progressionTable  = "",
+    progressionTable  = "8c9382d2-b198-402b-98fb-beb8274c755f",
     progressionUUID = {
-      [1] = "96ad7abb-8a86-4939-913d-71f84191f7d7"
+      [1] = "96ad7abb-8a86-4939-913d-71f84191f7d7",
+      [3] = "008a0785-cdd0-4bc5-9305-0cc8939c7c60",
+      [5] = "b6a1756e-8ada-42d7-94ab-2cfb7ac1f93e",
+      [9] = "321c053b-3b9d-4c0f-a4b7-91dbd3769ee6",
+      [13] = "fa303eae-cdc9-428e-beb5-770132fa97fc",
+      [17] = "60990573-9a8c-4637-be11-d364954bd0d6"
     },
     Author          = "WintersPast",
     SourceBook      = "MToF",
@@ -2289,7 +2295,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Yuan-ti",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7922" },
     modGuid         = "b2d490bc-6e10-4bc2-89e0-69c8f68cd453",
-    progressionTable  = "",
+    progressionTable  = "70b0cfaa-cac0-4cb6-938c-976ab96d73cd",
     progressionUUID = {
       [1] = "139dba60-4895-496a-ab48-bbd45719f317"
     },
@@ -2534,9 +2540,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Avariel Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3680" },
     modGuid         = "11675ee8-a7be-443b-9edb-125f33d21ce1",
-    progressionTable  = "",
+    progressionTable  = "09e2fb28-6d24-4b83-8fee-4ad610b1dc69",
     progressionUUID = {
-      [1] = "77b6f9ec-7d6a-44b2-b110-88bf025eb586"
+      [1] = "77b6f9ec-7d6a-44b2-b110-88bf025eb586",
+      [2] = "efd08f18-2fe1-493d-abb7-645717a7d673",
+      [3] = "e580329f-db10-44e1-99e5-136e1e050e6a",
+      [4] = "84713e72-e270-44da-915f-d32320a03205"
     },
     Author          = "Ren",
     SourceBook      = "",
@@ -2552,7 +2561,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Orc Half-Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5943" },
     modGuid         = "d25f0ed3-efe7-4194-bdc6-671f784d7cef",
-    progressionTable  = "",
+    progressionTable  = "222db3e4-1c5f-4e48-b4c6-b8a8e7b095d0",
     progressionUUID = {
       [1] = "128ae023-fef6-4fa1-ade9-e338e60b8b56"
     },
@@ -2620,8 +2629,6 @@ The Avariel and Grugach, as far as I know, were not released.",
 |	        \/     \/     \/     \/            \/              \/     \/                       \/               \/      \/    \/     \/      \/          \/      \/     \/   \/
 |	        \_Ghastly Ghouls - Playable Undead Race 3.01 Used
 ]] --
-
-  --[[
 	{
     Name				      =	"Undead",
 		modURL				    =	{"https://www.nexusmods.com/baldursgate3/mods/5895"},
@@ -2637,8 +2644,6 @@ The Avariel and Grugach, as far as I know, were not released.",
 		MainRace			  =	true,
 		NoDefStats			=	false
     },
-]] --
-
   {
     Name              = "Undead - Archlich",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
@@ -3390,13 +3395,31 @@ The Avariel and Grugach, as far as I know, were not released.",
 |	     \/             \/    \/     \/     \/     \/                         \/     \/     \/              \/                             \/           \//_____/             \/     \/
 |	     \_Fizbans Treasury of Dragons
 ]] --
-
   {
-    Name            = "Amethyst Dragonborn",
+    Name            = "Dragonborn - Overwrite",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "e2472b4f-682a-4ac8-b11c-723f921fd7a1",
     progressionUUID = {
-      [1] = "862da67a-a65a-4cae-b9da-aceb974bc6e2"
+      [1] = "cabc4d46-f08e-4a48-8937-0bd1067ab43d",
+      [5] = "b0ac83a4-f274-4d89-be11-f229377956a1",
+      [9] = "f07b73ae-4d93-447d-ae12-674da92309cd",
+      [13] = "22edfe7f-1674-4f6b-925a-fa4de74d4b15",
+      [17] = "39403bcb-b9e5-4ebb-b9f6-1b13efc05bb9"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Amethyst",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "253ff82f-32f1-49f0-be6b-2e51bb48c150",
+    progressionUUID = {
+      [1] = "862da67a-a65a-4cae-b9da-aceb974bc6e2",
+      [5] = "68ebe0af-1ce9-416f-9b4f-73483e55faf4"
     },
     Author          = "3XC4L1B3R",
     SourceBook      = "PHB",
@@ -3405,11 +3428,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = true
   },
   {
-    Name            = "Crystal Dragonborn",
+    Name            = "Dragonborn - Crystal",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "68dc67cf-57b9-438f-8c6c-7bf6629327db",
     progressionUUID = {
-      [1] = "f416a104-9a39-47ee-a96f-755f60f63d3e"
+      [1] = "f416a104-9a39-47ee-a96f-755f60f63d3e",
+      [5] = "ccce1850-17d6-416f-a2aa-88047dc9f2d5"
     },
     Author          = "3XC4L1B3R",
     SourceBook      = "PHB",
@@ -3418,11 +3443,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = true
   },
   {
-    Name            = "Emerald Dragonborn",
+    Name            = "Dragonborn - Emerald",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "88caf2b4-9ca0-45e1-b21e-c5ee49e1a531",
     progressionUUID = {
-      [1] = "8c099c31-cc1b-4aa2-b6ba-43b46b607e5d"
+      [1] = "8c099c31-cc1b-4aa2-b6ba-43b46b607e5d",
+      [5] = "1f57fb95-6522-478e-8e98-06950155bdfb"
     },
     Author          = "3XC4L1B3R",
     SourceBook      = "PHB",
@@ -3431,11 +3458,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = true
   },
   {
-    Name            = "Sapphire Dragonborn",
+    Name            = "Dragonborn - Sapphire",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "4199b326-d8d5-4cf3-b0d0-8c6cdae08f26",
     progressionUUID = {
-      [1] = "aff81767-f832-4599-b980-e4123cec0306"
+      [1] = "aff81767-f832-4599-b980-e4123cec0306",
+      [5] = "ffeb1fef-7e29-49cc-9778-af9bd7159525"
     },
     Author          = "3XC4L1B3R",
     SourceBook      = "PHB",
@@ -3444,17 +3473,149 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = true
   },
   {
-    Name            = "Topaz Dragonborn",
+    Name            = "Dragonborn - Topaz",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "0848fdf4-82c1-41ae-9d21-3c9bb7b40981",
     progressionUUID = {
-      [1] = "f9d85bdb-2930-42b9-ace1-78b9187e8546"
+      [1] = "f9d85bdb-2930-42b9-ace1-78b9187e8546",
+      [5] = "936b9510-0988-43b6-ae67-bec60ac6a1e1"
     },
     Author          = "3XC4L1B3R",
     SourceBook      = "PHB",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = true
+  },
+  {
+    Name            = "Dragonborn - Black Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "445a41db-995d-4e35-892a-4ab0e34d4594",
+    progressionUUID = {
+      [5] = "54d30867-1c05-49ae-81b5-d7ec72d9c4cc"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Blue Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "dbe8c9aa-8a1d-49d2-b0b1-816966fe2c8c",
+    progressionUUID = {
+      [5] = "a80f41b2-8c0a-4167-92a8-2deb7b87a99a"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Green Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "cc914fb7-e0eb-49f0-a195-20d11917bf1a",
+    progressionUUID = {
+      [5] = "212748d1-a44a-4ed2-940a-8845e6711410"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Red Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "ed5b3a12-7f18-46c2-8fe9-1ff96d44ed96",
+    progressionUUID = {
+      [5] = "56103616-9a48-4708-8a8b-e06e489325d1"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - White Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "91577000-c8f7-465b-b56f-eb6d87d173d2",
+    progressionUUID = {
+      [5] = "16e5b1bf-cb8b-45bf-8f1b-ffd47f1439c6"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Brass Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "d5338f29-2047-40a7-ad72-f65241150858",
+    progressionUUID = {
+      [5] = "0156f518-c7bc-468c-9c02-d1a1d237a8c3"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Bronze Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "829ed0e9-25dc-49ca-aee2-2494bbca180b",
+    progressionUUID = {
+      [5] = "351c5d95-50cc-4be7-a627-46ad4d326b4a"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Copper Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "f0747c54-dccd-4a1b-89d3-adee8bcc8b76",
+    progressionUUID = {
+      [5] = "825e6d26-e6af-4907-8f31-2bab7322ab6c"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Gold Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "8aeadd65-f951-4004-8f65-b3cd127e1e6d",
+    progressionUUID = {
+      [5] = "7260fd5d-7c34-465b-8a98-8057b586ee6a"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Dragonborn - Silver Overwrite",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
+    modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
+    progressionTable = "ccbbbf91-53a4-4777-9676-5469d3d5b821",
+    progressionUUID = {
+      [5] = "a9398494-1bc7-4cac-a42d-9e1da7dac101"
+    },
+    Author          = "3XC4L1B3R",
+    SourceBook      = "PHB",
+    MainRace        = false,
+    NoDefStats      = false
   },
 
   --[[
