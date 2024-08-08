@@ -1657,7 +1657,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Half-Dragon",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
-    progressionTable  = "",
+    progressionTable  = "0c8e8bd7-d950-4bd0-849a-a2cca7d8d6ab",
     progressionUUID = {
       [1] = "72a06fbf-e1b3-4321-b975-a4a26d9b4b71"
     },
@@ -1665,6 +1665,60 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = true,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Half-Dragon - High",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
+    modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
+    progressionTable  = "1320609c-f3bb-4d91-a57e-0753968ebd92",
+    progressionUUID = {
+      [1] = "3e431e0f-3962-4340-9fbc-a6656fca0e6c",
+      [2] = "eeba6761-a850-4028-b2bf-be6b406a6105",
+      [3] = "bf42e530-2bd3-4bd8-8b54-fc3acadf29f5",
+      [4] = "87480eed-02b2-4eaf-acd4-c458183d9310",
+      [5] = "7a51b938-c087-47fc-b328-afe42e468649",
+      [6] = "bae956e3-a0af-4fb5-80c2-9c26b977a100",
+      [8] = "eb8f45a5-2708-4810-a85a-f497702a4fef",
+      [9] = "d362d963-a22f-4ab8-9da1-b1d352e04ce9",
+      [10] = "2f903b54-05de-44e2-9c4d-159a502c501c",
+      [11] = "7cc976e8-cae6-4785-9d6a-a7eb99993826",
+      [12] = "5100dab5-b8be-49ce-8e3f-e698cde4c1dd"
+    },
+    Author          = "Val aka Jo",
+    SourceBook      = "",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Half-Dragon - Lesser",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
+    modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
+    progressionTable  = "ec9ae40a-101c-431c-be91-1c771d3493af",
+    progressionUUID = {
+      [1] = "846ea674-ff5b-47dc-9160-40660a96a464",
+      [4] = "83660704-4a07-416e-b874-b7cc8a10fa2d",
+      [5] = "afeeb5fe-b93e-4650-b7e7-93051bfc95ad",
+      [8] = "0ac96921-9420-4d30-ad3f-6a2994f0834e",
+      [12] = "053890d6-a946-41f0-8846-0169ced930ef"
+    },
+    Author          = "Val aka Jo",
+    SourceBook      = "",
+    MainRace        = false,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Half-Dragon - Draconic Soul",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
+    modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
+    progressionTable  = "9f2f35ab-a5fb-4164-ab7b-500b6309d33b",
+    progressionUUID = {
+      [1] = "202005d0-658d-4ac9-bf57-12c31218a626",
+      [5] = "e67ac821-bffd-4465-bd7f-bc0fad3803e3"
+    },
+    Author          = "Val aka Jo",
+    SourceBook      = "",
+    MainRace        = false,
     NoDefStats      = false
   },
   --
@@ -1725,9 +1779,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4750" },
     modGuid         = "7a4aaaca-88a7-41c4-98d6-de2df39496fe",
-    progressionTable  = "",
+    progressionTable  = "9add9a21-e933-4324-a438-6122a15557b4",
     progressionUUID = {
-      [1] = "58971151-461d-4556-8db7-5894af1dceb2"
+      [1] = "58971151-461d-4556-8db7-5894af1dceb2",
+      [3] = "2be94888-8406-45fa-96a0-139a2c71c1e5",
+      [5] = "70f2db13-e332-47f2-a464-a7aafbe947b3",
+      [10] = "6876ea2c-f42b-4bb4-9145-cb70d207b1e3"
     },
     Author          = "Ne Dragon",
     SourceBook      = "VRGtR",
@@ -1742,9 +1799,9 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir", -- look unused
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
-    progressionTable  = "",
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
     progressionUUID = {
-      [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20", --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
+      [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20",
     },
     Author          = "Sassandra Baerne",
     SourceBook      = "P",
@@ -1755,9 +1812,9 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - RU_SHI",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
-    progressionTable  = "",
+    progressionTable  = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
     progressionUUID = {
-      [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4"
+      [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4" --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
     },
     Author          = "Sassandra Baerne",
     Comments        = "Progression UUID conflict with playable undead",
@@ -1770,7 +1827,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - SVETOCHER",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
-    progressionTable  = "",
+    progressionTable  = "72cd2e8c-e3d1-45a3-aac6-ed9f31bdef9e",
     progressionUUID = {
       [1] = "ceae071e-2ff2-4043-a2b8-a7fc1ab16065"
     },
@@ -1784,7 +1841,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - AJIBACHANA",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
-    progressionTable  = "",
+    progressionTable  = "22c50f6b-00a8-4104-bd7f-1134ec474e66",
     progressionUUID = {
       [1] = "65930b4d-75ca-4968-93b0-dde6662d5882"
     },
@@ -1798,7 +1855,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - ANCIENTBORN",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
-    progressionTable  = "",
+    progressionTable  = "b2fbeed8-2cd4-4dc1-9534-85b24995fe4e",
     progressionUUID = {
       [1] = "ebd122f3-9223-4cc0-ac98-3810995dde9b"
     },
@@ -1965,6 +2022,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Enter Maztica: Sunstone Gnome Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9205" },
     modGuid         = "7c7407ec-e2a8-4deb-a6dc-6cbc7bea2894",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "3d7c0866-0357-43e1-ace0-b9c7f8bd90be"
     },
@@ -1981,6 +2039,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Enter Maztica: Desert Dwarf Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9210" },
     modGuid         = "1a3a0820-48e3-45b4-822a-7ee31e5d25c5",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "75c28431-cd41-4256-af2e-0cadd4f8c2f8"
     },
@@ -1997,6 +2056,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Tinker Gnome",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9547" },
     modGuid         = "0b1613ac-1610-4ac4-ba8b-effe33317fd1",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "a0ae2974-b54a-4e17-ba69-cde2f7448338"
     },
@@ -2013,6 +2073,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Beyond Faerûn: Whisper Gnome Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9546" },
     modGuid         = "f13d31f7-c897-494c-a988-bca2a71ccddc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "d45a8d46-8a68-4065-98da-9cc84bb2e3b1"
     },
@@ -2029,6 +2090,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Haunted Warriors: Ghostwise Halfling Subrace",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8617" },
     modGuid         = "f8f5f704-d463-4616-a321-9460060538ff",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "0194f214-ffce-4e74-94b6-09e76a270e49"
     },
@@ -2045,6 +2107,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Wild Halfling",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9211" },
     modGuid         = "9e7836a9-b1a9-4d4e-9089-563c43f4fb1e",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "e8ccff14-10b6-43f7-bbfa-22ab2104f4fc"
     },
@@ -2061,8 +2124,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dryad",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
+    progressionTable  = "78cb9632-c52c-47d6-8588-4779228fc892",
     progressionUUID = {
-      [1] = "c5671549-0282-4b60-a68d-47b676e9e2b9"
+      [1] = "c5671549-0282-4b60-a68d-47b676e9e2b9",
+      [3] = "1832cbeb-f13f-4888-bee9-c1f8f97a83c7",
+      [5] = "2251786f-df29-4b18-b35b-f8f71165b612",
+      [7] = "87fa3288-f069-41da-9989-4a6e7b1f5dfc",
+      [9] = "79e1c2f9-9d29-4006-96ca-eb8022008754"
     },
     Author          = "EmeraldTechno",
     SourceBook      = "",
@@ -2073,6 +2141,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dryad - Spring",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
+    progressionTable  = "9ac5bb2d-642b-4560-b1c8-064f79f93240",
     progressionUUID = {
       [1] = "40fdbfe4-2f41-4609-bb4c-ddb7bc49b5c4"
     },
@@ -2086,6 +2155,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dryad - Summer",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
+    progressionTable  = "8721afc3-dca2-4353-b5d5-7a74334e443c",
     progressionUUID = {
       [1] = "64615482-5cd6-4bac-beba-bdd5dff19b89"
     },
@@ -2099,6 +2169,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dryad - Autumn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
+    progressionTable  = "1f6cc94e-47d6-44b3-a557-79b69a66a811",
     progressionUUID = {
       [1] = "9693b4ad-6ac7-401c-a6ab-5503785edfac"
     },
@@ -2112,6 +2183,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dryad - Winter",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
+    progressionTable  = "0fe1484d-958b-4c13-a9a3-d46fe817d892",
     progressionUUID = {
       [1] = "40ef0562-ac1b-4c5c-9831-5e3c4ce04c20"
     },
@@ -2128,6 +2200,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Whispers of the Fey - Changelings", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1)
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3110" },
     modGuid         = "eaf83c50-1f22-4ce8-a825-25f07caf9faa",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "fa7bf84a-a1d6-46b2-a779-739424d20b5b"
     },
@@ -2189,6 +2262,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Yuan-ti",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7922" },
     modGuid         = "b2d490bc-6e10-4bc2-89e0-69c8f68cd453",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "139dba60-4895-496a-ab48-bbd45719f317"
     },
@@ -2199,12 +2273,71 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --
+  -- Warforged by BlueHuman123 - https://www.nexusmods.com/baldursgate3/mods/5665
+  --
+  {
+    Name            = "Warforged",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
+    modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
+    progressionTable  = "88846a0c-429e-406e-9c51-da2b518fee36",
+    progressionUUID = {
+      [1] = "2e01fc62-8a91-4bb6-976e-e4689136f78d"
+    },
+    Author          = "BlueHuman123",
+    SourceBook      = "",
+    MainRace        = true,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Warforged - Envoy",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
+    modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
+    progressionTable  = "c832688d-0cfb-4227-93a2-31da4175d4a7",
+    progressionUUID = {
+      [1] = "15711f95-ee11-43be-b1bb-d09b8a100ce7"
+    },
+    Author          = "BlueHuman123",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Warforged - Juggernaut",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
+    modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
+    progressionTable  = "2f1dc338-1b67-4f84-9898-b83319680bd2",
+    progressionUUID = {
+      [1] = "7b47d8cd-8b33-4047-af28-09e399637ace"
+    },
+    Author          = "BlueHuman123",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Warforged - Skirmisher",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
+    modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
+    progressionTable  = "1a234382-88d5-4fa7-b3bc-e82973d2c5bb",
+    progressionUUID = {
+      [1] = "b5d74374-e97f-438f-883a-9fc47b7c2a18"
+    },
+    Author          = "BlueHuman123",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  --
   -- Automaton Figgyinchains by GentlemanBabbo - https://github.com/GentlemanBabbo/Automaton/blob/main/
   --
   {
     Name            = "Automaton Figgyinchains",
     modURL          = { "https://github.com/GentlemanBabbo/Automaton/blob/main/" },
     modGuid         = "a56867c9-8260-4685-b8a5-6cc94be41152",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "3615e5db-c3ac-4b3b-bd01-f618d1cd95b5"
     },
@@ -2221,6 +2354,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "602818c4-ec05-4af9-9cb7-dedf06ec04a8"
     },
@@ -2233,6 +2367,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Avernus",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "7ef3086e-0caa-4c31-ae61-03ff3f153c03"
     },
@@ -2246,6 +2381,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Dis",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "ef5929ca-ed90-4050-9439-a9d0e080ee92"
     },
@@ -2259,6 +2395,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Minauros",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "359d1af0-33b8-4949-b865-e7fb99e2590c"
     },
@@ -2272,6 +2409,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Phlegethos",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "afbb84c9-612b-4300-a521-22abf2f65f06"
     },
@@ -2285,6 +2423,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Stygia",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "c459c4d9-f97c-48db-b09d-c38482d03092"
     },
@@ -2298,6 +2437,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Malbolge",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "ba346fb4-ddcf-45d8-9d61-1818763b710c"
     },
@@ -2311,6 +2451,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Maladomini",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "f568ce77-922d-47ed-9163-05c4c1eb8fa6"
     },
@@ -2324,6 +2465,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Cania",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "764e9049-246b-42f9-a71d-6b13272b34d7"
     },
@@ -2337,6 +2479,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Nessus",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "f157b7c5-95fb-43dd-a32b-02b9c710d637"
     },
@@ -2353,6 +2496,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Avariel Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3680" },
     modGuid         = "11675ee8-a7be-443b-9edb-125f33d21ce1",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "77b6f9ec-7d6a-44b2-b110-88bf025eb586"
     },
@@ -2370,6 +2514,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Orc Half-Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5943" },
     modGuid         = "d25f0ed3-efe7-4194-bdc6-671f784d7cef",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "128ae023-fef6-4fa1-ade9-e338e60b8b56"
     },
@@ -2380,12 +2525,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --
-  -- Skeleton by Rexsaze - https://www.nexusmods.com/baldursgate3/mods/4949
+  -- Playable Undead - Skeleton by Rexsaze - https://www.nexusmods.com/baldursgate3/mods/4949
   --
   {
-    Name            = "Skeleton race Rexsaze (playableundead)",
+    Name            = "Skeleton",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4949" },
     modGuid         = "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
     progressionUUID = {
       [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4"
     },
@@ -2399,6 +2545,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Adapted Kender Race from Dragonlance: Shadow of the Dragon Queen",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8465" },
     modGuid         = "56fe7a47-e0d6-404e-b2d5-fd6e88cae6ae",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "7551c355-8311-4c2f-b91b-9877ef608267"
     },
@@ -2416,6 +2563,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Playable Ogre M-F",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/425" },
     modGuid         = "562861e5-4434-43fc-9eb1-3d6cf3e031fd",
+    progressionTable  = "80b2552d-a325-424a-9581-abcdefc2a4d0",
     progressionUUID = {
       [1] = "526226b2-c9b2-4428-95a4-abcdefe1d533"
     },
@@ -3418,7 +3566,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     progressionTable = "556709e2-de9a-4f6c-a099-4f1f840d36b6",
     progressionUUID = {
       [1] = "19f4eded-03fb-4363-90c2-689bff080c4b",
-      [1] = "9bc1cca5-bc05-4df2-ba16-be2b41eabd94"
+      [5] = "9bc1cca5-bc05-4df2-ba16-be2b41eabd94"
     },
     Author          = "Backburner26",
     SourceBook      = "",
@@ -3470,11 +3618,11 @@ Todo
 	- Astral Elves 5E - https://www.nexusmods.com/baldursgate3/mods/1780
 	- Astral Elves - https://www.nexusmods.com/baldursgate3/mods/1388
 	- Astral Half-Elves - https://www.nexusmods.com/baldursgate3/mods/9676
-	- Playable Ogre M-F - https://www.nexusmods.com/baldursgate3/mods/425  		Stats				=	{"4", "-1", "3", "-3", "-2", "-2"}
+	- ok Playable Ogre M-F - https://www.nexusmods.com/baldursgate3/mods/425  		Stats				=	{"4", "-1", "3", "-3", "-2", "-2"}
 
 	Half-homebrew
 	- Demon Player Race - https://www.nexusmods.com/baldursgate3/mods/3703
-	- Half-Dragon - https://www.nexusmods.com/baldursgate3/mods/2634
+	- ok Half-Dragon - https://www.nexusmods.com/baldursgate3/mods/2634
 	- Half Demon (Cambion) Realistic - https://www.nexusmods.com/baldursgate3/mods/4905
 	- Displacer Player Race and Hireling - https://www.nexusmods.com/baldursgate3/mods/5002
 
@@ -3490,6 +3638,7 @@ Todo
 	- Emerald's Catbugs (Homebrew Race) - https://www.nexusmods.com/baldursgate3/mods/8919
 	- Wolfkind Race by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/8591
 	- Stoneborn Race - Homebrew by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/7782
+  - ok Warforged Race - https://www.nexusmods.com/baldursgate3/mods/5665
 
 	BitterPast - Collection
 	- Vastly Superior Gnomes - https://www.nexusmods.com/baldursgate3/mods/3364
