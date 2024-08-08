@@ -1552,3 +1552,7 @@ Data.Libs.ClassesLibrary = {
     isOutdated      = false
   }
 }
+
+-- TO DO
+-- Classes from Half Dragon - https://www.nexusmods.com/baldursgate3/mods/2634
+-- 
