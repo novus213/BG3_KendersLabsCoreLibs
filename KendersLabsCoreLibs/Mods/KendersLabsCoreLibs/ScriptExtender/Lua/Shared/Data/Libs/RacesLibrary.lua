@@ -1325,7 +1325,7 @@ Data.Libs.RaceLibrary = {
   -- Raven Queen's Chosen - Shadar-Kai by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/1305
   --
   {
-    Name            = "Raven Queen's Chosen - Shadar-Kai",
+    Name            = "Shadar-Kai",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
     progressionTable  = "",
@@ -1342,12 +1342,17 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = true
   },
+  --
+  -- Cryptic Shadows - Shadar-Kai by tepkunset - https://www.nexusmods.com/baldursgate3/mods/11454
+  --
   {
-    Name            = "Playable shadar-kai",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
+    Name            = "Shadar-Kai",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11454" },
     modGuid         = "f65633b8-1af5-476e-87c8-3a9d64992ada",
+    progressionTable  = "8a914d2d-62e6-4af9-9ecc-8caff547c464",
     progressionUUID = {
-      [1] = "119e981f-bf64-447a-af08-50a471320087"
+      [1] = "119e981f-bf64-447a-af08-50a471320087",
+      [1] = "318b5b0a-0d83-484d-87e7-8a9442f15cc9"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
@@ -2290,7 +2295,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Yuan-ti",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7922" },
     modGuid         = "b2d490bc-6e10-4bc2-89e0-69c8f68cd453",
-    progressionTable  = "",
+    progressionTable  = "70b0cfaa-cac0-4cb6-938c-976ab96d73cd",
     progressionUUID = {
       [1] = "139dba60-4895-496a-ab48-bbd45719f317"
     },
