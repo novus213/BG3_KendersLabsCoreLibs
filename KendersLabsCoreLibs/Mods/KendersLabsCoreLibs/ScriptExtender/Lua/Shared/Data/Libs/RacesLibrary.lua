@@ -1282,6 +1282,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Aasimar Main",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
+    progressionTable  = "",
     progressionUUID = {
       [1]         = "06e918ad-be2c-48b6-a098-0288539de744",
       raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298"
@@ -1295,6 +1296,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Aasimar(Radiant Soul)",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "4c2c61ae-5904-4576-a8c5-efecce67ab82"
     },
@@ -1308,6 +1310,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Aasimar(Radiant Consumption)",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "56d62681-9769-4ad7-9bbf-4f72db44f070"
     },
@@ -1321,6 +1324,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Aasimar(Necrotic Shroud)",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "1b07140b-98c1-42e8-b4ec-072622862dc2"
     },
@@ -1334,6 +1338,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Raven Queen's Chosen - Shadar-Kai",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "2f7edf7e-0a6b-4018-9715-1cb8aa238e4a"
     },
@@ -1351,6 +1356,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Rising Tides - Playable Sea Elves",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11284" },
     modGuid         = "23dae00e-c5b6-41ac-9464-55117f0bb95d",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "8d901d19-7e5d-4491-a195-1e8a88cddd77"
     },
@@ -1368,6 +1374,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Shadar-Kai with Drow dialogue tags",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2476" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "96ad7abb-8a86-4939-913d-71f84191f7d7"
     },
@@ -1453,6 +1460,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Myconid",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5535" },
     modGuid         = "71486ac7-a05c-434e-8e3b-9e6c2d40a04a",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "ada1a74c-89dd-45f9-95dd-f88bf59e3535"
     },
@@ -1649,6 +1657,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Half-Dragon",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "72a06fbf-e1b3-4321-b975-a4a26d9b4b71"
     },
@@ -1665,6 +1674,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Hobgoblin",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "575fa3d3-cf83-4716-8cc3-8d971666b051"
     },
@@ -1681,6 +1691,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Witch Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3490" },
     modGuid         = "1aa49383-9208-4cc0-96b6-e827819d71d0",
+    progressionTable  = "5f95545e-3147-4f81-b42e-a31b9cd29b85",
     progressionUUID = {
       [1] = "d19f42b3-1c1e-46cd-83e4-fd964426616f"
     },
@@ -1697,6 +1708,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Satyr",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/428" },
     modGuid         = "68315895-8bd4-4d53-aefc-1b853ffc1461",
+    progressionTable  = "7e91ca72-fcaf-4cd7-b0a4-7ccf53148604",
     progressionUUID = {
       [1] = "eb3ac23d-3f7f-44d5-ad6a-bb99232d63bd"
     },
@@ -1713,6 +1725,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4750" },
     modGuid         = "7a4aaaca-88a7-41c4-98d6-de2df39496fe",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "58971151-461d-4556-8db7-5894af1dceb2"
     },
@@ -1729,6 +1742,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir", -- look unused
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20", --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
     },
@@ -1741,6 +1755,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - RU_SHI",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4"
     },
@@ -1755,6 +1770,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - SVETOCHER",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "ceae071e-2ff2-4043-a2b8-a7fc1ab16065"
     },
@@ -1768,6 +1784,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - AJIBACHANA",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "65930b4d-75ca-4968-93b0-dde6662d5882"
     },
@@ -1781,6 +1798,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Dhampir - ANCIENTBORN",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "ebd122f3-9223-4cc0-ac98-3810995dde9b"
     },
@@ -1797,6 +1815,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Githzerai (1.4)",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3460" },
     modGuid         = "ae6eacb7-f346-418f-89a9-f0e4c697baab",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "8e8928df-70b1-43c0-bc86-40b32c455bee"
     },
@@ -1810,6 +1829,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Githzerai (1.5)",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3460" },
     modGuid         = "d6d1028e-68fb-4e94-83d8-e8951f55b86a",
+    progressionTable  = "",
     progressionUUID = {
       [1] = "8e8928df-70b1-43c0-bc86-40b32c455bee"
     },
@@ -1820,12 +1840,13 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --
-  -- Fey Eladrin by tepkunset - https://www.nexusmods.com/baldursgate3/mods/7037
+  -- Spirited Seasons - Fey Eladrin by tepkunset - https://www.nexusmods.com/baldursgate3/mods/7037
   --
   {
-    Name            = "Fey Eladrin (Spirited Seasons)",
+    Name            = "Fey Eladrin",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
+    progressionTable  = "0978ac75-f50d-4606-b57d-37291245022d",
     progressionUUID = {
       [1] = "c2c089df-c622-4074-ab18-a4bde879a055"
     },
@@ -1835,11 +1856,14 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
-    Name            = "Fey Eladrin - Winter (Spirited Seasons)",
+    Name            = "Fey Eladrin - Winter",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
+    progressionTable  = "f41055e6-2425-4cf9-b25f-6b227c486ada",
     progressionUUID = {
-      [1] = "83132733-dfd4-45d6-b117-8d33b5550c8e"
+      [1] = "83132733-dfd4-45d6-b117-8d33b5550c8e",
+      [2] = "aac1f629-83bc-4fc2-8d2c-d866a6140832",
+      [3] = "4234da77-3404-42e4-b621-ec6451ec229b"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
@@ -1848,11 +1872,14 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
-    Name            = "Fey Eladrin - Spring (Spirited Seasons)",
+    Name            = "Fey Eladrin - Spring",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
+    progressionTable  = "346296a3-2c07-4329-9a49-55edacb988a8",
     progressionUUID = {
-      [1] = "734b5fab-6654-49be-971a-e0d0ddede50d"
+      [1] = "734b5fab-6654-49be-971a-e0d0ddede50d",
+      [2] = "966afb46-efde-4dce-b6f6-25dfc3b1f160",
+      [3] = "0872ab9f-983e-410f-900b-131b07715a64"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
@@ -1861,11 +1888,14 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
-    Name            = "Fey Eladrin - Summer (Spirited Seasons)",
+    Name            = "Fey Eladrin - Summer",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
+    progressionTable  = "7b03ae3c-a63c-44d2-b253-cc7dfb0107a2",
     progressionUUID = {
-      [1] = "39d96060-532d-4814-9098-a6c0524d3b73"
+      [1] = "39d96060-532d-4814-9098-a6c0524d3b73",
+      [2] = "38811d17-ddac-4045-a3f9-3e1ce46d5b69",
+      [3] = "ae50030d-0676-49b2-bddc-5c743c87316f"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
@@ -1874,15 +1904,40 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   {
-    Name            = "Fey Eladrin - Autumn (Spirited Seasons)",
+    Name            = "Fey Eladrin - Autumn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
+    progressionTable  = "442c017e-8cd3-48a5-af81-87c0a9362436",
     progressionUUID = {
-      [1] = "09e3d698-1ef6-46ef-b768-f19b94d46127"
+      [1] = "09e3d698-1ef6-46ef-b768-f19b94d46127",
+      [2] = "a3f1a592-2ea1-4f51-bf43-f5b901155068",
+      [3] = "eed76014-26ab-4616-a723-406c36c676fd"
     },
     Author          = "tepkunset",
     SourceBook      = "MToF",
     MainRace        = false,
+    Stats           = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats      = false
+  },
+  --
+  -- Eladrin by SteveTheDM - https://www.nexusmods.com/baldursgate3/mods/3506
+  --
+  {
+    Name            = "Eladrin",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3506" },
+    modGuid         = "c20bb0be-8f18-419f-98f4-e318ef738392",
+    progressionTable  = "69c02d23-ef59-453b-9f73-00db111b239b",
+    progressionUUID = {
+      [1] = "3c96263f-ea29-4c3e-8790-56c094a18229",
+      [3] = "47c6a97b-ce77-4c0c-b0e9-a5be61440761",
+      [5] = "703ad95d-22c9-4d64-9a70-67c384c305cc",
+      [9] = "963802e5-f766-4be3-9e85-8ca00b27e1a2",
+      [13] = "d4c7df5c-5a70-43ac-bdc7-3f4b424a514c",
+      [17] = "eb8f148e-46c7-4dbb-a2d0-b7f4ef89ccc8"
+    },
+    Author          = "SteveTheDM",
+    SourceBook      = "MToF",
+    MainRace        = true,
     Stats           = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
@@ -2090,6 +2145,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Goblins",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
+    progressionTable  = "95653fbb-2fc7-4c6b-8027-25a5d890a376",
     progressionUUID = {
       [1] = "fa9d4980-1b18-43e6-974b-4e3a2abae183"
     },
@@ -2102,6 +2158,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Goblins Greenskin",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
+    progressionTable  = "06faa116-05b3-45a0-b61e-25fcaf99cdc2",
     progressionUUID = {
       [1] = "5a317953-08ea-4424-ad93-05a0a66b4748"
     },
@@ -2115,6 +2172,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Goblins Dankwood",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
+    progressionTable  = "46aa63c9-79a5-4f1c-aa2b-74fff0243226",
     progressionUUID = {
       [1] = "453c15bb-0ead-4766-b747-961066c84ee1"
     },
@@ -3226,6 +3284,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Pink Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "498949e6-f8d6-4475-b77e-b58dfd99a620",
     progressionUUID = {
       [1] = "50ee17bb-bc53-4d03-8100-0dd6c6bb48f8"
     },
@@ -3238,10 +3297,11 @@ The Avariel and Grugach, as far as I know, were not released.",
   {
     Name            = "Shadow Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
-
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "a4b1a002-e287-468c-8b74-fd2bdacb18b4",
     progressionUUID = {
-      [1] = "e216af62-5c9d-492b-8d2f-bf669d70b078"
+      [1] = "e216af62-5c9d-492b-8d2f-bf669d70b078",
+      [5] = "1a707b04-4e1e-4adb-aba0-6217587e19bf"
     },
     Author          = "Backburner26",
     SourceBook      = "",
@@ -3253,6 +3313,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Solar Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "85af98f0-eca2-4568-a33e-ee36dda0fd47",
     progressionUUID = {
       [1] = "a36bfa8a-afeb-4ff3-9985-8726cc45a8c8"
     },
@@ -3266,6 +3327,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Lunar Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "fab718ed-3c0e-4039-878f-3e62eabe36b6",
     progressionUUID = {
       [1] = "edfcb043-f704-4a84-a5ba-a9098787eb81"
     },
@@ -3279,8 +3341,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Deep Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "6f581ffa-a813-4494-94ae-3ca535178ab0",
     progressionUUID = {
-      [1] = "097c8ee7-0525-4a9f-b614-24d1dd46aac6"
+      [1] = "097c8ee7-0525-4a9f-b614-24d1dd46aac6",
+      [5] = "8be7c464-9181-4a5e-95fc-dd6c00a6e35b"
     },
     Author          = "Backburner26",
     SourceBook      = "",
@@ -3292,8 +3356,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Moonstone Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "a0b17958-8b88-4f2c-8439-79dbe16c1c2c",
     progressionUUID = {
-      [1] = "c990525f-e49b-4f82-b31f-e5dff0afed0a"
+      [1] = "c990525f-e49b-4f82-b31f-e5dff0afed0a",
+      [5] = "7fea02ce-a40a-46a0-8c2c-9dd316f5cd6f"
     },
     Author          = "Backburner26",
     SourceBook      = "",
@@ -3305,6 +3371,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Grey Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "dc0c5b86-d0e8-4242-b2ba-747a11f52f21",
     progressionUUID = {
       [1] = "f011eebf-9545-4972-98d1-841c61b0ccae"
     },
@@ -3318,8 +3385,11 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Yellow Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "25ffeb36-0103-4bbb-8db0-9a04a07d5ea4",
     progressionUUID = {
-      [1] = "f75743c6-8a0e-49a6-b9b1-4a001ea0ffb2"
+      [1] = "f75743c6-8a0e-49a6-b9b1-4a001ea0ffb2",
+      [5] = "1acfead1-107a-4a78-ab96-f64a3e424dbe",
+      [11] = "15c34e9a-3380-4018-8b77-1c147ae3a689"
     },
     Author          = "Backburner26",
     SourceBook      = "",
@@ -3331,6 +3401,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Orange Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "e400cd2e-5e1e-46a4-a41c-dc11a598f417",
     progressionUUID = {
       [1] = "039b3255-28c6-43a1-a40c-4fbbec842cb4"
     },
@@ -3344,8 +3415,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Purple Dragonborn",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
+    progressionTable = "556709e2-de9a-4f6c-a099-4f1f840d36b6",
     progressionUUID = {
-      [1] = "19f4eded-03fb-4363-90c2-689bff080c4b"
+      [1] = "19f4eded-03fb-4363-90c2-689bff080c4b",
+      [1] = "9bc1cca5-bc05-4df2-ba16-be2b41eabd94"
     },
     Author          = "Backburner26",
     SourceBook      = "",
