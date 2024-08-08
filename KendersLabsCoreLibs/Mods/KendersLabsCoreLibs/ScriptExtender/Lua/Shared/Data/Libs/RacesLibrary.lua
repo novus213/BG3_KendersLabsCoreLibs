@@ -1460,9 +1460,11 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Myconid",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5535" },
     modGuid         = "71486ac7-a05c-434e-8e3b-9e6c2d40a04a",
-    progressionTable  = "",
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
     progressionUUID = {
-      [1] = "ada1a74c-89dd-45f9-95dd-f88bf59e3535"
+      [1] = "ada1a74c-89dd-45f9-95dd-f88bf59e3535",
+      [2] = "2b3737a3-5667-4b3b-b60a-523fda735058",
+      [3] = "47b803b3-4d2d-4709-92cd-e30db898a941"
     },
     Author          = "Porridge",
     SourceBook      = "",
@@ -2200,9 +2202,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Whispers of the Fey - Changelings", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1)
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3110" },
     modGuid         = "eaf83c50-1f22-4ce8-a825-25f07caf9faa",
-    progressionTable  = "",
+    progressionTable  = "2a6b9ce0-c21a-421f-8378-6383c8c01b87",
     progressionUUID = {
-      [1] = "fa7bf84a-a1d6-46b2-a779-739424d20b5b"
+      [1] = "fa7bf84a-a1d6-46b2-a779-739424d20b5b",
+      [2] = "22236412-e04b-4846-84e7-8d6a4f9af676",
+      [7] = "3a0183f4-c5a3-4a54-8229-67f4ed9f30f9",
+      [10] = "97c993d2-ffe8-4b0d-9b1a-15222c44e856"
     },
     Author          = "Trips ♥",
     SourceBook      = "",
@@ -2354,9 +2359,11 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "e209391d-b257-47c5-9d2e-1435811fe84c",
     progressionUUID = {
-      [1] = "602818c4-ec05-4af9-9cb7-dedf06ec04a8"
+      [1] = "602818c4-ec05-4af9-9cb7-dedf06ec04a8",
+      [2] = "b59bef6c-1016-46c5-b655-15333316c085",
+      [3] = "a7420b99-d1d9-4df1-9f6b-9f1b5d713c7e"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2367,9 +2374,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Avernus",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "c2161257-756d-489c-99a2-734bd54c31ec",
     progressionUUID = {
-      [1] = "7ef3086e-0caa-4c31-ae61-03ff3f153c03"
+      [1] = "7ef3086e-0caa-4c31-ae61-03ff3f153c03",
+      [5] = "4e5c4dad-f47d-47ee-991a-69caba804cf5"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2381,9 +2389,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Dis",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "2205b2a3-0d48-47eb-8c79-175168de385c",
     progressionUUID = {
-      [1] = "ef5929ca-ed90-4050-9439-a9d0e080ee92"
+      [1] = "ef5929ca-ed90-4050-9439-a9d0e080ee92",
+      [5] = "72d014ee-99bd-4941-9b99-4af0ee64b6d4"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2395,9 +2404,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Minauros",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "3bf603b1-e071-483d-b0a7-a3783dda186c",
     progressionUUID = {
-      [1] = "359d1af0-33b8-4949-b865-e7fb99e2590c"
+      [1] = "359d1af0-33b8-4949-b865-e7fb99e2590c",
+      [5] = "5abe3d86-65ee-44ce-9bed-bb13968f143b"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2409,9 +2419,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Phlegethos",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "ab10eb6b-4e3d-4d41-8f29-112a46737585",
     progressionUUID = {
-      [1] = "afbb84c9-612b-4300-a521-22abf2f65f06"
+      [1] = "afbb84c9-612b-4300-a521-22abf2f65f06",
+      [5] = "71d32314-aea8-49c1-90b4-875e2aa0375b"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2423,9 +2434,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Stygia",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "b878af33-5d85-41db-93b8-f8dcfeb68727",
     progressionUUID = {
-      [1] = "c459c4d9-f97c-48db-b09d-c38482d03092"
+      [1] = "c459c4d9-f97c-48db-b09d-c38482d03092",
+      [5] = "53c4337e-f9e5-4278-8d28-e54ab6491b10"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2437,9 +2449,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Malbolge",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "5222a1f7-5a4f-44fb-b5b2-4848f4091b82",
     progressionUUID = {
-      [1] = "ba346fb4-ddcf-45d8-9d61-1818763b710c"
+      [1] = "ba346fb4-ddcf-45d8-9d61-1818763b710c",
+      [5] = "0ef917e8-6384-42e3-8d91-afa91b33c32c"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2451,9 +2464,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Maladomini",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "02e71e8c-671a-4488-aaf7-a375974794ca",
     progressionUUID = {
-      [1] = "f568ce77-922d-47ed-9163-05c4c1eb8fa6"
+      [1] = "f568ce77-922d-47ed-9163-05c4c1eb8fa6",
+      [5] = "ccf45048-d15b-4120-a554-bba07464b470"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2465,9 +2479,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Cania",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "111a12c8-a2fc-4a03-9e92-87ee97acef40",
     progressionUUID = {
-      [1] = "764e9049-246b-42f9-a71d-6b13272b34d7"
+      [1] = "764e9049-246b-42f9-a71d-6b13272b34d7",
+      [5] = "a610b67d-2bb8-48c5-9433-2c0b26733b3b"
     },
     Author          = "SydMeier",
     SourceBook      = "",
@@ -2479,9 +2494,10 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Imp - Nessus",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
-    progressionTable  = "",
+    progressionTable  = "02ea1ecd-6b3c-428c-a832-f548ddd0e6fc",
     progressionUUID = {
-      [1] = "f157b7c5-95fb-43dd-a32b-02b9c710d637"
+      [1] = "f157b7c5-95fb-43dd-a32b-02b9c710d637",
+      [5] = "622b0bba-06fc-4b58-9fc8-29a2bc30cc4c"
     },
     Author          = "SydMeier",
     SourceBook      = "",
