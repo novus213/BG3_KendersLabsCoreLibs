@@ -2286,6 +2286,122 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --
+  -- Emerald's Catbugs by EmeraldTechno - https://www.nexusmods.com/baldursgate3/mods/8919
+  --
+  {
+    Name            = "Catbugs",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8919" },
+    modGuid         = "c8d7fd4d-a572-439e-8332-c7d61bb52644",
+    progressionTable  = "f1c185fc-ce58-4a1d-a73f-af43c7470257",
+    progressionUUID = {
+      [1] = "e4bf3b25-e360-4528-b2b2-43db3d1d8dec",
+      [3] = "97745435-1096-4de3-81e8-6c1654e8e523"
+    },
+    Author          = "EmeraldTechno",
+    SourceBook      = "",
+    MainRace        = true,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  --
+  -- BeastFolk by DessZai - https://www.nexusmods.com/baldursgate3/mods/9768
+  --
+  {
+    Name              = "BeastFolk",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
+    modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
+    progressionTable  = "566289a9-7782-4877-b261-339654bb94e9",
+    progressionUUID   = {
+      [1] = "886cafb2-d100-4e31-90f6-a973453ecd4e",
+      [4] = "f597bdd3-d42b-4b48-983b-6cc236bfb3b2",
+      [8] = "f901aba7-9b18-4806-a312-02b8ba572926"
+    },
+    Author            = "DessZai",
+    SourceBook        = "",
+    MainRace          = true,
+    NoDefStats        = false
+  },
+  {
+    Name              = "BeastFolk - Nekojin",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
+    modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
+    progressionTable  = "f184048d-91c1-4601-b319-f593e7194a96",
+    progressionUUID   = {
+      [1] = "75a2eacb-09ec-4676-9d9a-7457ab27d7dc",
+      [3] = "68a1c26e-9cf0-4628-9ae3-48ceaff63a9f",
+      [4] = "3075947f-0ac9-4ff4-ba48-85cbcf02a3ce",
+      [6] = "06f38114-a0b5-4104-a366-688e489afa2e",
+      [8] = "5b1498fa-441e-405e-8dfa-e2beb0d69f5d",
+      [9] = "ee677bc7-a6cb-44b4-9191-e765cb08a5b9",
+      [12] = "93b92bbc-663b-4ba5-8b6a-c3f47aa958bd"
+    },
+    Author            = "DessZai",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "BeastFolk - Kumajin",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
+    modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
+    progressionTable  = "3e3a7a8d-9196-4b4e-a7bd-f72a31dd5d0e",
+    progressionUUID   = {
+      [1] = "1dc569b3-cd69-451a-ae14-386e9ac5cc0c",
+      [3] = "397b50d1-c606-4a0c-8689-69b2316c1840",
+      [4] = "63fc1de0-5456-4b4a-978c-6dd93bb47e51",
+      [6] = "128f0389-5300-4c33-a05c-cf366a275072",
+      [8] = "b02cdcfb-757a-4ded-9f7b-3d2049083ab1",
+      [9] = "fda04660-3b0a-46e9-bb67-411b5b6e4626",
+      [12] = "135b4887-a5da-44f0-8251-0dbe342bb00c"
+    },
+    Author            = "DessZai",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "BeastFolk - Usagijin",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
+    modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
+    progressionTable  = "c3f4d271-e8e1-4ab2-8303-e66c72f9fbd5",
+    progressionUUID   = {
+      [1] = "0033e708-9ed4-470c-9109-b034193cac3d",
+      [3] = "7decb07e-e2c9-4dcb-a601-377ad4be2664",
+      [4] = "832e555d-aabd-4bac-b96e-6fab37915bef",
+      [6] = "b26ed22c-31f1-43f0-b846-6826a4a85f4d",
+      [8] = "f8b4f96f-c342-4bff-b847-40e5b99ed1c7",
+      [9] = "d0360049-2665-40f9-93fb-810d4209ea9c",
+      [12] = "a795d4a1-9cb7-43eb-816f-00eed7d969d0"
+    },
+    Author            = "DessZai",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "BeastFolk - Kitsune",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
+    modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
+    progressionTable  = "9afdc5aa-7c10-4e5e-abdb-a016abd38a25",
+    progressionUUID   = {
+      [1] = "a5bf99b0-83ad-42b3-80e0-7f9914004115",
+      [3] = "76fef98a-cb73-4be3-a1d2-94c62feb660b",
+      [4] = "2a4ebff5-b079-4550-9a7c-d503748ae4e5",
+      [6] = "883e76e8-b3b3-4cc6-8bdc-3f730c915610",
+      [8] = "8cc6e2a2-d0c4-49b7-bf03-dd9571425a5c",
+      [9] = "77282294-d510-41dc-8206-297d1cac98b9",
+      [12] = "ec16e78f-939e-4a39-9cb3-bb632a05ca83"
+    },
+    Author            = "DessZai",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
   -- Heart Of The Forest - Dryad by EmeraldTechno - https://www.nexusmods.com/baldursgate3/mods/6443
   --
   {
@@ -3911,7 +4027,45 @@ The Avariel and Grugach, as far as I know, were not released.",
     MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = true
-  }
+  },
+
+  --
+  -- Racemod by author - https://www.nexusmods.com/baldursgate3/mods/
+  --
+--  {
+--    Name              = "",
+--    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/" },
+--    modGuid           = "",
+--    progressionTable  = "",
+--    progressionUUID   = {
+--      [1] = "",
+--      [2] = "",
+--      [3] = "",
+--      [4] = "",
+--      [5] = "",
+--      [6] = "",
+--      [7] = "",
+--      [8] = "",
+--      [9] = "",
+--      [10] = "",
+--      [11] = "",
+--      [12] = "",
+--      [13] = "",
+--      [14] = "",
+--      [15] = "",
+--      [16] = "",
+--      [17] = "",
+--      [18] = "",
+--      [19] = "",
+--      [20] = ""
+--    },
+--    Author            = "",
+--    SourceBook        = "",
+--    MainRace          = true,
+--    Stats             =	{"0", "0", "0", "0", "0", "0"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+--    Sab               = {"0","0","0"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+--    NoDefStats        = false
+--  },
   --[[
 |	__________.__  __    __              __________                  __       _____             .___
 |	\______   \__|/  |__/  |_  __________\______   \_____    _______/  |_    /     \   ____   __| _/______
