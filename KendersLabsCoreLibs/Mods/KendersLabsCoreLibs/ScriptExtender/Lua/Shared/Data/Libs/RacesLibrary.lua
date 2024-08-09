@@ -2319,6 +2319,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "BlueHuman123",
     SourceBook      = "",
     MainRace        = true,
+    Stats           = { "0", "0", "1", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
   {
@@ -2332,7 +2333,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "BlueHuman123",
     SourceBook      = "",
     MainRace        = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    Sab              = { "1", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   },
   {
@@ -2346,7 +2347,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "BlueHuman123",
     SourceBook      = "",
     MainRace        = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    Stats           = { "2", "0", "0", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
   {
@@ -2360,7 +2361,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "BlueHuman123",
     SourceBook      = "",
     MainRace        = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    Stats           = { "0", "2", "0", "0", "0", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
   --
