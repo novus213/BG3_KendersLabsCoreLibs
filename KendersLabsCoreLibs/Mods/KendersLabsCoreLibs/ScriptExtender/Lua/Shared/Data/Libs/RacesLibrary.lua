@@ -2264,7 +2264,27 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = false
   },
-
+  --
+  -- Stoneborn by Figgyinchains / EmeraldTechno - https://www.nexusmods.com/baldursgate3/mods/7782
+  --
+  {
+    Name            = "Stoneborn",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7782" },
+    modGuid         = "8f91d268-f9f8-4912-a1f5-96db5dddc689",
+    progressionTable  = "6e7f3aba-9980-4a10-baca-0939f2f8d314",
+    progressionUUID = {
+      [1] = "37b93218-63d2-4b75-a70f-b68aed3c8b20",
+      [3] = "8225b4b1-03c9-4bc9-a3ee-ac17200887dc",
+      [5] = "b8187f97-c195-46a2-9b93-b8b83cb78155",
+      [7] = "43927e8e-d268-4e93-b3de-d5c07fcf8305",
+      [9] = "f81c5d38-73b9-48d6-b1bd-f6461912070b"
+    },
+    Author          = "Figgyinchains / EmeraldTechno",
+    SourceBook      = "",
+    MainRace        = true,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
   --
   -- Heart Of The Forest - Dryad by EmeraldTechno - https://www.nexusmods.com/baldursgate3/mods/6443
   --
