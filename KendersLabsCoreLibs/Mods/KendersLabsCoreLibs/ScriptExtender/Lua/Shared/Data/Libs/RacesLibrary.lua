@@ -2117,12 +2117,13 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Haunted Warriors - Ghostwise Halfling by SydMeier - https://www.nexusmods.com/baldursgate3/mods/8617
   --
   {
-    Name            = "Haunted Warriors: Ghostwise Halfling Subrace",
+    Name            = "Halfling - Ghostwise",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8617" },
     modGuid         = "f8f5f704-d463-4616-a321-9460060538ff",
-    progressionTable  = "",
+    progressionTable  = "3de86dee-fab0-4515-a321-27aed1fc98df",
     progressionUUID = {
-      [1] = "0194f214-ffce-4e74-94b6-09e76a270e49"
+      [1] = "0194f214-ffce-4e74-94b6-09e76a270e49",
+      [3] = "0f1c239c-e759-4dfc-8d65-f0f6698d2b4c"
     },
     Author          = "SydMeier",
     SourceBook      = "SCAG",
@@ -2134,7 +2135,7 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Enter Maztica - Wild Halfling by SydMeier - https://www.nexusmods.com/baldursgate3/mods/9211
   --
   {
-    Name            = "Wild Halfling",
+    Name            = "Halfling - Wild",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9211" },
     modGuid         = "9e7836a9-b1a9-4d4e-9089-563c43f4fb1e",
     progressionTable  = "",
@@ -2147,6 +2148,123 @@ The Avariel and Grugach, as far as I know, were not released.",
     Stats           = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
+  --
+  -- Godkin by Onyxeagle171 - https://www.nexusmods.com/baldursgate3/mods/9564
+  --
+  {
+    Name            = "Godkin",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "447e6245-c1c4-4f48-ac91-768711bd3e22",
+    progressionUUID = {
+      [1] = "d2bf964a-24dc-4ed9-bac4-11f669ff0001",
+      [3] = "d2bf964a-24dc-4ed9-bac4-11f669ff0003",
+      [9] = "d2bf964a-24dc-4ed9-bac4-11f669ff0009",
+      [13] = "d2bf964a-24dc-4ed9-bac4-11f669ff0013",
+      [17] = "d2bf964a-24dc-4ed9-bac4-11f669ff0017"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = true,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Moonshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87735",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe1001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe1002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe1003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Sunshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87702",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe2001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe2002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe2003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Warshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87703",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe3001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe3002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe3003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Peaceshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87704",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe4001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe4002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe4003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Stormshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87705",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe5001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe5002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe5003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+  {
+    Name            = "Godkin - Protectionshard",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
+    modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
+    progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87706",
+    progressionUUID = {
+      [1] = "fbe8014a-3de9-47e4-88ef-471e44fe6001",
+      [3] = "fbe8014a-3de9-47e4-88ef-471e44fe6002",
+      [5] = "fbe8014a-3de9-47e4-88ef-471e44fe6003"
+    },
+    Author          = "Onyxeagle171",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = false
+  },
+
   --
   -- Heart Of The Forest - Dryad by EmeraldTechno - https://www.nexusmods.com/baldursgate3/mods/6443
   --
@@ -3838,7 +3956,6 @@ Todo
 	- Emerald's Catbugs (Homebrew Race) - https://www.nexusmods.com/baldursgate3/mods/8919
 	- Wolfkind Race by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/8591
 	- Stoneborn Race - Homebrew by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/7782
-  - ok Warforged Race - https://www.nexusmods.com/baldursgate3/mods/5665
 
 	BitterPast - Collection
 	- Vastly Superior Gnomes - https://www.nexusmods.com/baldursgate3/mods/3364
