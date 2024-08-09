@@ -1555,4 +1555,4 @@ Data.Libs.ClassesLibrary = {
 
 -- TO DO
 -- Classes from Half Dragon - https://www.nexusmods.com/baldursgate3/mods/2634
--- 
+-- Classes from Adventurer's Guide to Tamriel - https://www.nexusmods.com/baldursgate3/mods/591
