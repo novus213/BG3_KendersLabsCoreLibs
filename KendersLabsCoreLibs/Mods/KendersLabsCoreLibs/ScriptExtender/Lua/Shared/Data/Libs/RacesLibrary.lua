@@ -2876,14 +2876,297 @@ The Avariel and Grugach, as far as I know, were not released.",
     NoDefStats      = false
   },
   --[[
+|    _____       .___                    __                            /\          ________      .__    .___         __           ___________                    .__       .__   
+|   /  _  \    __| _/__  __ ____   _____/  |_ __ _________   __________)/ ______  /  _____/ __ __|__| __| _/____   _/  |_  ____   \__    ___/____    ____________|__| ____ |  |  
+|  /  /_\  \  / __ |\  \/ // __ \ /    \   __\  |  \_  __ \_/ __ \_  __ \/  ___/ /   \  ___|  |  \  |/ __ |/ __ \  \   __\/  _ \    |    |  \__  \  /     \_  __ \  |/ __ \|  |  
+| /    |    \/ /_/ | \   /\  ___/|   |  \  | |  |  /|  | \/\  ___/|  | \/\___ \  \    \_\  \  |  /  / /_/ \  ___/   |  | (  <_> )   |    |   / __ \|  Y Y  \  | \/  \  ___/|  |__
+| \____|__  /\____ |  \_/  \___  >___|  /__| |____/ |__|    \___  >__|  /____  >  \______  /____/|__\____ |\___  >  |__|  \____/    |____|  (____  /__|_|  /__|  |__|\___  >____/
+|         \/      \/           \/     \/                        \/           \/          \/              \/    \/                                \/      \/              \/      
+|          \_Adventurer's Guide to Tamriel - NellsRelo
+]]--
+
+  --
+  -- Cyrodiilic by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Cyrodiil",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "39668970-4021-4113-a6d8-72ea8b55d09d",
+    progressionUUID   = {
+      [1] = "346871de-be49-41c4-8450-d85d666cfdee"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    NoDefStats        = false
+  },
+  {
+    Name              = "Cyrodiil - Colovian",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "af10483e-e385-4e08-8ac8-c183b6a13eb4",
+    progressionUUID   = {
+      [1] = "17a7ecec-8d95-4e24-bc95-e9253d126a92"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Cyrodiil - Nibenese",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "aae784b7-03cf-432b-a916-296a67bb7532",
+    progressionUUID   = {
+      [1] = "97244ddc-a158-405d-96e1-a22d0ec8543c"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Breton by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Breton",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "322dfbbb-b37e-47cf-96e1-64cf9287452c",
+    progressionUUID   = {
+      [1] = "4d5fb255-1a17-4b02-b376-9f0eb06706c8"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Nord by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Nord",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "47256a77-c595-4559-865a-81fa97e8c43e",
+    progressionUUID   = {
+      [1] = "5aa5e1cc-d1b7-4a62-b4fd-c048faaca766"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Redguard by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Redguard",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "e4ef5b65-3a15-415d-adb4-00c7366c9d89",
+    progressionUUID   = {
+      [1] = "b0bb2e7f-c7fe-4cac-89a6-8bb5351230b7"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Altmer by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Altmer",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "c2e01fdd-0dc8-45b4-94cf-cf127f70a63f",
+    progressionUUID   = {
+      [1] = "5ec70564-e26c-41d8-b8e2-2c601538c77e"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Bosmer by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Bosmer",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "16a27721-2176-4172-9507-c71fccb0961b",
+    progressionUUID   = {
+      [1] = "25fbb11f-99b9-4a63-aeb2-603c399f4928"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Dunmer by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Dunmer",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "8dfdb77c-5abf-4477-a708-f741e9677301",
+    progressionUUID   = {
+      [1] = "0f9d4f27-7538-4690-82f9-41cff9672355"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Unaffiliated",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "cee411d2-082d-47f2-ba20-4347764e57ea",
+    progressionUUID   = {
+      [1] = "3edd63b7-4a70-4abb-87aa-995fbe85cdda"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Hlaalu",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "e557e49a-15d6-4ad7-b521-4bded39c97c6",
+    progressionUUID   = {
+      [1] = "0466283e-8d04-4823-8d0e-c264034c922f"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Redoran",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "bb63f695-44d9-4f10-b0f0-ca221e099ffe",
+    progressionUUID   = {
+      [1] = "80f5e560-ad79-4165-9aab-0c8b0c3b4082"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Telvanni",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "f9351f2c-dc19-49a6-9bd6-242a85f0ca2d",
+    progressionUUID   = {
+      [1] = "df7dbd47-f79e-4d8a-9ac4-d4a4e41ced82"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Indoril",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "9d2720b5-8899-402e-9297-15b74f759461",
+    progressionUUID   = {
+      [1] = "25a713e0-4d5b-477e-aa56-56900f7976f9"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Dunmer - Dres",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3",
+    progressionUUID   = {
+      [1] = "ac2d7f7f-120c-4cb9-9f04-ff16c4aec266"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  --
+  -- Orsimer by NellsRelo - https://www.nexusmods.com/baldursgate3/mods/591
+  --
+  {
+    Name              = "Orsimer",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "86041cdd-2d60-4c22-87c4-ab8e88bef027",
+    progressionUUID   = {
+      [1] = "1cb54ee3-21e0-483d-af57-ae89a7addc1c"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = true,
+    NoDefStats        = false
+  },
+  {
+    Name              = "Orsimer - Iron",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "feafabc0-8cc2-415a-ba10-0c21ddaac2cc",
+    progressionUUID   = {
+      [1] = "2ea45a26-1355-4651-acff-80291d90fa1e"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+  {
+    Name              = "Orsimer - Wood",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
+    modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
+    progressionTable  = "f7629248-b39e-4acf-9771-ff4add8c59a5",
+    progressionUUID   = {
+      [1] = "e9f1e041-5bf0-45b8-9244-2edfe50307fb"
+    },
+    Author            = "NellsRelo",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = {"2","1"}, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = false
+  },
+--[[
 |	  ________.__                     __  .__            ________.__                 .__            ____ ___           .___                 .___ __________
 |	 /  _____/|  |__ _____    _______/  |_|  | ___.__.  /  _____/|  |__   ____  __ __|  |   ______ |    |   \____    __| _/____ _____     __| _/ \______   \_____    ____  ____
 |	/   \  ___|  |   \__  \  /  ___/\   __\  |<   |  | /   \  ___|  |  \ /  _ \|  |  \  |  /  ___/ |    |   /    \  / __ |/ __ \__   \   / __ |   |       _/\__  \ _/ ___\/ __ \
 |	\    \_\  \   Y  \/ __ \_\___ \  |  | |  |_\___  | \    \_\  \   Y  (  <_> )  |  /  |__\___ \  |    |  /   |  \/ /_/ \  ___/ / __ \_/ /_/ |   |    |   \ / __ \  \__\  ___/
 |	 \______  /___|  (____  /____  > |__| |____/ ____|  \______  /___|  /\____/|____/|____/____  > |______/|___|  /\____ |\___  >____  /\____ |   |____|_  /(____ /\___  >___  >
 |	        \/     \/     \/     \/            \/              \/     \/                       \/               \/      \/    \/     \/      \/          \/      \/     \/   \/
-|	        \_Ghastly Ghouls - Playable Undead Race 3.01 Used
-]] --
+|	         \_Ghastly Ghouls - Playable Undead Race 3.01 Used
+]]--
 	{
     Name				      =	"Undead",
 		modURL				    =	{"https://www.nexusmods.com/baldursgate3/mods/5895"},
