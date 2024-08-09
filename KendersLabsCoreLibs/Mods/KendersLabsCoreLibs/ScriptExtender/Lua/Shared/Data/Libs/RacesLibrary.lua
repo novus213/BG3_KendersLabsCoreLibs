@@ -4311,7 +4311,6 @@ The Avariel and Grugach, as far as I know, were not released.",
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats      = true
   },
-
   --
   -- Racemod by author - https://www.nexusmods.com/baldursgate3/mods/
   --
@@ -4393,11 +4392,9 @@ Todo
 	- Astral Elves 5E - https://www.nexusmods.com/baldursgate3/mods/1780
 	- Astral Elves - https://www.nexusmods.com/baldursgate3/mods/1388
 	- Astral Half-Elves - https://www.nexusmods.com/baldursgate3/mods/9676
-	- ok Playable Ogre M-F - https://www.nexusmods.com/baldursgate3/mods/425  		Stats				=	{"4", "-1", "3", "-3", "-2", "-2"}
 
 	Half-homebrew
 	- Demon Player Race - https://www.nexusmods.com/baldursgate3/mods/3703
-	- ok Half-Dragon - https://www.nexusmods.com/baldursgate3/mods/2634
 	- Half Demon (Cambion) Realistic - https://www.nexusmods.com/baldursgate3/mods/4905
 	- Displacer Player Race and Hireling - https://www.nexusmods.com/baldursgate3/mods/5002
 
@@ -4406,15 +4403,11 @@ Todo
 	- Tiger Race Mod by Babbo - https://www.nexusmods.com/baldursgate3/mods/10532
 	- Coven of the Underdark - Vampiric Drow Subrace - https://www.nexusmods.com/baldursgate3/mods/10456
 	- Inner Planes Unleashed - Mephit Race - https://www.nexusmods.com/baldursgate3/mods/10814
-	- Animal's Essence - Playable BeastFolk Race - https://www.nexusmods.com/baldursgate3/mods/9768
-	- The Godkin - https://www.nexusmods.com/baldursgate3/mods/9564
 	- Playable Dire Wolf Race - https://www.nexusmods.com/baldursgate3/mods/2264
 	- Playable Skeletons - https://www.nexusmods.com/baldursgate3/mods/565
-	- Emerald's Catbugs (Homebrew Race) - https://www.nexusmods.com/baldursgate3/mods/8919
 	- Wolfkind Race by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/8591
-	- Stoneborn Race - Homebrew by Team TechnoBabble - https://www.nexusmods.com/baldursgate3/mods/7782
 
-	BitterPast - Collection
+	BitterPast - Collection - Probably not
 	- Vastly Superior Gnomes - https://www.nexusmods.com/baldursgate3/mods/3364
 	- Human Zombie-WhiteWalker RP - https://www.nexusmods.com/baldursgate3/mods/3370
 	- Sins of the Father - Dark Urge RP - https://www.nexusmods.com/baldursgate3/mods/3822
