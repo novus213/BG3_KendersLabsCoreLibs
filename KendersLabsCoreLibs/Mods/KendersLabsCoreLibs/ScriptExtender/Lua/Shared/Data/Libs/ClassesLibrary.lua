@@ -8,6 +8,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "Artificer",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1779" },
     modGuid         = "88fadf2c-152d-404e-b863-c12273559e1c",
+    cdUUID          = { "03f972eb-de3c-4cdb-9050-e8e3fa0526eb" },
     progressionUUID = {
       [1] = "c1965de9-87f1-47ee-93c7-43c54f685f2d"
     },
@@ -21,6 +22,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "Artificer - Alchemist",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1779" },
     modGuid         = "88fadf2c-152d-404e-b863-c12273559e1c", -- At lvl 3 of Artificer
+    cdUUID          = { "17fbaf2f-5b9a-46f4-806f-06b62a8ce24f" },
     progressionUUID = {
       [1] = "aaaa"
     },
@@ -34,6 +36,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "Artificer - Armorer",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1779" },
     modGuid         = "88fadf2c-152d-404e-b863-c12273559e1c", -- At lvl 3 of Artificer
+    cdUUID          = { "18fbaf2f-5b9a-46f4-806f-06b62a8ce24f" },
     progressionUUID = {
       [1] = "aaaa"
     },
@@ -47,6 +50,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "Artificer - Artillerist",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1779" },
     modGuid         = "88fadf2c-152d-404e-b863-c12273559e1c", -- At lvl 3 of Artificer
+    cdUUID          = { "19fbaf2f-5b9a-46f4-806f-06b62a8ce24f" },
     progressionUUID = {
       [1] = "aaaa"
     },
@@ -60,6 +64,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "Artificer - Battle Smith",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1779" },
     modGuid         = "88fadf2c-152d-404e-b863-c12273559e1c", -- At lvl 3 of Artificer
+    cdUUID          = { "16fbaf2f-5b9a-46f4-806f-06b62a8ce24f" },
     progressionUUID = {
       [1] = "aaaa"
     },
@@ -1265,7 +1270,7 @@ Data.Libs.ClassesLibrary = {
     Name            = "The Celestia Patron for Warlocks 2024",
     modGuid         = "015ff10e-b018-4bea-ab81-35b2a198623d",
     progressionUUID = {
-      [1] = "a7767dc5-e6ab-4e05-96fd-f0424256121c"   -- same uuid ????
+      [1] = "a7767dc5-e6ab-4e05-96fd-f0424256121c" -- same uuid ????
     }
   },
   {
@@ -1286,21 +1291,21 @@ Data.Libs.ClassesLibrary = {
     Name            = "Shadow Sorcerer",
     modGuid         = "38291fe1-40a3-4af7-bbbd-c9a55f3e39c0",
     progressionUUID = {
-      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee"   -- same uuid ????
+      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee" -- same uuid ????
     }
   },
   {
     Name            = "Elemancer Sorcerer Edited to level 12 max by Nathyiel. Original mod by Backburner26",
     modGuid         = "d40b8322-5d61-492d-9a0c-e75be1a1bbb2",
     progressionUUID = {
-      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee"   -- same uuid ????
+      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee" -- same uuid ????
     }
   },
   {
     Name            = "Elemancer Sorcerer lvl 12",
     modGuid         = "d40b8322-5d61-492d-9a0c-e75be1a1bbb2",
     progressionUUID = {
-      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee"   -- same uuid ????
+      [1] = "42af9bda-9ac0-4564-920b-f9ca1588d6ee" -- same uuid ????
     }
   },
   {
