@@ -1483,6 +1483,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Myconid",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5535" },
     modGuid         = "71486ac7-a05c-434e-8e3b-9e6c2d40a04a",
+    presetUUID      = {
+      "02bbaf2e-334d-46f1-b050-cbdfcf340e32",
+      "ddf6c86b-a910-40f1-b8f8-04a2cab77aa6",
+      "ca991dee-9491-42f5-b7f5-b32755bde87a",
+      "1bae58f5-2e9f-42ef-b84c-db9d5b056248"
+    },
     progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
     progressionUUID = {
       [1] = "ada1a74c-89dd-45f9-95dd-f88bf59e3535",
@@ -1775,6 +1781,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Witch Elf",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3490" },
     modGuid         = "1aa49383-9208-4cc0-96b6-e827819d71d0",
+    presetUUID      = {
+      "d244eef4-9210-4a9b-83b8-299338f1a4ab",
+      "631dd21a-02bf-4b22-9923-07f6445b60a7",
+      "66a3934c-6c25-49b3-8473-0b88c438b436",
+      "4d83369b-e769-4da9-b940-c8360bfe1c08"
+    },
     progressionTable  = "5f95545e-3147-4f81-b42e-a31b9cd29b85",
     progressionUUID = {
       [1] = "d19f42b3-1c1e-46cd-83e4-fd964426616f"
@@ -1800,7 +1812,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "",
     MainRace        = true,
     Stats           = { "0", "1", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   --
   -- Transient Guests Are We - Dhampir by Ne Dragon - https://www.nexusmods.com/baldursgate3/mods/4750
@@ -1820,7 +1832,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "VRGtR",
     MainRace        = true,
     Stats           = { "0", "1", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   --
   -- Dhampir by Sassandra Baerne - https://www.nexusmods.com/baldursgate3/mods/4761
@@ -1910,7 +1922,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PAitM",
     MainRace        = true,
     Stats           = { "0", "0", "0", "1", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Githzerai (1.5)",
@@ -1924,7 +1936,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "PAitM",
     MainRace        = true,
     Stats           = { "0", "0", "0", "1", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   --
   -- Spirited Seasons - Fey Eladrin by tepkunset - https://www.nexusmods.com/baldursgate3/mods/7037
@@ -1956,7 +1968,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "MToF",
     MainRace        = false,
     Stats           = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Fey Eladrin - Spring",
@@ -1972,7 +1984,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     SourceBook      = "MToF",
     MainRace        = false,
     Stats           = { "0", "2", "0", "0", "1", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
   {
     Name            = "Fey Eladrin - Summer",
