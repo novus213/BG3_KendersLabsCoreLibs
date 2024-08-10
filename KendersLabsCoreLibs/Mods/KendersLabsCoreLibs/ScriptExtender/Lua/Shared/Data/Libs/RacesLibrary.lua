@@ -1778,24 +1778,24 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Witch Elf by CovenElf - https://www.nexusmods.com/baldursgate3/mods/3490
   --
   {
-    Name            = "Witch Elf",
-    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3490" },
-    modGuid         = "1aa49383-9208-4cc0-96b6-e827819d71d0",
-    presetUUID      = {
+    Name              = "Witch Elf",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/3490" },
+    modGuid           = "1aa49383-9208-4cc0-96b6-e827819d71d0",
+    presetUUID        = {
       "d244eef4-9210-4a9b-83b8-299338f1a4ab",
       "631dd21a-02bf-4b22-9923-07f6445b60a7",
       "66a3934c-6c25-49b3-8473-0b88c438b436",
       "4d83369b-e769-4da9-b940-c8360bfe1c08"
     },
     progressionTable  = "5f95545e-3147-4f81-b42e-a31b9cd29b85",
-    progressionUUID = {
+    progressionUUID   = {
       [1] = "d19f42b3-1c1e-46cd-83e4-fd964426616f"
     },
-    Author          = "CovenElf",
-    SourceBook      = "",
-    MainRace        = false,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = true
+    Author            = "CovenElf",
+    SourceBook        = "",
+    MainRace          = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats        = true
   },
   --
   -- Wine and Revelry - Satyr by labotor - https://www.nexusmods.com/baldursgate3/mods/428
