@@ -1757,23 +1757,119 @@ The Avariel and Grugach, as far as I know, were not released.",
   --
   {
     Name            = "Hobgoblin",
-    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main" },
+    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
+    modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
+    presetUUID      = {
+      "3522f07a-8fe4-4633-960d-7a72a15c9d6c",
+      "e31d5031-ddc1-4884-96e1-f8437e17e4af",
+      "9b5f2c12-f6bf-4df4-8211-2e26a0caede5",
+      "f999b406-b6da-4170-adae-22cd0bdab12e",
+      "2ae5bf75-a9b0-4a08-b092-de4cfb6cdde0",
+      "9d7ade57-552c-435d-b8a4-4e96192c7dab",
+      "af99c309-686d-4e2a-90df-40b82013843d",
+      "f0510c36-6d9e-48fa-b265-88a00d1cb92b"
+    },
+    compPresetUUID = { --companion Preset UUID
+      "2e97286c-e1ae-4dd4-a000-6b0c9bdc7815",
+      "c8797bba-a06e-48bf-93b4-1977063017d4",
+      "c0b1a3ea-efee-4393-8015-e9ecc1836d76",
+      "e4a90c52-4109-432b-8f7f-6c801c946fec",
+      "74fc51e7-2d9e-4a27-9210-a93f11210aea",
+      "adfdc014-622a-4930-80a6-d3a2b20d69cd",
+      "2cfe6391-0d3a-48b5-a863-faed4c4ce21d",
+      "24d274d9-0049-4fd9-bc6a-c7832ea6b7fb"
+    },
+    progressionTable  = "",
+    progressionUUID = {
+      [1]  = "516ab354-c8db-466b-891a-677d8f7c3095",  -- OLD "575fa3d3-cf83-4716-8cc3-8d971666b051"
+      [3]  = "debf0057-05e5-478c-9870-4dde6fecf976",
+      [5]  = "12754c3c-eea8-4c99-a7a3-c01782c00c69",
+      [7]  = "47aa1b60-bb60-4b83-8d62-5367dda4e8b5",
+      [9]  = "f808a590-060f-45b8-acd4-bde78801650d",
+      [11] = "2ae1a961-8be5-4c69-b12d-cf0a961e62b6"
+
+    },
+    Author          = "GentlemanBabbo",
+    SourceBook      = "", --"MPMotM",
+    MainRace        = true,
+    NoDefStats      = false
+  },
+  --
+  -- Hobgoblin (Strongblade) by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
+  --
+  {
+    Name            = "Strongblade",
+    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
     progressionTable  = "",
     progressionUUID = {
-      [1] = "575fa3d3-cf83-4716-8cc3-8d971666b051"
+      [1]  = "732cd9b6-9374-425a-9b34-517a0337fcb0",
+      [5]  = "1b35c12c-9ccd-4cfe-8615-4d3b4b1f4494",
+      [9]  = "8ea52df9-3a4b-45a4-80e3-a048919afdb2"
     },
     Author          = "GentlemanBabbo",
     SourceBook      = "MPMotM",
-    MainRace        = true,
+    MainRace        = false,
     Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = false
+    NoDefStats      = true
   },
-
-  --[[
-  TODO SUBRACE HOBGOBELIN
-  ]]---
-
+  --
+  -- Hobgoblin (Koalinth) by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
+  --
+  {
+    Name            = "Koalinth",
+    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
+    modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
+    progressionTable  = "",
+    progressionUUID = {
+      [1]  = "ee4bfcdd-6d8b-4c79-a044-f9bed7136e7d",
+      [5]  = "a8e454e0-a8ad-49b5-8cdd-f17f045e02bc",
+      [9]  = "9d70bc30-ae21-49d7-b6a5-681e48d61bd5"
+    },
+    Author          = "GentlemanBabbo",
+    SourceBook      = "MPMotM",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
+  --
+  -- Hobgoblin (Sunscorch) by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
+  --
+  {
+    Name            = "Sunscorch",
+    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
+    modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
+    progressionTable  = "",
+    progressionUUID = {
+      [1]  = "bf236089-1254-4285-9605-9c922e2ee17a",
+      [5]  = "7dd4f503-6b11-4de3-ae3c-e19ef3e427b9",
+      [9]  = "0689cfe8-dfaf-4aba-9208-79771e3d2a1d"
+    },
+    Author          = "GentlemanBabbo",
+    SourceBook      = "MPMotM",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
+  --
+  -- Hobgoblin (Harrower) by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
+  --
+  {
+    Name            = "Harrower",
+    modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
+    modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
+    progressionTable  = "",
+    progressionUUID = {
+      [1]  = "98da0193-6729-4364-bb5c-b13475edb3c7",
+      [5]  = "b065e4b1-2f62-4846-b120-d6469061afcd",
+      [9]  = "9bbe7dc7-beb5-4992-b39f-77e4ef584553"
+    },
+    Author          = "GentlemanBabbo",
+    SourceBook      = "MPMotM",
+    MainRace        = false,
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
   --
   -- Witch Elf by CovenElf - https://www.nexusmods.com/baldursgate3/mods/3490
   --
