@@ -1790,7 +1790,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 
     },
     Author          = "GentlemanBabbo",
-    SourceBook      = "", --"MPMotM",
+    SourceBook      = "MPMotM",
     MainRace        = true,
     NoDefStats      = false
   },
