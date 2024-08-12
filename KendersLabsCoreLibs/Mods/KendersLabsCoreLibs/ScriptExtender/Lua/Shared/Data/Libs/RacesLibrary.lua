@@ -1395,9 +1395,9 @@ Data.Libs.RaceLibrary = {
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionTable  = "5ab019ab-45e4-484f-bcc9-26e5fa2d7df5",
     progressionUUID = {
-      [1]         = "06e918ad-be2c-48b6-a098-0288539de744",
-      raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298"
+      [1] = "06e918ad-be2c-48b6-a098-0288539de744",
     },
+    raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298",
     Author          = "DarthRen",
     SourceBook      = "VGtML",
     MainRace        = true,
