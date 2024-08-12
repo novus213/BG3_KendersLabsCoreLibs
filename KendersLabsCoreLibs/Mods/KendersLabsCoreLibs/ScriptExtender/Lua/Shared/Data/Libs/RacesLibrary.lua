@@ -1182,6 +1182,43 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    presetUUID      = { --CharacterCreationPresetUuid
+      "a893ed44-9838-419c-a0eb-7d198b078867",
+      "1d02e09e-e71c-4c56-a905-c68829bbb3d8",
+      "e2130959-2c58-40d1-9c71-f71db51edf12",
+      "4b9132e1-e0ac-4155-9d8a-b8cad1d41cda",
+      "13d68870-f968-479f-b953-9e9738b90a3d",
+      "41e3c26c-e020-4661-a9eb-b0f6a409a754",
+      "68b24041-4919-40ed-a4a6-08913c9784a7",
+      "c5b9b034-f157-4d51-ae36-09c6ca447940",
+      "5e2f8738-1aa2-4fdf-968b-0af9a1f2f41a",
+      "4121a4e8-3242-4260-8e53-63af94899d6f",
+      "1bc2e36b-26ef-4f50-8fdf-04b309481145",
+      "c95f796d-8888-4def-8e08-58655d1a4c9d",
+      "3fd1e3cf-041c-4860-af65-a6298f2ea27f",
+      "cc1bc1c8-4797-4e43-8c71-61b58de5fa31",
+      "a65ea3d8-546b-48c3-a264-6d762bddc9cd",
+      "8139f78b-c57c-4baa-b7fe-b01a439d53cd",
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "4c1dd831-9a0a-4555-bd17-8aca3133b76b",
+      "02ef647c-cf12-4d7e-874d-a2b9160cbab1",
+      "a8b73569-0219-485f-bcd3-9656fa3978cf",
+      "cd2003e2-e3c9-491f-b5cd-2277f4b009e3",
+      "98338452-57fe-4821-9d15-bd6512b0b01c",
+      "86384df6-ab0e-4158-ab2b-1df37ead895b",
+      "dcf0c17a-ad8e-447a-ab38-ba1e7228daad",
+      "bdc8fbfd-6f3d-42cd-84d1-1ef4f187024a",
+      "43d25d38-66b9-4a45-be7c-7c4f4c9b94f6",
+      "e305f811-0443-47c4-85e6-038600bd5da1",
+      "7ff6739f-6222-4b89-bd3e-7649f758e119",
+      "7c7c1b92-0110-4064-8179-bbfeaa378849",
+      "79829a65-6773-424f-b493-2602f4aba3ee",
+      "97d9e1f6-8860-4a5f-80d3-57e8947b0b35",
+      "2aa7ca98-7a08-4191-ac32-b8826b5c0131",
+      "6a8f48e8-56c5-4468-a886-3ce7be51b1cb"
+    },
+    originPresetUUID  = { "10721afe-d6b6-46f6-975c-828d8de713d3" },
     progressionTable  = "829a8a20-3d8f-4b69-b9bc-97d1e99f2f81",
     progressionUUID   = {
       [1] = "459fe764-6f12-4533-9b84-a69d16a8832e",
@@ -1192,6 +1229,39 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = true,
     NoDefStats        = false
+  },
+  {
+    Name              = "Aasimar - Trips_Aasimar_Hireling",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "aa7fc5d2-3ab6-4354-8c19-adc7e404a0fa",
+    progressionUUID   = {
+      [1] = "df422d42-8b37-4e1a-89e2-5082ab338bc7",
+      [3] = "4458e1d9-a1ba-47a3-8c60-16ead44b0a5d"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = true,
+    Hireling          = true,
+    NoDefStats        = true
+  },
+  {
+    Name              = "Aasimar - Trips_Protector_Hireling",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "d76015d1-0340-45a9-9794-6a1b5f33bbd8",
+
+    progressionUUID   = {
+      [1]  = "861d5758-b5f1-4ed0-8f69-a2f2fd1de210",
+      [3]  = "3283dc9a-4920-45e0-87f7-47a2bd18577e",
+      [10] = "d84ba8dd-3e16-490c-98da-8a3f6d40b961"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Hireling          = true,
+    Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = true
   },
   {
     Name              = "Aasimar - Protector",
@@ -1206,6 +1276,24 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = true
+  },
+  {
+    Name              = "Aasimar - Trips_Scourge_Hireling",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "c05da736-595e-45f4-8ce2-6b6bb549947a",
+
+    progressionUUID   = {
+      [1]  = "f5f61427-4d35-4666-b107-929dc26c7eea",
+      [3]  = "9c21b2aa-3e05-4173-8665-e71a42bc9d96",
+      [10] = "3a0c8b37-730f-462a-abbc-2d8402d90d52"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Hireling          = true,
+    Stats             = { "0", "0", "1", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats        = true
   },
   {
@@ -1224,6 +1312,24 @@ Data.Libs.RaceLibrary = {
     NoDefStats        = true
   },
   {
+    Name              = "Aasimar - Trips_Fallen_Hireling",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "c7e5e9d7-70f3-45a9-b97c-5c302244a2da",
+
+    progressionUUID   = {
+      [1]  = "d6dac133-960f-4a6d-8586-292ca94c1b94",
+      [3]  = "7d8e17db-fcd7-429e-93ca-e19a0091dbc5",
+      [10] = "f5c4aaa4-e6cd-4bb1-aff7-127d0f3fe956"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Hireling          = true,
+    Stats             = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = true
+  },
+  {
     Name              = "Aasimar - Fallen",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
@@ -1236,6 +1342,24 @@ Data.Libs.RaceLibrary = {
     SourceBook        = "VGtML",
     MainRace          = false,
     Stats             = { "1", "0", "0", "0", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    NoDefStats        = true
+  },
+  {
+    Name              = "Aasimar - Trips_Harbinger_Hireling",
+    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
+    modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    progressionTable  = "8ca6a959-4967-4b88-9998-5009aa86d105",
+
+    progressionUUID   = {
+      [1]  = "d3eb8206-c769-449e-afca-8aed805ca903",
+      [3]  = "96308678-915b-45c7-88c9-0276f82bc92f",
+      [10] = "68979a36-1341-43ec-bebe-62dc3900d1c4"
+    },
+    Author            = "Trips ♥",
+    SourceBook        = "VGtML",
+    MainRace          = false,
+    Hireling          = true,
+    Stats             = { "0", "0", "0", "0", "1", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats        = true
   },
   {
@@ -1759,7 +1883,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Hobgoblin",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
-    presetUUID      = {
+    presetUUID      = { -- charactersPresetUUID
       "3522f07a-8fe4-4633-960d-7a72a15c9d6c",
       "e31d5031-ddc1-4884-96e1-f8437e17e4af",
       "9b5f2c12-f6bf-4df4-8211-2e26a0caede5",
@@ -1769,7 +1893,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       "af99c309-686d-4e2a-90df-40b82013843d",
       "f0510c36-6d9e-48fa-b265-88a00d1cb92b"
     },
-    compPresetUUID = { --companion Preset UUID
+    compPresetUUID = { --companion Preset UUID // not Used for now
       "2e97286c-e1ae-4dd4-a000-6b0c9bdc7815",
       "c8797bba-a06e-48bf-93b4-1977063017d4",
       "c0b1a3ea-efee-4393-8015-e9ecc1836d76",
@@ -1779,9 +1903,9 @@ The Avariel and Grugach, as far as I know, were not released.",
       "2cfe6391-0d3a-48b5-a863-faed4c4ce21d",
       "24d274d9-0049-4fd9-bc6a-c7832ea6b7fb"
     },
-    progressionTable  = "",
+    progressionTable  = "86149467-d827-42f3-8b0c-87e267343225",
     progressionUUID = {
-      [1]  = "516ab354-c8db-466b-891a-677d8f7c3095",  -- OLD "575fa3d3-cf83-4716-8cc3-8d971666b051"
+      [1]  = "516ab354-c8db-466b-891a-677d8f7c3095",
       [3]  = "debf0057-05e5-478c-9870-4dde6fecf976",
       [5]  = "12754c3c-eea8-4c99-a7a3-c01782c00c69",
       [7]  = "47aa1b60-bb60-4b83-8d62-5367dda4e8b5",
@@ -1801,7 +1925,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Strongblade",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
-    progressionTable  = "",
+    progressionTable  = "810f7e5a-717c-4caa-8df9-92cc659b4a81",
     progressionUUID = {
       [1]  = "732cd9b6-9374-425a-9b34-517a0337fcb0",
       [5]  = "1b35c12c-9ccd-4cfe-8615-4d3b4b1f4494",
@@ -1820,7 +1944,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Koalinth",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
-    progressionTable  = "",
+    progressionTable  = "4dcdfcfb-0617-4434-ba2d-e8f392eea881",
     progressionUUID = {
       [1]  = "ee4bfcdd-6d8b-4c79-a044-f9bed7136e7d",
       [5]  = "a8e454e0-a8ad-49b5-8cdd-f17f045e02bc",
@@ -1839,7 +1963,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Sunscorch",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
-    progressionTable  = "",
+    progressionTable  = "89ae4977-54ea-425c-93a2-f419bea9a2a6",
     progressionUUID = {
       [1]  = "bf236089-1254-4285-9605-9c922e2ee17a",
       [5]  = "7dd4f503-6b11-4de3-ae3c-e19ef3e427b9",
@@ -1858,7 +1982,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Harrower",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
-    progressionTable  = "",
+    progressionTable  = "f88032d3-7ae7-4724-bab6-9e992776ecf7",
     progressionUUID = {
       [1]  = "98da0193-6729-4364-bb5c-b13475edb3c7",
       [5]  = "b065e4b1-2f62-4846-b120-d6469061afcd",
