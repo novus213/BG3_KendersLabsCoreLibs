@@ -37,7 +37,7 @@ Data.Libs.RaceLibrary = {
     Name            = "Human default",
     modURL          = HumanFix["modURL"],
     modGuid         = HumanFix["modGuid"],
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = HumanFix["humanUUID"]
     },
     raceLsxUUID     = "",
@@ -52,7 +52,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "eb9db11d-1091-49fa-9006-2f52bbb76f6a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "496486a4-b5f2-4f91-90ea-6cad9023952e",
       [2] = "cfb4d42f-ebe2-4f66-ad73-3ce7b6a635de",
       [3] = "46ac9fd4-811c-4977-abeb-adfc31ab21c4",
@@ -68,7 +68,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "db13a1fb-7d64-4309-a1c8-e2a5c752ded5",
       [2] = "3d2b0fe9-ba54-4c5d-bdf9-2d67939276aa",
       [3] = "31068b3c-7a1a-4a44-bf3b-72010ba560be",
@@ -85,7 +85,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Elf", "https://baldursgate3.wiki.fextralife.com/Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c0210455-03b5-437c-9d80-3cc4e3c61a9f",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b262db2c-7a80-4c76-a1e8-0efdb9c1db13"
     },
     Author           = "Larian",
@@ -100,7 +100,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "a43498f5-d72f-4a05-b721-1feea9acb3ad",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "4a634f24-bdcb-4559-b8be-7847133ad1c3",
       [2] = "bd4b36f8-4835-4b1d-b432-3021011cabe6",
       [3] = "334e0ddd-33cb-468f-a232-40cfe9ad23da",
@@ -116,7 +116,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "cda01bce-b09b-459a-bdb0-b162de09e54d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c91bb3ce-73d0-4330-80e1-562880a53472"
     },
     Author           = "Larian",
@@ -130,7 +130,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Drow", "https://baldursgate3.wiki.fextralife.com/Drow" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1037326e-43ed-4840-9f37-10f1efb3779a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3feba964-0ae4-4ae5-b2a1-e515f0973efe"
     },
     Author           = "Larian",
@@ -144,7 +144,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "d93def5b-a2df-4675-8a33-e47c9647eeae",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"
     },
     Author           = "Larian",
@@ -157,7 +157,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0f8458cb-9edd-401d-8066-86ba8e1529cf",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "bd012f5b-0a0b-424e-ab7c-186dbd82ab30",
       [3] = "02828bce-0bee-4010-a614-f4e46d0aba12",
       [5] = "77f416e5-406b-40ee-a2ff-dea281c32c8f"
@@ -173,7 +173,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c19dc7fa-0a57-459c-ae4a-648472cbb8fe",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3576f8c6-e515-49c5-808c-b68b77154ffd"
     },
     Author           = "Larian",
@@ -187,7 +187,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dwarf", "https://baldursgate3.wiki.fextralife.com/Dwarf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "fa449725-ed8a-4d8c-8908-9ff1469c2e21",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "207d038e-1add-4335-81d1-b0861f524c19",
       [2] = "d06d7fea-98ee-42a4-a298-8db698c88644",
       [3] = "c968fd3c-59b4-46e3-bbe0-ddd53f6a4d58",
@@ -206,7 +206,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5f06db9e-31b0-41d9-bfbe-3446323c4bf6",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a1729574-2f7b-4561-91d8-3766cf940420",
       [2] = "a35fe910-7525-4989-ba34-f9f76ff818ec",
       [3] = "25c0008d-57ca-4b88-a0f2-1dfbd5597f69"
@@ -221,7 +221,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "9efb7794-dc6f-45f3-8cf9-74ad5286c792",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "43bfa29a-fd63-4f47-850e-6714f0333022"
     },
     Author           = "Larian",
@@ -236,7 +236,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "685d3b16-1f7f-49b3-906d-d7726276926b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "cb0f84ec-1b1d-4ecc-9ab5-76261e332f5a"
     },
     Author           = "Larian",
@@ -251,7 +251,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Half-Elf", "https://baldursgate3.wiki.fextralife.com/Half-Elf" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "4ef615e7-e401-4304-bedc-5c229caa1dc2",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "58dae581-c25a-4dfb-8a57-589bf4b34f62",
       [2] = "f49fff52-8267-426c-ab23-176fc36f8c4e",
       [3] = "87d2588b-bd2e-43df-ace0-2c2d3efea0ca",
@@ -270,7 +270,7 @@ Data.Libs.RaceLibrary = {
     Comments         = "The Alpha Main Race !",
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "c1d4adfe-9f00-44b4-a433-a45250d00631",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "d48f8fb3-4351-4b5d-a28c-946fd33be726"
     },
     Author           = "Larian",
@@ -283,7 +283,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1e9f254e-6aa4-4e54-9937-82065b3182ee",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "aa2257a9-1779-4d8b-be65-8a08eede07fa"
     },
     Author           = "Larian",
@@ -297,7 +297,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0f6d9f53-a2d0-422b-beea-a2fdfd88628a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "938b6f72-18a6-4af0-924b-5292251d32bf"
     },
     Author           = "Larian",
@@ -311,7 +311,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Gnome", "https://baldursgate3.wiki.fextralife.com/Gnome" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "f0a6b572-9612-403f-981c-978c21225845",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a63bbb3c-c37c-4578-94e6-7d1c4c063d5c"
     },
     Author           = "Larian",
@@ -325,7 +325,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "7e1ae395-6f2a-456b-ab64-1012c18065d4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "963edcba-c572-4f51-b447-8810bbb43a8e"
     },
     Author           = "Larian",
@@ -338,7 +338,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "fa29312c-6ec6-4bf9-9613-6d99feb57467",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "bc2d257b-a405-4f58-891e-3083c5f71127"
     },
     Author           = "Larian",
@@ -352,7 +352,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Halfling", "https://baldursgate3.wiki.fextralife.com/Halfling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "786cb743-3286-462b-af46-3b1ba84c801e",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b7a39730-2820-40c7-be96-2c134fead68a"
     },
     Author           = "Larian",
@@ -366,7 +366,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "1640733f-c32b-4d9d-9132-5ca6e985155c",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "56529178-3df2-4067-b1c0-e35fe82fbd37"
     },
     Author           = "Larian",
@@ -379,7 +379,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "5ae9c280-64fd-43fb-85f3-40d1796c5b24",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a8b18f0c-fe70-4f13-9dbc-23f4dbc3d648",
       [2] = "2d07c1b4-baec-4bdb-a75a-ca513ad8df46",
       [3] = "bf3c33f5-4b95-4048-91f5-d8ff6f7a9cdd",
@@ -396,7 +396,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "0d83cb0b-1f39-47bb-97bc-a6e49cd8a5c5",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "bdd1cf22-1b3c-4bc6-8313-898a49fcfe49",
       [2] = "10ae22cc-08d8-4c19-aa28-06fffb0782c2",
       [3] = "5b3c1a37-18a8-40cf-8bf6-cad43b3ff0cc",
@@ -413,7 +413,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Tiefling", "https://baldursgate3.wiki.fextralife.com/Tiefling" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "957ba6a9-68f4-4190-a432-25675d00f434",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "89d57acd-85ff-4da6-b989-9b82d0241e46",
       [2] = "786ed4d4-7dd8-4ae6-b5a8-4a9e6572bc78",
       [3] = "09be3a4b-3360-414e-b3fb-1e4a04b63331",
@@ -430,7 +430,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "e2472b4f-682a-4ac8-b11c-723f921fd7a1",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "cabc4d46-f08e-4a48-8937-0bd1067ab43d"
     },
     Author           = "Larian",
@@ -443,7 +443,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "445a41db-995d-4e35-892a-4ab0e34d4594",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f5a766a1-9379-47ed-bfeb-cccbba64346f"
     },
     Author           = "Larian",
@@ -457,7 +457,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "dbe8c9aa-8a1d-49d2-b0b1-816966fe2c8c",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fc46455a-24f8-4b5f-9340-05806e44257b"
     },
     Author           = "Larian",
@@ -471,7 +471,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "d5338f29-2047-40a7-ad72-f65241150858",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ec92e1f3-b8cf-42a8-aefc-29c053d22c44"
     },
     Author           = "Larian",
@@ -485,7 +485,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "829ed0e9-25dc-49ca-aee2-2494bbca180b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "02abcdb7-301c-4ed5-9a39-223359e8d5fa"
     },
     Author           = "Larian",
@@ -499,7 +499,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "f0747c54-dccd-4a1b-89d3-adee8bcc8b76",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "37b52fb8-71be-45c7-889d-aca8110e931b"
     },
     Author           = "Larian",
@@ -513,7 +513,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "8aeadd65-f951-4004-8f65-b3cd127e1e6d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f6fa4014-79fc-4c9c-910b-8e3738424cac"
     },
     Author           = "Larian",
@@ -527,7 +527,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "cc914fb7-e0eb-49f0-a195-20d11917bf1a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b7e781e6-fa09-4a35-993a-b59e1e52a66f"
     },
     Author           = "Larian",
@@ -541,7 +541,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "ed5b3a12-7f18-46c2-8fe9-1ff96d44ed96",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c0202100-b905-4791-8eaa-1c110fe0bd02"
     },
     Author           = "Larian",
@@ -555,7 +555,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "ccbbbf91-53a4-4777-9676-5469d3d5b821",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "04ec0b37-ddb6-405d-989a-4f3e25ed1dfe"
     },
     Author           = "Larian",
@@ -569,7 +569,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Dragonborn", "https://baldursgate3.wiki.fextralife.com/Dragonborn" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "91577000-c8f7-465b-b56f-eb6d87d173d2",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e557c3b8-7cc1-43f8-bd8a-6838ff01e6d1"
     },
     Author           = "Larian",
@@ -583,7 +583,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Half-Orc", "https://baldursgate3.wiki.fextralife.com/Half-Orc" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "816fa8c7-7648-48f7-8309-cb4e7383e45f"
     },
     Author           = "Larian",
@@ -597,7 +597,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://bg3.wiki/wiki/Githyanki", "https://baldursgate3.wiki.fextralife.com/Githyanki" },
     modGuid          = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
     progressionTable = "81e2cb57-6a12-4429-b3a5-f72549355b3b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f653d537-bc14-4fea-b7d2-25734ec928a2",
       [2] = "1781a8fd-d8ce-4fc5-8674-6a176813917f",
       [3] = "851880cb-3b5d-4129-9b25-3bb17d849f87",
@@ -623,7 +623,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "e07d88b1-b935-4a65-b1be-0e8cd2a93ed5",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ad21229c-c202-4c86-af26-b5c47d36ff01",
       [3] = "8e3b8d4f-cea8-4fa3-bcc6-76ce59c2818b",
       [5] = "97db1ad7-b238-402f-b570-1aad9ffe6447"
@@ -639,7 +639,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "aca218d9-207d-48ef-836d-3230d981480b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "535fb417-7341-4710-b500-0ac5602de515",
       [3] = "48aff9cf-c102-4a52-9575-17dfe8030b42",
       [5] = "04a8fd56-e281-47d2-bda2-17a91d4001e6"
@@ -655,7 +655,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "fe2e40ea-bcc8-48f3-a89a-c798c382d4d7",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "929b6fe8-7415-43c7-9e2b-a3c87962e77d",
       [3] = "af89b2ed-0c02-4749-aa87-8ba1439ffd9a",
       [5] = "f06cbf74-4d0a-4857-af3e-f9dc1a17b0c2"
@@ -671,7 +671,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "bda111b8-ff84-4df0-99c4-20cafcb9cace",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1a215890-3ffc-4c4e-bf19-b70aa67c25cf",
       [3] = "d7e7274d-3a3d-417c-9a85-f4180695957a",
       [5] = "22982f8d-d5c6-42e4-bc54-9dbe9b819056"
@@ -687,7 +687,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "cddee309-0cec-4e7d-939f-06ce8aaf0da4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "62899e1e-d6b6-448d-847c-085a07d1f41d",
       [3] = "78dc5b0a-3a0a-411d-a366-2773e0f5b8cf",
       [5] = "6628fcdf-d284-4178-8c59-04d43e064010"
@@ -703,7 +703,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "cfb80dea-6416-42d0-a7b5-3e319ab54feb",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "bf7c8b2d-5b6e-467e-b080-d85de151f57a",
       [3] = "a7e30644-2ee6-4313-a531-7477aa6f987b",
       [5] = "7a1a907c-176c-40ca-859c-a467877c38bb"
@@ -719,7 +719,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "a7025e87-add5-4aa9-8b2c-4928511196b3",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "da92f08b-96fd-42b2-80f1-45b7bc9e703f",
       [3] = "d439510c-1339-4c93-bd3a-2ba7c46bcfcf",
       [5] = "2c7cc48e-1efa-45a4-bae9-aed10f7c5a6e"
@@ -737,7 +737,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "ac94f1e6-88dd-4beb-9467-134811dc6f06",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e2519a78-67c8-41d2-a276-fc4889511346",
       [3] = "3daaf875-ee4e-4a26-9a44-e252f2490cd7",
       [5] = "4f8d673d-6db0-48f1-b2bd-c6d86cc80bdb"
@@ -754,7 +754,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "47f87ed4-7729-4c69-9c4c-7cc9b9c7811d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fa15d3e5-3f15-4d59-857a-804098843516",
       [3] = "ad85fe1c-be40-4f37-8ce9-0db26849a69e",
       [5] = "d1268beb-5fb4-44ed-8f98-328c60daef3a"
@@ -770,7 +770,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "a0dc01cd-44c5-4c71-8c65-498cabcf3def",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3d807581-2721-4ba2-82bf-d91b345f7d81",
       [3] = "c19d58fc-739f-4377-bb70-bcf74d73cafb",
       [5] = "6240ba4e-c4d3-47c6-8494-85c69babf983"
@@ -786,7 +786,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "ada184db-1af2-4046-9d17-9b8b0043bcc9",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b42939aa-ce0d-40c7-8b0b-98cc4c122214",
       [3] = "d277c372-5655-4fce-be70-c28c0d566aa7",
       [5] = "29ff2b08-3644-4eed-9fe3-d0e6b38a33fb"
@@ -802,7 +802,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "4de5c941-f169-4d2e-818e-d9ff72d0c7fc",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3968f318-3ba4-4325-86f4-88ba7c01d999",
       [3] = "0933e57a-8a31-470a-916a-df1817583d78",
       [5] = "eb3049dc-64ad-4d72-9b52-dab23ef7b8b1"
@@ -818,7 +818,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/2418" },
     modGuid          = "167b846f-0a0b-4e0c-a9d0-df448be1320a",
     progressionTable = "688d197b-a2c9-4c91-b353-83d684c3ade4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c9ebad8c-3f9c-42ff-a2c2-53e83578df8c",
       [3] = "0df6b198-3714-4ed4-a53e-52d3e6ab1ba9",
       [5] = "51758fa9-8f2d-48b8-81ec-098d4f630f37"
@@ -847,7 +847,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "556f1daf-5111-43ba-b4f9-a7a8b3a6369f",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "934762bb-eebd-4b42-b050-540148507a4a",
       [3] = "209c6c50-32d9-4f20-a43a-bad874903dd5",
       [5] = "634197a3-1a33-40f3-a75d-57095a2f60f8"
@@ -863,7 +863,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "02e1d9ac-bcc4-4391-9e78-5df33f60ca64"
     },
     Author           = "Astralities",
@@ -877,7 +877,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "db7176ff-abf3-4ce6-9230-4151bc5bb2d8",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1089dddf-4e75-4e1b-bf2a-33affd0f6093"
     },
     Author           = "Astralities",
@@ -891,7 +891,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "5e11771a-9aae-4b85-92fd-d6eb6c335c09",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "9b37ca29-0d77-4a27-a662-8464ce9998bb",
       [5] = "6a0655d6-f3da-4598-8b6b-7a8191874a30",
       [9] = "29e41507-9229-4d8a-b13e-8e18b7e43b90"
@@ -907,7 +907,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "905c3b50-906e-4394-b0fb-d8af25e718f3",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e4c4c550-d4c7-43c5-92ba-49f93691356a"
     },
     Author           = "Astralities",
@@ -923,7 +923,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "8625f132-b495-49d8-a72d-624003dbd7f6",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "50d5a39d-4497-4d71-9368-d6c8c04f97dd"
     },
     Author           = "Astralities",
@@ -940,7 +940,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "0e3e51f7-aee0-410e-abb5-0fa178fc0552",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "025aa2fb-2d4a-4419-9124-bbbf082f1808",
       [3] = "c46ee449-a7d1-4879-beb2-486328df6d69",
       [5] = "83b705fd-2977-49a6-9ae8-8f789b0410a7"
@@ -956,7 +956,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "bfaf8902-d84d-43ef-8687-0219859f26cd",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "2d238465-02f2-4d92-9753-c1a51b384909"
     },
     Author           = "Astralities",
@@ -970,7 +970,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "dceef13e-66ab-48b7-b6a1-073b5b9c585b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8dd9c3ff-3b51-44d5-9f52-c4fcca43ec9c",
       [4] = "06622a2f-2546-441d-a010-b9b02005407e"
     },
@@ -985,7 +985,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "1826b535-f9b9-4fba-bcfc-3e2e48d9edce",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8742ecd7-5d7a-40bf-8b48-3798faf16bfc",
       [3] = "5211e582-0299-42d4-b957-f3eb5d422e13",
       [5] = "cb5d0e9f-4ebf-47a3-b4e7-1a33a0457f2b"
@@ -1004,7 +1004,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "a7650964-a4fd-4b0b-8ade-5b8711957371",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "26aeca77-7941-49c5-ab2a-314901e5ea12"
     },
     Author           = "Astralities",
@@ -1018,7 +1018,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "1d296199-84f1-4953-a385-712646c1e925",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "762d103c-4e05-4887-a2dc-264eaa554f02",
       [3] = "3493a508-1e76-474c-ae1b-48d875d13bf2",
       [5] = "72b29560-24c6-43b3-bac1-d120b3ca05e5"
@@ -1034,7 +1034,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "45ab491c-429c-4496-8866-cb9ca0d64191",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a719ffc3-fdb2-4e4d-bcef-499c11cd641d"
     },
     Author           = "Astralities",
@@ -1048,7 +1048,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "8f150644-d2fe-46f2-8ce4-6267898a7ba3",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b50c9433-037c-418d-a173-13781a93cab2"
     },
     Author           = "Astralities",
@@ -1062,7 +1062,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "8f150644-d2fe-46f2-8ce4-6267898a7ba3",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c1abf705-91b3-4ad9-a1db-7083f91011b1"
     },
     Author           = "Astralities",
@@ -1076,7 +1076,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "f683feec-f996-4a96-922d-111123eabd77",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c1abf705-91b3-4ad9-a1db-7083f91011b1"
     },
     Author           = "Astralities",
@@ -1093,7 +1093,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "45beddf1-caea-43b3-a359-9651dcd2dc84",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "dc9e985a-6b20-4066-ab3d-eed16191122b",
       [3] = "74f325d2-df20-4153-9eee-e4fc20db8ac0",
       [5] = "b447231c-1cd1-40f6-9e06-907816a5c1d0"
@@ -1109,7 +1109,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "ded2a913-f7cd-49ea-8439-158186a16153",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3140a061-8e1f-4c9e-bca2-1c0ed5a3ae65"
     },
     Author           = "Astralities",
@@ -1126,7 +1126,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "a43498f5-d72f-4a05-b721-1feea9acb3ad",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "4a634f24-bdcb-4559-b8be-7847133ad1c3",
       [3] = "334e0ddd-33cb-468f-a232-40cfe9ad23da",
       [5] = "db485b48-fc71-4de4-a62d-47675659678b"
@@ -1141,7 +1141,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "cda01bce-b09b-459a-bdb0-b162de09e54d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c91bb3ce-73d0-4330-80e1-562880a53472",
       [3] = "785f63d3-8330-4c30-adb5-7e6cfd55b786",
       [5] = "19c9dcb9-7050-464a-aaf7-11b427ab974d"
@@ -1157,7 +1157,7 @@ Data.Libs.RaceLibrary = {
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/10230" },
     modGuid          = "66b20233-cf0a-44bb-9bcf-32c0e0b09c19",
     progressionTable = "1037326e-43ed-4840-9f37-10f1efb3779a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3feba964-0ae4-4ae5-b2a1-e515f0973efe",
       [3] = "b20cf01c-0da1-4157-b644-83e1f8c05459",
       [5] = "2efb63f4-5b05-4abc-8ace-d46d14b90e65"
@@ -1220,7 +1220,7 @@ Data.Libs.RaceLibrary = {
     },
     originPresetUUID  = { "10721afe-d6b6-46f6-975c-828d8de713d3" },
     progressionTable  = "829a8a20-3d8f-4b69-b9bc-97d1e99f2f81",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "459fe764-6f12-4533-9b84-a69d16a8832e",
       [3] = "cef8ad61-c0af-43af-ba28-8617679d192e",
       [10] = "d55baec2-5e5d-42e7-a172-b65654aa1ce2"
@@ -1235,7 +1235,7 @@ Data.Libs.RaceLibrary = {
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "aa7fc5d2-3ab6-4354-8c19-adc7e404a0fa",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "df422d42-8b37-4e1a-89e2-5082ab338bc7",
       [3] = "4458e1d9-a1ba-47a3-8c60-16ead44b0a5d"
     },
@@ -1251,7 +1251,7 @@ Data.Libs.RaceLibrary = {
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "d76015d1-0340-45a9-9794-6a1b5f33bbd8",
 
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "861d5758-b5f1-4ed0-8f69-a2f2fd1de210",
       [3]  = "3283dc9a-4920-45e0-87f7-47a2bd18577e",
       [10] = "d84ba8dd-3e16-490c-98da-8a3f6d40b961"
@@ -1268,7 +1268,7 @@ Data.Libs.RaceLibrary = {
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "33223fd6-6eeb-4581-8368-3edef0225e95",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "63e0259e-4721-4f7e-bb75-c5d26a55dc74",
       [3] = "015ca540-22c7-4293-bf03-cedba20b1ee4"
     },
@@ -1284,7 +1284,7 @@ Data.Libs.RaceLibrary = {
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "c05da736-595e-45f4-8ce2-6b6bb549947a",
 
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "f5f61427-4d35-4666-b107-929dc26c7eea",
       [3]  = "9c21b2aa-3e05-4173-8665-e71a42bc9d96",
       [10] = "3a0c8b37-730f-462a-abbc-2d8402d90d52"
@@ -1301,7 +1301,7 @@ Data.Libs.RaceLibrary = {
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "5ff931a1-6120-4bd6-ba72-cb0864cbad04",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "2d88948b-45ec-42ce-8dc9-755b6987a8f6",
       [3] = "fa24028e-f59f-43a5-803f-ae44d19e21b5"
     },
@@ -1317,7 +1317,7 @@ Data.Libs.RaceLibrary = {
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "c7e5e9d7-70f3-45a9-b97c-5c302244a2da",
 
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "d6dac133-960f-4a6d-8586-292ca94c1b94",
       [3]  = "7d8e17db-fcd7-429e-93ca-e19a0091dbc5",
       [10] = "f5c4aaa4-e6cd-4bb1-aff7-127d0f3fe956"
@@ -1334,7 +1334,7 @@ Data.Libs.RaceLibrary = {
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "9fb769b4-b7a1-43d2-bc9b-95bea9d58258",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "adab8d9e-904b-436e-ba9b-9657dd5216c6",
       [3] = "ca305d48-f13d-4698-a9bb-b4270d2068c5"
     },
@@ -1350,7 +1350,7 @@ Data.Libs.RaceLibrary = {
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "8ca6a959-4967-4b88-9998-5009aa86d105",
 
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "d3eb8206-c769-449e-afca-8aed805ca903",
       [3]  = "96308678-915b-45c7-88c9-0276f82bc92f",
       [10] = "68979a36-1341-43ec-bebe-62dc3900d1c4"
@@ -1367,7 +1367,7 @@ Data.Libs.RaceLibrary = {
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
     progressionTable  = "54d12c65-ae54-4acf-9e38-66acb975da16",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "70ed9582-33c5-44c1-8710-2fbf8281543d",
       [3] = "c78f3980-bd70-4099-a977-424ed68502ae"
     },
@@ -1394,7 +1394,7 @@ Data.Libs.RaceLibrary = {
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionTable  = "5ab019ab-45e4-484f-bcc9-26e5fa2d7df5",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "06e918ad-be2c-48b6-a098-0288539de744",
     },
     raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298",
@@ -1408,7 +1408,7 @@ Data.Libs.RaceLibrary = {
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionTable  = "0bbf96f6-713d-430c-885c-9b26b6e1bcf1",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "4c2c61ae-5904-4576-a8c5-efecce67ab82"
     },
     Author          = "DarthRen",
@@ -1422,7 +1422,7 @@ Data.Libs.RaceLibrary = {
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionTable  = "6e2215dd-4806-4fe2-9024-33728293e0b5",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "56d62681-9769-4ad7-9bbf-4f72db44f070"
     },
     Author          = "DarthRen",
@@ -1436,7 +1436,7 @@ Data.Libs.RaceLibrary = {
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionTable  = "61fc67e9-5eae-4a32-8413-05c1e327e6ba",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1b07140b-98c1-42e8-b4ec-072622862dc2"
     },
     Author          = "DarthRen",
@@ -1453,7 +1453,7 @@ Data.Libs.RaceLibrary = {
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1305" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "2f7edf7e-0a6b-4018-9715-1cb8aa238e4a"
     },
     Author          = "NellsRelo",
@@ -1474,7 +1474,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11454" },
     modGuid         = "f65633b8-1af5-476e-87c8-3a9d64992ada",
     progressionTable  = "8a914d2d-62e6-4af9-9ecc-8caff547c464",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "119e981f-bf64-447a-af08-50a471320087",
       [1] = "318b5b0a-0d83-484d-87e7-8a9442f15cc9"
     },
@@ -1496,7 +1496,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/11284" },
     modGuid         = "23dae00e-c5b6-41ac-9464-55117f0bb95d",
     progressionTable  = "3a98253e-7940-456f-884d-f86c33e33537",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8d901d19-7e5d-4491-a195-1e8a88cddd77"
     },
     Author          = "tepkunset",
@@ -1517,7 +1517,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2476" },
     modGuid         = "c36d595f-70d1-44f1-8ca6-4ad14186f489",
     progressionTable  = "8c9382d2-b198-402b-98fb-beb8274c755f",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "96ad7abb-8a86-4939-913d-71f84191f7d7",
       [3] = "008a0785-cdd0-4bc5-9305-0cc8939c7c60",
       [5] = "b6a1756e-8ada-42d7-94ab-2cfb7ac1f93e",
@@ -1543,7 +1543,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5127" },
     modGuid           = "673c5b7b-a274-4916-ad89-4e3c591e1187",
     progressionTable  = "2a6c5f35-1019-49de-9b6f-bccc9311078a",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7b4d6e73-c54f-41ed-bd69-c25be95e9717",
       [3] = "43d8f11c-e269-4f3c-a2ad-fa6492528958",
       [5] = "6825e6ca-51cb-431c-8fb6-095061959c07",
@@ -1563,7 +1563,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
     modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
     progressionTable  = "a15bb8f0-1edf-4724-99db-06093627dba1",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "da629716-fd76-477d-9934-0473904fe04b",           -- old "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20"
       [3] = "e69323c9-2b75-4ca7-9d6e-fb8e1f872bb0"
     },
@@ -1577,7 +1577,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
     modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
     progressionTable  = "d82020ea-455a-4330-889b-a1f953dd53be",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "9bb01d19-30fb-4478-bf55-d98dcacb228b"
     },
     Author            = "HornbirdDotMod",
@@ -1591,7 +1591,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8113" },
     modGuid           = "c1e87b16-c845-4254-b831-bb22b13016fb", -- old "315ce1a1-0f24-4777-90d9-06b01a93a716",
     progressionTable  = "3c60049b-f15d-47a9-adfc-3533259dbf2c",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "837d45f1-17fb-407b-8c3c-ed83427036cf"
     },
     Author            = "HornbirdDotMod",
@@ -1614,7 +1614,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       "1bae58f5-2e9f-42ef-b84c-db9d5b056248"
     },
     progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ada1a74c-89dd-45f9-95dd-f88bf59e3535",
       [2] = "2b3737a3-5667-4b3b-b60a-523fda735058",
       [3] = "47b803b3-4d2d-4709-92cd-e30db898a941"
@@ -1633,7 +1633,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "40e1b9aa-045c-4b2b-842b-e6e5b676eb31",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e4192766-499e-471b-a2a5-66c163daca84"
     },
     Author            = "Saveiro",
@@ -1646,7 +1646,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "473e8c541-2387-4f7b-92a8-a34bcc800adc",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fb1fde77-b497-4516-a40e-8427677e59ca",
       [3] = "a013bc79-1563-4419-9d94-e9af261afb99"
     },
@@ -1661,7 +1661,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "a09e6a27-473c-41d2-a2a9-dfdd0db141d3",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "cffa916e-3999-4d6a-b15d-37c37fceca64"
     },
     Author            = "Saveiro",
@@ -1675,7 +1675,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "5f194c5b-e22b-403e-945b-8212f0d1760d",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fd0889a1-2b2f-4d88-a49a-972c4c07da87",
       [3] = "0427b7eb-3f01-4d1e-b52d-6598378f631d",
       [5] = "74ee1c40-5042-40bf-b37a-5fc7a79e3ce2"
@@ -1691,7 +1691,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "8ea665e2-efd9-471c-9fe4-4fb9a0bc4796",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "042348d8-dcf2-4948-80b9-a85bc906d45d",
       [3] = "df46332f-6068-42a4-82a3-ea5b2dc12cd8"
     },
@@ -1706,7 +1706,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4557" },
     modGuid           = "02defebb-63e4-454e-9b74-1a024398a099",
     progressionTable  = "64bba33e-9a97-4f18-9f29-717302fe2168",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "65262b80-81f7-48cb-b67d-7cb0024d13d9",
       [3] = "cd8a8e67-249c-49d1-b082-c88a3923a1c5",
       [5] = "9cc3a788-7d4c-475b-be36-56d27d50dc0e"
@@ -1725,7 +1725,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
     modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
     progressionTable  = "7fd5b820-63d8-4c31-ab3e-b8a05b92f220",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e808d2a5-a9eb-403f-bab9-90a5114a699c"
     },
     Author            = "tekunset",
@@ -1737,8 +1737,20 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name              = "Genasi - Fire",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
     modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    presetUUID      = { -- charactersPresetUUID
+      "66bb30db-c404-48ff-8abe-ff5d367a52eb",
+      "9dc9f99c-d5b9-4044-9386-c1552ac7d556",
+      "b7770432-ca8f-4d45-ba53-f75fa3064bca",
+      "56133b54-3250-4956-b789-e38b45bc3724"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "fdb6ca82-e028-48b9-90b9-cda661d172a3",
+      "c7c7db61-bd85-4ebf-a328-67bd013e8b3a",
+      "cdbaa188-0a5a-4589-9136-e30c7ccda715",
+      "69accbc1-6561-4fa0-a00e-0f5f03f3eab9"
+    },
     progressionTable  = "81b3ae87-b67f-41d2-a208-c47ffa778b3e",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ce1b1155-fc91-4dde-9ebb-ec06c103b944",
       [2] = "3bd8c520-6e26-4366-a175-926703c108db",
       [3] = "6bd1d862-1d09-46bf-8dbc-8e3b6260d6e0",
@@ -1755,8 +1767,20 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name              = "Genasi - Air",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
     modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    presetUUID      = { -- charactersPresetUUID
+      "4824fdf0-e7ce-490f-9e09-c47d3eafb5e9",
+      "eca83c9a-48c0-4fe9-9e86-e8061188853a",
+      "6db48415-f1f6-451e-987e-38fcdc71651f",
+      "16148669-fa1f-4ea1-9b12-41c785e3c6fc"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "9e593e05-fcd7-4a30-b2ad-8e0ce6b4d7cf",
+      "06f3e6bf-0292-4ca5-83c8-9cb532b2ccb3",
+      "9e627f8a-7893-4d76-881a-70b4be5cde63",
+      "8d30c3dd-bfc2-4985-a559-432a62aa8b46"
+    },
     progressionTable  = "d701b6c6-d54e-4142-a68f-1ba58432d17f",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1b933d13-bb4b-4806-97ed-92ef7dc75738",
       [2] = "dab820a0-d59c-4c13-a0b1-6b5391095854",
       [3] = "83f945c7-28b2-4881-bd8a-247fcad7cfce",
@@ -1773,8 +1797,20 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name              = "Genasi - Earth",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
     modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    presetUUID      = { -- charactersPresetUUID
+      "373d51b5-df6d-4626-aafa-ca372e7878d2",
+      "4d377808-add0-4bc1-a2da-106865b7d44d",
+      "f14a4b7e-9d22-4681-9984-c3f61888c7ea",
+      "459a7613-7c9e-4177-bc97-90bb4676cf8b"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "f5d3a166-e1fe-48ef-8013-157a0c8a72cc",
+      "abfc5656-8c3b-4116-8ce4-1a29f2d9a4ab",
+      "38fedb5a-7324-46ba-b221-efd656c482ea",
+      "a86e4677-d7e8-47ad-b243-49da41e538aa"
+    },
     progressionTable  = "8abe538b-08d5-4a5d-b7ba-5014e297233e",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ffcdbf2d-9500-46a0-9827-a8898e7e0553",
       [2] = "97410e2d-43b9-436a-866a-ef47c22fed3c",
       [3] = "97d705e1-4a11-4cef-862f-bf7893c3c675",
@@ -1791,8 +1827,20 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name              = "Genasi - Water",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/4741" },
     modGuid           = "97954f72-711b-4938-a5ae-6a477b2ed574",
+    presetUUID      = { -- charactersPresetUUID
+      "ec98e63d-ac8d-4352-a5e6-aaab37fb6b62",
+      "3f2890dd-9d9c-439d-bfc5-6fa0e49dbf05",
+      "ce3fbe9a-6819-4f9c-a120-2977ede26dfa",
+      "31203c83-a707-4cd2-a664-f7aecd61569b"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "668df4b0-8395-4629-8357-5b31b6bd8192",
+      "42c36761-0880-4c43-8441-db4eca97ea22",
+      "c0f81faf-6562-4ede-8b72-7232c4438a55",
+      "d57911a1-be7d-4247-b820-db42299fbda1"
+    },
     progressionTable  = "08b69cc8-cd34-4ff5-ab55-f6ba9adb5bd2",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ca4b22d5-24b2-43f2-a550-b9d9e7d4d7bc",
       [2] = "75d50042-b97e-4622-a236-23dee51046dc",
       [3] = "58aec2c1-3e2e-47a0-baf8-55ed70df2d2d",
@@ -1845,7 +1893,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       "6160803e-9b76-414c-b864-2803d4e8edcb"
     },
     progressionTable  = "0c8e8bd7-d950-4bd0-849a-a2cca7d8d6ab",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "72a06fbf-e1b3-4321-b975-a4a26d9b4b71"
     },
     Author          = "Val aka Jo",
@@ -1858,7 +1906,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
     progressionTable  = "1320609c-f3bb-4d91-a57e-0753968ebd92",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3e431e0f-3962-4340-9fbc-a6656fca0e6c",
       [2] = "eeba6761-a850-4028-b2bf-be6b406a6105",
       [3] = "bf42e530-2bd3-4bd8-8b54-fc3acadf29f5",
@@ -1882,7 +1930,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
     progressionTable  = "ec9ae40a-101c-431c-be91-1c771d3493af",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "846ea674-ff5b-47dc-9160-40660a96a464",
       [4] = "83660704-4a07-416e-b874-b7cc8a10fa2d",
       [5] = "afeeb5fe-b93e-4650-b7e7-93051bfc95ad",
@@ -1900,7 +1948,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
     progressionTable  = "9f2f35ab-a5fb-4164-ab7b-500b6309d33b",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "202005d0-658d-4ac9-bf57-12c31218a626",
       [5] = "e67ac821-bffd-4465-bd7f-bc0fad3803e3"
     },
@@ -1938,7 +1986,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       "24d274d9-0049-4fd9-bc6a-c7832ea6b7fb"
     },
     progressionTable  = "86149467-d827-42f3-8b0c-87e267343225",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "516ab354-c8db-466b-891a-677d8f7c3095",
       [3]  = "debf0057-05e5-478c-9870-4dde6fecf976",
       [5]  = "12754c3c-eea8-4c99-a7a3-c01782c00c69",
@@ -1960,7 +2008,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
     progressionTable  = "810f7e5a-717c-4caa-8df9-92cc659b4a81",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "732cd9b6-9374-425a-9b34-517a0337fcb0",
       [5]  = "1b35c12c-9ccd-4cfe-8615-4d3b4b1f4494",
       [9]  = "8ea52df9-3a4b-45a4-80e3-a048919afdb2"
@@ -1979,7 +2027,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
     progressionTable  = "4dcdfcfb-0617-4434-ba2d-e8f392eea881",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "ee4bfcdd-6d8b-4c79-a044-f9bed7136e7d",
       [5]  = "a8e454e0-a8ad-49b5-8cdd-f17f045e02bc",
       [9]  = "9d70bc30-ae21-49d7-b6a5-681e48d61bd5"
@@ -1998,7 +2046,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
     progressionTable  = "89ae4977-54ea-425c-93a2-f419bea9a2a6",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "bf236089-1254-4285-9605-9c922e2ee17a",
       [5]  = "7dd4f503-6b11-4de3-ae3c-e19ef3e427b9",
       [9]  = "0689cfe8-dfaf-4aba-9208-79771e3d2a1d"
@@ -2017,7 +2065,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://github.com/GentlemanBabbo/Hobgoblin/tree/main", "https://www.nexusmods.com/baldursgate3/mods/11530" },
     modGuid         = "42152a0b-9b3c-4d63-8114-3ceba848f3e2",
     progressionTable  = "f88032d3-7ae7-4724-bab6-9e992776ecf7",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "98da0193-6729-4364-bb5c-b13475edb3c7",
       [5]  = "b065e4b1-2f62-4846-b120-d6469061afcd",
       [9]  = "9bbe7dc7-beb5-4992-b39f-77e4ef584553"
@@ -2042,7 +2090,7 @@ The Avariel and Grugach, as far as I know, were not released.",
       "4d83369b-e769-4da9-b940-c8360bfe1c08"
     },
     progressionTable  = "5f95545e-3147-4f81-b42e-a31b9cd29b85",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "d19f42b3-1c1e-46cd-83e4-fd964426616f"
     },
     Author            = "CovenElf",
@@ -2059,7 +2107,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/428" },
     modGuid         = "68315895-8bd4-4d53-aefc-1b853ffc1461",
     progressionTable  = "7e91ca72-fcaf-4cd7-b0a4-7ccf53148604",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "eb3ac23d-3f7f-44d5-ad6a-bb99232d63bd"
     },
     Author          = "labotor",
@@ -2076,7 +2124,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4750" },
     modGuid         = "7a4aaaca-88a7-41c4-98d6-de2df39496fe",
     progressionTable  = "9add9a21-e933-4324-a438-6122a15557b4",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "58971151-461d-4556-8db7-5894af1dceb2",
       [3] = "2be94888-8406-45fa-96a0-139a2c71c1e5",
       [5] = "70f2db13-e332-47f2-a464-a7aafbe947b3",
@@ -2096,7 +2144,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b5f04836-e2ef-4eb6-93d5-4aad7f3b1c20",
     },
     Author          = "Sassandra Baerne",
@@ -2109,7 +2157,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionTable  = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4" --Warning, conflit avec playable Undead (legacy) and Mori's Astral Elves
     },
     Author          = "Sassandra Baerne",
@@ -2124,7 +2172,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionTable  = "72cd2e8c-e3d1-45a3-aac6-ed9f31bdef9e",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ceae071e-2ff2-4043-a2b8-a7fc1ab16065"
     },
     Author          = "Sassandra Baerne",
@@ -2138,7 +2186,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionTable  = "22c50f6b-00a8-4104-bd7f-1134ec474e66",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "65930b4d-75ca-4968-93b0-dde6662d5882"
     },
     Author          = "Sassandra Baerne",
@@ -2152,7 +2200,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4761" },
     modGuid         = "5114d845-2c0f-441c-a01b-91a1847a48bc",
     progressionTable  = "b2fbeed8-2cd4-4dc1-9534-85b24995fe4e",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ebd122f3-9223-4cc0-ac98-3810995dde9b"
     },
     Author          = "Sassandra Baerne",
@@ -2169,7 +2217,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3460" },
     modGuid         = "ae6eacb7-f346-418f-89a9-f0e4c697baab",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8e8928df-70b1-43c0-bc86-40b32c455bee"
     },
     Author          = "Kaz",
@@ -2183,7 +2231,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3460" },
     modGuid         = "d6d1028e-68fb-4e94-83d8-e8951f55b86a",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8e8928df-70b1-43c0-bc86-40b32c455bee"
     },
     Author          = "Kaz",
@@ -2200,7 +2248,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
     progressionTable  = "0978ac75-f50d-4606-b57d-37291245022d",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c2c089df-c622-4074-ab18-a4bde879a055"
     },
     Author          = "tepkunset",
@@ -2213,7 +2261,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
     progressionTable  = "f41055e6-2425-4cf9-b25f-6b227c486ada",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "83132733-dfd4-45d6-b117-8d33b5550c8e",
       [2] = "aac1f629-83bc-4fc2-8d2c-d866a6140832",
       [3] = "4234da77-3404-42e4-b621-ec6451ec229b"
@@ -2229,7 +2277,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
     progressionTable  = "346296a3-2c07-4329-9a49-55edacb988a8",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "734b5fab-6654-49be-971a-e0d0ddede50d",
       [2] = "966afb46-efde-4dce-b6f6-25dfc3b1f160",
       [3] = "0872ab9f-983e-410f-900b-131b07715a64"
@@ -2245,7 +2293,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
     progressionTable  = "7b03ae3c-a63c-44d2-b253-cc7dfb0107a2",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "39d96060-532d-4814-9098-a6c0524d3b73",
       [2] = "38811d17-ddac-4045-a3f9-3e1ce46d5b69",
       [3] = "ae50030d-0676-49b2-bddc-5c743c87316f"
@@ -2261,7 +2309,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7037" },
     modGuid         = "abc09812-ed4d-43ff-9a93-ee46487e81d9",
     progressionTable  = "442c017e-8cd3-48a5-af81-87c0a9362436",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "09e3d698-1ef6-46ef-b768-f19b94d46127",
       [2] = "a3f1a592-2ea1-4f51-bf43-f5b901155068",
       [3] = "eed76014-26ab-4616-a723-406c36c676fd"
@@ -2280,7 +2328,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3506" },
     modGuid         = "c20bb0be-8f18-419f-98f4-e318ef738392",
     progressionTable  = "69c02d23-ef59-453b-9f73-00db111b239b",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3c96263f-ea29-4c3e-8790-56c094a18229",
       [3] = "47c6a97b-ce77-4c0c-b0e9-a5be61440761",
       [5] = "703ad95d-22c9-4d64-9a70-67c384c305cc",
@@ -2302,7 +2350,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/7757" },
     modGuid           = "ecfb9910-1b38-4bbc-a873-4f2812fff276",
     progressionTable  = "6964d589-a2e3-484f-8a58-35a6042713a5",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7eede716-00f0-43aa-ad18-f001f8c7c283"
     },
     Author            = "tepkunset",
@@ -2319,7 +2367,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9205" },
     modGuid         = "7c7407ec-e2a8-4deb-a6dc-6cbc7bea2894",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3d7c0866-0357-43e1-ace0-b9c7f8bd90be"
     },
     Author          = "SydMeier",
@@ -2336,7 +2384,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9210" },
     modGuid         = "1a3a0820-48e3-45b4-822a-7ee31e5d25c5",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "75c28431-cd41-4256-af2e-0cadd4f8c2f8"
     },
     Author          = "SydMeier",
@@ -2353,7 +2401,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9547" },
     modGuid         = "0b1613ac-1610-4ac4-ba8b-effe33317fd1",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a0ae2974-b54a-4e17-ba69-cde2f7448338"
     },
     Author          = "SydMeier",
@@ -2370,7 +2418,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9546" },
     modGuid         = "f13d31f7-c897-494c-a988-bca2a71ccddc",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "d45a8d46-8a68-4065-98da-9cc84bb2e3b1"
     },
     Author          = "SydMeier",
@@ -2387,7 +2435,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8617" },
     modGuid         = "f8f5f704-d463-4616-a321-9460060538ff",
     progressionTable  = "3de86dee-fab0-4515-a321-27aed1fc98df",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "0194f214-ffce-4e74-94b6-09e76a270e49",
       [3] = "0f1c239c-e759-4dfc-8d65-f0f6698d2b4c"
     },
@@ -2405,7 +2453,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9211" },
     modGuid         = "9e7836a9-b1a9-4d4e-9089-563c43f4fb1e",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e8ccff14-10b6-43f7-bbfa-22ab2104f4fc"
     },
     Author          = "SydMeier",
@@ -2422,7 +2470,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "447e6245-c1c4-4f48-ac91-768711bd3e22",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "d2bf964a-24dc-4ed9-bac4-11f669ff0001",
       [3] = "d2bf964a-24dc-4ed9-bac4-11f669ff0003",
       [9] = "d2bf964a-24dc-4ed9-bac4-11f669ff0009",
@@ -2439,7 +2487,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87735",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe1001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe1002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe1003"
@@ -2455,7 +2503,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87702",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe2001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe2002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe2003"
@@ -2471,7 +2519,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87703",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe3001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe3002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe3003"
@@ -2487,7 +2535,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87704",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe4001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe4002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe4003"
@@ -2503,7 +2551,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87705",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe5001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe5002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe5003"
@@ -2519,7 +2567,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/9564" },
     modGuid         = "66eab192-a288-48f0-a814-4657f0599163",
     progressionTable  = "45fa65a0-ac3b-4aa8-89ad-3424f5b87706",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fbe8014a-3de9-47e4-88ef-471e44fe6001",
       [3] = "fbe8014a-3de9-47e4-88ef-471e44fe6002",
       [5] = "fbe8014a-3de9-47e4-88ef-471e44fe6003"
@@ -2538,7 +2586,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7782" },
     modGuid         = "8f91d268-f9f8-4912-a1f5-96db5dddc689",
     progressionTable  = "6e7f3aba-9980-4a10-baca-0939f2f8d314",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "37b93218-63d2-4b75-a70f-b68aed3c8b20",
       [3] = "8225b4b1-03c9-4bc9-a3ee-ac17200887dc",
       [5] = "b8187f97-c195-46a2-9b93-b8b83cb78155",
@@ -2558,8 +2606,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Catbugs",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8919" },
     modGuid         = "c8d7fd4d-a572-439e-8332-c7d61bb52644",
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "fbd9af70-1ac0-4536-af92-7ddfc129726c",
+      "f3ff0a86-cce3-48fa-95d0-332bc23de62f"
+    },
     progressionTable  = "f1c185fc-ce58-4a1d-a73f-af43c7470257",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e4bf3b25-e360-4528-b2b2-43db3d1d8dec",
       [3] = "97745435-1096-4de3-81e8-6c1654e8e523"
     },
@@ -2577,7 +2629,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
     modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
     progressionTable  = "566289a9-7782-4877-b261-339654bb94e9",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "886cafb2-d100-4e31-90f6-a973453ecd4e",
       [4] = "f597bdd3-d42b-4b48-983b-6cc236bfb3b2",
       [8] = "f901aba7-9b18-4806-a312-02b8ba572926"
@@ -2592,7 +2644,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
     modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
     progressionTable  = "f184048d-91c1-4601-b319-f593e7194a96",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "75a2eacb-09ec-4676-9d9a-7457ab27d7dc",
       [3] = "68a1c26e-9cf0-4628-9ae3-48ceaff63a9f",
       [4] = "3075947f-0ac9-4ff4-ba48-85cbcf02a3ce",
@@ -2612,7 +2664,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
     modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
     progressionTable  = "3e3a7a8d-9196-4b4e-a7bd-f72a31dd5d0e",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1dc569b3-cd69-451a-ae14-386e9ac5cc0c",
       [3] = "397b50d1-c606-4a0c-8689-69b2316c1840",
       [4] = "63fc1de0-5456-4b4a-978c-6dd93bb47e51",
@@ -2632,7 +2684,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
     modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
     progressionTable  = "c3f4d271-e8e1-4ab2-8303-e66c72f9fbd5",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "0033e708-9ed4-470c-9109-b034193cac3d",
       [3] = "7decb07e-e2c9-4dcb-a601-377ad4be2664",
       [4] = "832e555d-aabd-4bac-b96e-6fab37915bef",
@@ -2652,7 +2704,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/9768" },
     modGuid           = "82a9caeb-6a9c-4212-9320-ef47d8551bc4",
     progressionTable  = "9afdc5aa-7c10-4e5e-abdb-a016abd38a25",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a5bf99b0-83ad-42b3-80e0-7f9914004115",
       [3] = "76fef98a-cb73-4be3-a1d2-94c62feb660b",
       [4] = "2a4ebff5-b079-4550-9a7c-d503748ae4e5",
@@ -2675,7 +2727,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
     progressionTable  = "78cb9632-c52c-47d6-8588-4779228fc892",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c5671549-0282-4b60-a68d-47b676e9e2b9",
       [3] = "1832cbeb-f13f-4888-bee9-c1f8f97a83c7",
       [5] = "2251786f-df29-4b18-b35b-f8f71165b612",
@@ -2692,7 +2744,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
     progressionTable  = "9ac5bb2d-642b-4560-b1c8-064f79f93240",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "40fdbfe4-2f41-4609-bb4c-ddb7bc49b5c4"
     },
     Author          = "EmeraldTechno",
@@ -2706,7 +2758,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
     progressionTable  = "8721afc3-dca2-4353-b5d5-7a74334e443c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "64615482-5cd6-4bac-beba-bdd5dff19b89"
     },
     Author          = "EmeraldTechno",
@@ -2720,7 +2772,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
     progressionTable  = "1f6cc94e-47d6-44b3-a557-79b69a66a811",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "9693b4ad-6ac7-401c-a6ab-5503785edfac"
     },
     Author          = "EmeraldTechno",
@@ -2734,7 +2786,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/6443" },
     modGuid         = "e61be041-6c93-4576-a4b1-ad183e726f02",
     progressionTable  = "0fe1484d-958b-4c13-a9a3-d46fe817d892",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "40ef0562-ac1b-4c5c-9831-5e3c4ce04c20"
     },
     Author          = "EmeraldTechno",
@@ -2750,8 +2802,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Whispers of the Fey - Changelings", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1)
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3110" },
     modGuid         = "eaf83c50-1f22-4ce8-a825-25f07caf9faa",
+    presetUUID        = { -- charactersPresetUUID
+      "8dfc7afc-dd67-4073-b19a-296d0e68e7a6",
+      "6fb13d83-4d73-4d23-a885-fdcb6b7e40f7"
+    },
     progressionTable  = "2a6b9ce0-c21a-421f-8378-6383c8c01b87",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fa7bf84a-a1d6-46b2-a779-739424d20b5b",
       [2] = "22236412-e04b-4846-84e7-8d6a4f9af676",
       [7] = "3a0183f4-c5a3-4a54-8229-67f4ed9f30f9",
@@ -2772,7 +2828,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
     progressionTable  = "95653fbb-2fc7-4c6b-8027-25a5d890a376",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "fa9d4980-1b18-43e6-974b-4e3a2abae183"
     },
     Author          = "Trips ♥",
@@ -2784,8 +2840,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Goblins Greenskin",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
+    presetUUID        = { -- charactersPresetUUID
+      "4ac81b3c-1cda-4e0b-bffc-dca694eea245",
+      "531a60e8-811c-4ac3-ae39-a55dc76c5d03"
+    },
     progressionTable  = "06faa116-05b3-45a0-b61e-25fcaf99cdc2",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "5a317953-08ea-4424-ad93-05a0a66b4748"
     },
     Author          = "Trips ♥",
@@ -2798,8 +2858,12 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Goblins Dankwood",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3254" },
     modGuid         = "ca81f091-bf1b-4bb6-90dd-1c4ef83fd798",
+    presetUUID        = { -- charactersPresetUUID
+      "9becb298-dfbc-4e9a-a797-7bb58e218495",
+      "960ebee9-bd5a-4307-98ce-dc19d12f86ba"
+    },
     progressionTable  = "46aa63c9-79a5-4f1c-aa2b-74fff0243226",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "453c15bb-0ead-4766-b747-961066c84ee1"
     },
     Author          = "Trips ♥",
@@ -2816,7 +2880,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7922" },
     modGuid         = "b2d490bc-6e10-4bc2-89e0-69c8f68cd453",
     progressionTable  = "70b0cfaa-cac0-4cb6-938c-976ab96d73cd",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "139dba60-4895-496a-ab48-bbd45719f317"
     },
     Author          = "tepkunset and neonbutchery",
@@ -2833,7 +2897,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
     modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
     progressionTable  = "88846a0c-429e-406e-9c51-da2b518fee36",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "2e01fc62-8a91-4bb6-976e-e4689136f78d"
     },
     Author          = "BlueHuman123",
@@ -2847,7 +2911,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
     modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
     progressionTable  = "c832688d-0cfb-4227-93a2-31da4175d4a7",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "15711f95-ee11-43be-b1bb-d09b8a100ce7"
     },
     Author          = "BlueHuman123",
@@ -2861,7 +2925,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
     modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
     progressionTable  = "2f1dc338-1b67-4f84-9898-b83319680bd2",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7b47d8cd-8b33-4047-af28-09e399637ace"
     },
     Author          = "BlueHuman123",
@@ -2875,7 +2939,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5665" },
     modGuid         = "6c821950-4e31-4702-bc21-a0b1bed72ba1",
     progressionTable  = "1a234382-88d5-4fa7-b3bc-e82973d2c5bb",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b5d74374-e97f-438f-883a-9fc47b7c2a18"
     },
     Author          = "BlueHuman123",
@@ -2892,7 +2956,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://github.com/GentlemanBabbo/Automaton/blob/main/" },
     modGuid         = "a56867c9-8260-4685-b8a5-6cc94be41152",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3615e5db-c3ac-4b3b-bd01-f618d1cd95b5"
     },
     Author          = "GentlemanBabbo",
@@ -2909,7 +2973,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "e209391d-b257-47c5-9d2e-1435811fe84c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "602818c4-ec05-4af9-9cb7-dedf06ec04a8",
       [2] = "b59bef6c-1016-46c5-b655-15333316c085",
       [3] = "a7420b99-d1d9-4df1-9f6b-9f1b5d713c7e"
@@ -2924,7 +2988,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "c2161257-756d-489c-99a2-734bd54c31ec",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7ef3086e-0caa-4c31-ae61-03ff3f153c03",
       [5] = "4e5c4dad-f47d-47ee-991a-69caba804cf5"
     },
@@ -2939,7 +3003,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "2205b2a3-0d48-47eb-8c79-175168de385c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ef5929ca-ed90-4050-9439-a9d0e080ee92",
       [5] = "72d014ee-99bd-4941-9b99-4af0ee64b6d4"
     },
@@ -2954,7 +3018,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "3bf603b1-e071-483d-b0a7-a3783dda186c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "359d1af0-33b8-4949-b865-e7fb99e2590c",
       [5] = "5abe3d86-65ee-44ce-9bed-bb13968f143b"
     },
@@ -2969,7 +3033,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "ab10eb6b-4e3d-4d41-8f29-112a46737585",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "afbb84c9-612b-4300-a521-22abf2f65f06",
       [5] = "71d32314-aea8-49c1-90b4-875e2aa0375b"
     },
@@ -2984,7 +3048,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "b878af33-5d85-41db-93b8-f8dcfeb68727",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c459c4d9-f97c-48db-b09d-c38482d03092",
       [5] = "53c4337e-f9e5-4278-8d28-e54ab6491b10"
     },
@@ -2999,7 +3063,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "5222a1f7-5a4f-44fb-b5b2-4848f4091b82",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ba346fb4-ddcf-45d8-9d61-1818763b710c",
       [5] = "0ef917e8-6384-42e3-8d91-afa91b33c32c"
     },
@@ -3014,7 +3078,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "02e71e8c-671a-4488-aaf7-a375974794ca",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f568ce77-922d-47ed-9163-05c4c1eb8fa6",
       [5] = "ccf45048-d15b-4120-a554-bba07464b470"
     },
@@ -3029,7 +3093,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "111a12c8-a2fc-4a03-9e92-87ee97acef40",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "764e9049-246b-42f9-a71d-6b13272b34d7",
       [5] = "a610b67d-2bb8-48c5-9433-2c0b26733b3b"
     },
@@ -3044,7 +3108,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/10849" },
     modGuid         = "4b268977-b9ec-47fd-95e7-9b977969ba28",
     progressionTable  = "02ea1ecd-6b3c-428c-a832-f548ddd0e6fc",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f157b7c5-95fb-43dd-a32b-02b9c710d637",
       [5] = "622b0bba-06fc-4b58-9fc8-29a2bc30cc4c"
     },
@@ -3062,7 +3126,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/3680" },
     modGuid         = "11675ee8-a7be-443b-9edb-125f33d21ce1",
     progressionTable  = "09e2fb28-6d24-4b83-8fee-4ad610b1dc69",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "77b6f9ec-7d6a-44b2-b110-88bf025eb586",
       [2] = "efd08f18-2fe1-493d-abb7-645717a7d673",
       [3] = "e580329f-db10-44e1-99e5-136e1e050e6a",
@@ -3083,7 +3147,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/5943" },
     modGuid         = "d25f0ed3-efe7-4194-bdc6-671f784d7cef",
     progressionTable  = "222db3e4-1c5f-4e48-b4c6-b8a8e7b095d0",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "128ae023-fef6-4fa1-ade9-e338e60b8b56"
     },
     Author          = "Soriyumi",
@@ -3100,7 +3164,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/4949" },
     modGuid         = "315ce1a1-0f24-4777-90d9-06b01a93a716",
     progressionTable  = "8d7d65ad-ed3f-4002-acfc-70fa10d2b570",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "042e6092-1602-4338-b6f9-cc7987f3bff4"
     },
     Author          = "Sutherex",
@@ -3114,7 +3178,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/8465" },
     modGuid         = "56fe7a47-e0d6-404e-b2d5-fd6e88cae6ae",
     progressionTable  = "",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7551c355-8311-4c2f-b91b-9877ef608267"
     },
     Author          = "Syd Meier",
@@ -3132,7 +3196,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/425" },
     modGuid         = "562861e5-4434-43fc-9eb1-3d6cf3e031fd",
     progressionTable  = "80b2552d-a325-424a-9581-abcdefc2a4d0",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "526226b2-c9b2-4428-95a4-abcdefe1d533"
     },
     Author          = "dunHozzie",
@@ -3159,7 +3223,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "39668970-4021-4113-a6d8-72ea8b55d09d",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "346871de-be49-41c4-8450-d85d666cfdee"
     },
     Author            = "NellsRelo",
@@ -3172,7 +3236,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "af10483e-e385-4e08-8ac8-c183b6a13eb4",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "17a7ecec-8d95-4e24-bc95-e9253d126a92"
     },
     Author            = "NellsRelo",
@@ -3186,7 +3250,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "aae784b7-03cf-432b-a916-296a67bb7532",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "97244ddc-a158-405d-96e1-a22d0ec8543c"
     },
     Author            = "NellsRelo",
@@ -3203,7 +3267,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "322dfbbb-b37e-47cf-96e1-64cf9287452c",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "4d5fb255-1a17-4b02-b376-9f0eb06706c8"
     },
     Author            = "NellsRelo",
@@ -3220,7 +3284,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "47256a77-c595-4559-865a-81fa97e8c43e",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "5aa5e1cc-d1b7-4a62-b4fd-c048faaca766"
     },
     Author            = "NellsRelo",
@@ -3237,7 +3301,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "e4ef5b65-3a15-415d-adb4-00c7366c9d89",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "b0bb2e7f-c7fe-4cac-89a6-8bb5351230b7"
     },
     Author            = "NellsRelo",
@@ -3254,7 +3318,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "c2e01fdd-0dc8-45b4-94cf-cf127f70a63f",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "5ec70564-e26c-41d8-b8e2-2c601538c77e"
     },
     Author            = "NellsRelo",
@@ -3271,7 +3335,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "16a27721-2176-4172-9507-c71fccb0961b",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "25fbb11f-99b9-4a63-aeb2-603c399f4928"
     },
     Author            = "NellsRelo",
@@ -3288,7 +3352,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "8dfdb77c-5abf-4477-a708-f741e9677301",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "0f9d4f27-7538-4690-82f9-41cff9672355"
     },
     Author            = "NellsRelo",
@@ -3301,7 +3365,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "cee411d2-082d-47f2-ba20-4347764e57ea",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3edd63b7-4a70-4abb-87aa-995fbe85cdda"
     },
     Author            = "NellsRelo",
@@ -3315,7 +3379,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "e557e49a-15d6-4ad7-b521-4bded39c97c6",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "0466283e-8d04-4823-8d0e-c264034c922f"
     },
     Author            = "NellsRelo",
@@ -3329,7 +3393,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "bb63f695-44d9-4f10-b0f0-ca221e099ffe",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "80f5e560-ad79-4165-9aab-0c8b0c3b4082"
     },
     Author            = "NellsRelo",
@@ -3343,7 +3407,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "f9351f2c-dc19-49a6-9bd6-242a85f0ca2d",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "df7dbd47-f79e-4d8a-9ac4-d4a4e41ced82"
     },
     Author            = "NellsRelo",
@@ -3357,7 +3421,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "9d2720b5-8899-402e-9297-15b74f759461",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "25a713e0-4d5b-477e-aa56-56900f7976f9"
     },
     Author            = "NellsRelo",
@@ -3371,7 +3435,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "ef15408f-08d3-4b1a-8ae3-2ec7ae28ada3",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "ac2d7f7f-120c-4cb9-9f04-ff16c4aec266"
     },
     Author            = "NellsRelo",
@@ -3388,7 +3452,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "86041cdd-2d60-4c22-87c4-ab8e88bef027",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "1cb54ee3-21e0-483d-af57-ae89a7addc1c"
     },
     Author            = "NellsRelo",
@@ -3401,7 +3465,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "feafabc0-8cc2-415a-ba10-0c21ddaac2cc",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "2ea45a26-1355-4651-acff-80291d90fa1e"
     },
     Author            = "NellsRelo",
@@ -3415,7 +3479,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/591" },
     modGuid           = "46c59a34-b3b1-40d0-8424-6f59ded3d575",
     progressionTable  = "f7629248-b39e-4acf-9771-ff4add8c59a5",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e9f1e041-5bf0-45b8-9244-2edfe50307fb"
     },
     Author            = "NellsRelo",
@@ -3438,7 +3502,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 		modURL				    =	{"https://www.nexusmods.com/baldursgate3/mods/5895"},
     modGuid				    =	"f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionTable  = "d3b77de3-b977-46f4-bd1c-f85882b26489",
-    progressionUUID 	=	{
+    progressionUUID   = { -- list of existing progression levels
 			[1]	=	"a21579fc-b7d7-4295-bf5c-d2111be3f13a",
       [5] = "640be951-bdbf-4d7b-acf8-df8266fb70fe",
       [10] = "ec193217-1c9b-4cdb-8bee-2f51cd1dc027"
@@ -3453,7 +3517,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
     modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionTable  = "cf1674f1-af50-4878-8f0a-2497941e5034",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "7123242e-9e00-4b9e-8e4f-aa1b0477fe13",
       [3] = "d924cae6-b610-43da-82c9-8c521cae5a1b",
       [4] = "a4c8d0ae-3e06-444e-ae96-b7cea020f1a0",
@@ -3473,7 +3537,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
     modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionTable  = "ff5eac8f-6074-4b22-9d29-b438382f733d",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "cfabed72-38b8-424d-a07d-058fbd4dd1a9",
       [3] = "84f2f366-f5c5-4c66-820a-42d569519c32",
       [6] = "fe495adf-47b5-4824-b810-e5ff7d6dbea5",
@@ -3490,7 +3554,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
     modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionTable  = "1cf239c2-bc90-4135-94ac-f090ea59f89a",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "3a4465df-49a2-4278-9d16-f17ed876aede",
       [4] = "95ff9536-5c8d-4e05-a66d-34b81fd09f9d",
       [5] = "845362c3-0fcc-465f-b88f-3306270a2cd9",
@@ -3508,7 +3572,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/5895" },
     modGuid           = "f3d4e722-e576-43ce-a585-cfffcfcbcf40",
     progressionTable  = "8a473472-a21c-4795-9d53-b2b757207e98",
-    progressionUUID   = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "677de788-81da-4f2f-b0d1-75c6aa9a1c35", -- SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,1);
       [4] = "27cb1d31-57ce-46b9-91bf-e294e2a2a2e4",
       [7] = "478b3404-f0ad-4b5c-a54c-36d3e1a9a94a",
@@ -3537,7 +3601,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "5e53f556-ba7a-46fd-9dee-ba1ff456d8db",
     progressionTable = "3b047c50-aaae-4000-93f7-37bd8804f7fb",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "0b88cad4-c5d0-4cde-a661-a8ede3f7d113"
     },
     Author           = "Dungeons and Souls",
@@ -3553,7 +3617,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "e7071309-78a8-4fad-949b-d4dd326dd39b",
     progressionTable = "3f2a743a-0dd6-4f1e-8e7d-7cb72791d6b2",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "aecc89d9-c860-4d13-9ddb-866be4e7930b",
       [5]  = "8d31b5a1-0498-4b75-b9e5-ae36372c1ebe",
       [9]  = "654d0498-eabe-446f-87b3-139b748fb9fb",
@@ -3571,7 +3635,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
     progressionTable = "c52c58fc-3d9e-43bd-a822-964b9618e040",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "de3a8294-d913-412e-82ee-6015716b2ac6",
       [5]  = "f39762bc-e448-4762-8b0d-58320c917435",
       [9]  = "38722e23-e2fc-45fd-8708-cd12dc427e97",
@@ -3589,7 +3653,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 --    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
 --    modGuid          = "07a0478e-ba76-4fc7-a671-1c13c66ede2e",
 --    progressionTable = "f9deeded-805f-4f13-9bc1-cbe4fad1ff43",
---    progressionUUID  = {
+--    progressionUUID   = { -- list of existing progression levels
 --      [1]  = "1253592f-5c8b-41b5-9ae7-b83b08ab92bb"
 --    },
 --    Author           = "Dungeons and Souls",
@@ -3603,7 +3667,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
     progressionTable = "ef4ff936-4f31-45ef-92fd-12626ea66e04",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]   = "aa03e8ed-a301-4e4a-bfde-ff7144e1fbb1",
       [2]   = "f11f218d-b871-45a7-9fe0-1376b839efde",
       [3]   = "9d9b3661-ae19-49d3-be8d-3b4f81330afe",
@@ -3635,7 +3699,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
     progressionTable = "756208e7-49fb-493b-8b30-a38f0a54ef67",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "8d1bed2a-a657-4d0b-89f2-f3c484c70808"
     },
     Author           = "Dungeons and Souls",
@@ -3648,7 +3712,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
     progressionTable = "febbb692-bf50-4c7d-8058-58f3d70710c2",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "f1544d24-c5c3-41e8-871f-c05b5eac3e67"
     },
     Author           = "Dungeons and Souls",
@@ -3661,7 +3725,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
     progressionTable = "867830a8-1cb6-41b3-b018-58c8f80a1136",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "700cc489-049d-40dc-8189-0a07948d582e"
     },
     Author           = "Dungeons and Souls",
@@ -3674,7 +3738,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "21d14d75-2e99-4e85-82ad-7139c69b85fe",
     progressionTable = "c9ffe574-0f83-46dc-96a8-4aad32453478",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "acb741fe-8dac-4ff9-9972-70e9d3ad8628"
     },
     Author           = "Dungeons and Souls",
@@ -3687,7 +3751,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
     progressionTable = "a9baf07d-092f-4d76-a964-a1ee3f8bbdce",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "9be04b6b-c89f-4e67-8431-d0cd9b97db15"
     },
     Author           = "Dungeons and Souls",
@@ -3700,7 +3764,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
     progressionTable = "a7a08f36-46fd-43ec-9e4e-b562eedbf23d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "a8310439-9a0b-411a-92c2-8911cc50e7f2"
     },
     Author           = "Dungeons and Souls",
@@ -3714,7 +3778,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3b7799fa-3dc0-47da-bf9f-fc590f7e2cdf",
     progressionTable = "1157213d-456f-4d28-b4b2-ad2c35a1b4f4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "9c0e5775-6d44-4f35-807c-195ba0b7f803"
     },
     Author           = "Dungeons and Souls",
@@ -3728,7 +3792,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "f34c3aca-0b14-4001-af29-27e130cf5c5c",
     progressionTable = "ab26c8c2-da66-4fbd-8882-ffd6ba501e56",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "f4a822a7-8663-4082-abe7-655feb29303c",
       [3]  = "107ff3e7-93e8-4640-8d91-b76caf2b1311",
       [5]  = "8954a8dd-33bd-4c03-8f4d-edfb6c980ac6",
@@ -3747,7 +3811,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 --    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
 --    modGuid          = "f34c3aca-0b14-4001-af29-27e130cf5c5c",
 --    progressionTable = "3025ad42-1bce-411c-bf9d-eb97b31cc3a2",
---    progressionUUID  = {
+--    progressionUUID   = { -- list of existing progression levels
 --      [1] = "4f0a047b-fd6f-488d-a627-966ed2d4e6fb"
 --    },
 --    Author           = "Dungeons and Souls",
@@ -3760,7 +3824,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "9cbbf22a-2af4-48c7-970a-fb61a6c20b15",
     progressionTable = "3e54d4a0-cd58-4307-9cbb-dbf0f9d4277b",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "6c7094a4-bc8c-4613-9de6-5d9edec8e403",
       [5]  = "295f8d35-d49a-46c8-8398-4bbe49e0d0fb",
       [9]  = "ba66676e-a760-465f-b184-ae80f3380e1d",
@@ -3778,7 +3842,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "4508d3bd-e721-47a4-894d-0e61c7b0380d",
     progressionTable = "9ea712e7-2507-4d26-8f3d-5e1a8715fa29",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "727ce5d7-2c90-4cbb-bd52-6bd45067e27b",
       [5]  = "44a2ff5a-ab0c-4fe0-aa85-f94e6d746d69",
       [9]  = "e916fa5d-ed04-4830-9244-a735f10ab143",
@@ -3796,7 +3860,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "6abf0f64-62d6-4e80-a141-5582e29783e7",
     progressionTable = "5de13126-8919-4cfa-807f-4d173a056f8c",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "24991da3-14d0-4c65-85c6-9c62168415eb",
       [3]  = "8a9da5a9-f8f5-4a40-bd4c-eefd94e04f41",
       [5]  = "f114625a-5281-4240-a32b-c7e969295226",
@@ -3815,7 +3879,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "95d5279b-e063-459d-81d2-d4fa0cec27ca",
     progressionTable = "5d5a49e8-124e-4b79-a7a8-67b500673f34",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "43759dcb-f50f-4c22-906c-d79c40a3dbb0",
       [3]  = "27037ac0-d3ca-4899-a2cd-c5bf79bde545",
       [5]  = "d4096312-066a-4fb8-b95c-18c955859025"
@@ -3831,7 +3895,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "35fd2505-5eff-45c5-96e9-98d848f35da4",
     progressionTable = "c7a9163f-9519-43a5-95f5-f04f69b4edaf",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "58af38d8-b039-4a75-91fa-4ef079318d8b",
       [3]  = "7d7f30ec-449b-4399-a739-69c4c8d8d6e9",
       [5]  = "0957dda3-57f9-4d27-90d3-57fb4d635ff8"
@@ -3847,7 +3911,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "3fe9bc5e-2723-4044-a06b-060aed98e40b",
     progressionTable = "e0c0ba89-69aa-40b4-9b4e-4f329eeca617",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "47372143-e2a7-4cc5-9810-7caea80bd46a",
       [5]  = "26acdd6e-a7a4-40ca-8392-f95c61e5d4ec",
       [9]  = "9c01a03e-41b8-4e6d-ab6e-bc07f8d802a2",
@@ -3865,7 +3929,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "410f1b65-e8a1-4f13-b4e8-ae25e5460a7e",
     progressionTable = "bfba96a1-6fb8-487f-9ac8-71d902850ccf",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "5a33238e-313f-4cce-8bac-f36db533b704",
       [3]  = "4ebd8b2f-2432-432b-a97c-ac0872f2fbf2",
       [5]  = "2906c3c7-8b2c-40b4-9d08-8748967e7b2d"
@@ -3881,7 +3945,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "2b5c5a5b-5da3-4c65-b852-92ff75dda75a",
     progressionTable = "268ca7a8-b96c-41f4-9f66-1a67a22334e7",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "003cf78d-7db5-444e-9a2f-e41f9836c8c3",
       [5]  = "42921a0b-bf94-4a29-b2c2-ac859b1dc8f8",
       [9]  = "e6186746-ed40-455d-a6e8-1ea39f0e78a1",
@@ -3899,7 +3963,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "dc812cdf-7fdb-4372-81c7-72df0e00f542",
     progressionTable = "f51f4e7c-c6a5-4b50-87fa-1790c9edff7a",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "8ffe5132-b5ad-424c-befb-eb4fc640a18b",
       [3]  = "9833eb57-a5cf-4da7-a3bb-0f9bf6b04f24",
       [5]  = "76392372-679a-453b-b7e1-4f6bc702a5bf"
@@ -3915,7 +3979,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "ff15d50f-57d4-48d9-80ce-0ee75a669010",
     progressionTable = "91f0d10a-26cf-4a7b-8523-75105cbcc33e",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "328980be-7a43-4487-8efd-b72476a30bad",
       [5]  = "6a51894f-2f82-42fc-9c52-5cb65b58723c",
       [9]  = "2c755c3a-dc3f-44d9-91fa-9b38ff4fd4d4",
@@ -3933,7 +3997,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
     progressionTable = "32ff7635-4711-4878-84c7-68947afc0f1d",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
     },
     Author           = "Dungeons and Souls",
@@ -3947,7 +4011,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
     progressionTable = "3e272b43-aaf7-418d-8ce0-0eed49aaeb0c",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "9b859a49-4c5a-4d38-baef-308bfa6753f1"
     },
     Author           = "Dungeons and Souls",
@@ -3960,7 +4024,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
     progressionTable = "56268188-707a-48f6-8ca3-835ddce34877",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "9572fef0-12c6-4730-94ad-1471d54e7172"
     },
     Author           = "Dungeons and Souls",
@@ -3973,7 +4037,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "d41e6098-288c-49ba-a861-1ab082f8e4b9",
     progressionTable = "ca989b4e-a99e-4573-ac0c-941e5c83b960",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "1c224cd0-0617-4bc9-89ec-9370d4bef988"
     },
     Author           = "Dungeons and Souls",
@@ -3986,7 +4050,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "44aeee6c-5a35-4733-89a1-420451c6a559",
     progressionTable = "97154b38-f9b2-401c-99c4-b652bfe2b206",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "fc81b68e-2835-4791-8a22-bfedee977765",
       [5]  = "1e70d8bd-6ece-4a8f-8f38-1c2820c8dec8",
       [9]  = "33786926-c1ad-48ff-ac0b-7f345e62e700",
@@ -4004,7 +4068,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "35e9d7e9-716d-4fdb-8b0b-6dac2526389d",
     progressionTable = "3ce4b60a-7301-4bfa-b6e2-f466e4ec56f2",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "82319b4e-f38e-49b0-81cd-59953d54d824"
     },
     Author           = "Dungeons and Souls",
@@ -4018,7 +4082,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "13871336-692e-4af3-9e52-68cdf58330fb",
     progressionTable = "700ec281-1e9f-45ce-b358-e2ef0a047601",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "08bcd922-ef05-49e0-8e6f-3f6574c4d54c"
     },
     Author           = "Dungeons and Souls",
@@ -4032,7 +4096,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "41e6aeb8-e8ae-41b8-b303-8ad2f8b43f61",
     progressionTable = "2150c0c6-1e90-4a64-97ae-d0f68379f5d4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "328aafb6-9e72-4702-b3ab-10bdbc5e953e",
       [3]  = "9663730a-f5b6-4f60-8143-22ef9fdfd93f",
       [5]  = "6b1ce3e8-7e60-4594-86e9-95f18c18de5d"
@@ -4048,7 +4112,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
     progressionTable = "b4ada3a0-f98b-452c-a1e6-da0704b00736",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "3fbd5365-bb01-4741-965d-2be2f11156bd",
       [3]  = "017874f0-8d02-4948-8cd3-2605ee04e99d"
     },
@@ -4063,7 +4127,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 --    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
 --    modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
 --    progressionTable = "61ed638b-1b83-4b79-a131-cae506d0d219",
---    progressionUUID  = {
+--    progressionUUID   = { -- list of existing progression levels
 --      [1]  = "85f21e44-6bb4-4782-affa-d5a7aa1d8a9a"
 --    },
 --    Author           = "Dungeons and Souls",
@@ -4076,7 +4140,7 @@ The Avariel and Grugach, as far as I know, were not released.",
 --    modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
 --    modGuid          = "bea5a09a-b394-4a52-9166-659cbc1bf183",
 --    progressionTable = "1fdbcd97-9c06-4bf6-8094-58c52c60987f",
---    progressionUUID  = {
+--    progressionUUID   = { -- list of existing progression levels
 --      [1]  = "d756b55f-d72a-4469-9624-d6d3e57f1e91"
 --    },
 --    Author           = "Dungeons and Souls",
@@ -4089,7 +4153,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "0cc2683d-c407-40d6-ad65-8c5f95d7ef4b",
     progressionTable = "efce75a6-0c22-4d2a-aaf6-4c26e07abd32",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "11d3fa5d-3e88-4c8c-b21c-e183d7208533",
       [5]  = "53144ecc-716c-49cc-b390-02db4e441863",
       [9]  = "0bbc7c45-e455-4766-8f5c-040617155e9a",
@@ -4107,7 +4171,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "94710eae-8809-42fe-ab17-5681ceae8714",
     progressionTable = "ba0ef186-feaa-4ff9-904e-d58f3b7fba82",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "69a8edff-fdec-4ef5-aeb6-dcb15562b062",
       [3]  = "800550e4-4c07-46b3-a4de-536b5063b2f5"
     },
@@ -4122,7 +4186,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "02ad19d9-bb24-44a6-9693-35cec821774c",
     progressionTable = "99dd3e3d-4246-4584-87e9-e34a8939fb74",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "82704351-c1d6-4767-adef-49e25a290aad",
       [3] = "44205be3-30c9-4e83-8f1b-74761fe81362",
       [5] = "17e7394b-fe08-4dbe-a7cb-d117f7a26c24"
@@ -4138,7 +4202,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "58474556-4b69-494d-b290-1421010d1742",
     progressionTable = "930b392c-3a2d-4270-bf4b-5802e12b2839",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "d17424ad-839d-4733-b16d-f7cb007c865f"
     },
     Author           = "Dungeons and Souls",
@@ -4152,7 +4216,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "866dee81-42b5-4647-9fb7-ec39271f6c96",
     progressionTable = "561fb98e-ddc2-44ad-842a-aa26837ab8d4",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "ee0bbb70-b8f7-44ec-9419-565ab963f664"
     },
     Author           = "Dungeons and Souls",
@@ -4166,7 +4230,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "cbd0f091-d2a7-4569-bdf8-56511cea3076",
     progressionTable = "b859aa61-d1eb-442e-9efc-9200922685ae",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "0e35ec74-a63c-4d24-8912-4afa4a9930d8"
     },
     Author           = "Dungeons and Souls",
@@ -4180,7 +4244,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
     modGuid          = "f4361c10-b197-4490-ae30-06ce796f950e",
     progressionTable = "7ce6c941-4964-41a2-906f-71d4e1527003",
-    progressionUUID  = {
+    progressionUUID   = { -- list of existing progression levels
       [1]  = "d01d244f-3ae2-4d15-b0ba-9aed04fc16ac"
     },
     Author           = "Dungeons and Souls",
@@ -4204,7 +4268,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "e2472b4f-682a-4ac8-b11c-723f921fd7a1",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "cabc4d46-f08e-4a48-8937-0bd1067ab43d",
       [5] = "b0ac83a4-f274-4d89-be11-f229377956a1",
       [9] = "f07b73ae-4d93-447d-ae12-674da92309cd",
@@ -4221,7 +4285,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "253ff82f-32f1-49f0-be6b-2e51bb48c150",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "862da67a-a65a-4cae-b9da-aceb974bc6e2",
       [5] = "68ebe0af-1ce9-416f-9b4f-73483e55faf4"
     },
@@ -4236,7 +4300,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "68dc67cf-57b9-438f-8c6c-7bf6629327db",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f416a104-9a39-47ee-a96f-755f60f63d3e",
       [5] = "ccce1850-17d6-416f-a2aa-88047dc9f2d5"
     },
@@ -4251,7 +4315,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "88caf2b4-9ca0-45e1-b21e-c5ee49e1a531",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "8c099c31-cc1b-4aa2-b6ba-43b46b607e5d",
       [5] = "1f57fb95-6522-478e-8e98-06950155bdfb"
     },
@@ -4266,7 +4330,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "4199b326-d8d5-4cf3-b0d0-8c6cdae08f26",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "aff81767-f832-4599-b980-e4123cec0306",
       [5] = "ffeb1fef-7e29-49cc-9778-af9bd7159525"
     },
@@ -4281,7 +4345,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "0848fdf4-82c1-41ae-9d21-3c9bb7b40981",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f9d85bdb-2930-42b9-ace1-78b9187e8546",
       [5] = "936b9510-0988-43b6-ae67-bec60ac6a1e1"
     },
@@ -4296,7 +4360,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "445a41db-995d-4e35-892a-4ab0e34d4594",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "54d30867-1c05-49ae-81b5-d7ec72d9c4cc"
     },
     Author          = "3XC4L1B3R",
@@ -4309,7 +4373,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "dbe8c9aa-8a1d-49d2-b0b1-816966fe2c8c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "a80f41b2-8c0a-4167-92a8-2deb7b87a99a"
     },
     Author          = "3XC4L1B3R",
@@ -4322,7 +4386,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "cc914fb7-e0eb-49f0-a195-20d11917bf1a",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "212748d1-a44a-4ed2-940a-8845e6711410"
     },
     Author          = "3XC4L1B3R",
@@ -4335,7 +4399,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "ed5b3a12-7f18-46c2-8fe9-1ff96d44ed96",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "56103616-9a48-4708-8a8b-e06e489325d1"
     },
     Author          = "3XC4L1B3R",
@@ -4348,7 +4412,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "91577000-c8f7-465b-b56f-eb6d87d173d2",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "16e5b1bf-cb8b-45bf-8f1b-ffd47f1439c6"
     },
     Author          = "3XC4L1B3R",
@@ -4361,7 +4425,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "d5338f29-2047-40a7-ad72-f65241150858",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "0156f518-c7bc-468c-9c02-d1a1d237a8c3"
     },
     Author          = "3XC4L1B3R",
@@ -4374,7 +4438,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "829ed0e9-25dc-49ca-aee2-2494bbca180b",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "351c5d95-50cc-4be7-a627-46ad4d326b4a"
     },
     Author          = "3XC4L1B3R",
@@ -4387,7 +4451,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "f0747c54-dccd-4a1b-89d3-adee8bcc8b76",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "825e6d26-e6af-4907-8f31-2bab7322ab6c"
     },
     Author          = "3XC4L1B3R",
@@ -4400,7 +4464,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "8aeadd65-f951-4004-8f65-b3cd127e1e6d",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "7260fd5d-7c34-465b-8a98-8057b586ee6a"
     },
     Author          = "3XC4L1B3R",
@@ -4413,7 +4477,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1793" },
     modGuid         = "1e64a434-4318-42fe-9388-e6aa49505094",
     progressionTable = "ccbbbf91-53a4-4777-9676-5469d3d5b821",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [5] = "a9398494-1bc7-4cac-a42d-9e1da7dac101"
     },
     Author          = "3XC4L1B3R",
@@ -4436,7 +4500,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "498949e6-f8d6-4475-b77e-b58dfd99a620",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "50ee17bb-bc53-4d03-8100-0dd6c6bb48f8"
     },
     Author          = "Backburner26",
@@ -4450,7 +4514,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "a4b1a002-e287-468c-8b74-fd2bdacb18b4",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "e216af62-5c9d-492b-8d2f-bf669d70b078",
       [5] = "1a707b04-4e1e-4adb-aba0-6217587e19bf"
     },
@@ -4465,7 +4529,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "85af98f0-eca2-4568-a33e-ee36dda0fd47",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "a36bfa8a-afeb-4ff3-9985-8726cc45a8c8"
     },
     Author          = "Backburner26",
@@ -4479,7 +4543,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "fab718ed-3c0e-4039-878f-3e62eabe36b6",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "edfcb043-f704-4a84-a5ba-a9098787eb81"
     },
     Author          = "Backburner26",
@@ -4493,7 +4557,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "6f581ffa-a813-4494-94ae-3ca535178ab0",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "097c8ee7-0525-4a9f-b614-24d1dd46aac6",
       [5] = "8be7c464-9181-4a5e-95fc-dd6c00a6e35b"
     },
@@ -4508,7 +4572,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "a0b17958-8b88-4f2c-8439-79dbe16c1c2c",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "c990525f-e49b-4f82-b31f-e5dff0afed0a",
       [5] = "7fea02ce-a40a-46a0-8c2c-9dd316f5cd6f"
     },
@@ -4523,7 +4587,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "dc0c5b86-d0e8-4242-b2ba-747a11f52f21",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f011eebf-9545-4972-98d1-841c61b0ccae"
     },
     Author          = "Backburner26",
@@ -4537,7 +4601,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "25ffeb36-0103-4bbb-8db0-9a04a07d5ea4",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "f75743c6-8a0e-49a6-b9b1-4a001ea0ffb2",
       [5] = "1acfead1-107a-4a78-ab96-f64a3e424dbe",
       [11] = "15c34e9a-3380-4018-8b77-1c147ae3a689"
@@ -4553,7 +4617,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "e400cd2e-5e1e-46a4-a41c-dc11a598f417",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "039b3255-28c6-43a1-a40c-4fbbec842cb4"
     },
     Author          = "Backburner26",
@@ -4567,7 +4631,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2116" },
     modGuid         = "05fa72c7-be18-4398-b0c6-a5c11fc897f6",
     progressionTable = "556709e2-de9a-4f6c-a099-4f1f840d36b6",
-    progressionUUID = {
+    progressionUUID   = { -- list of existing progression levels
       [1] = "19f4eded-03fb-4363-90c2-689bff080c4b",
       [5] = "9bc1cca5-bc05-4df2-ba16-be2b41eabd94"
     },
@@ -4584,8 +4648,28 @@ The Avariel and Grugach, as far as I know, were not released.",
 --    Name              = "",
 --    modURL            = { "https://www.nexusmods.com/baldursgate3/mods/" },
 --    modGuid           = "",
+--    presetUUID        = { -- charactersPresetUUID
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      ""
+--    },
+--    compPresetUUID    = { --companion Preset UUID // not Used for now
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      "",
+--      ""
+--    },
 --    progressionTable  = "",
---    progressionUUID   = {
+--    progressionUUID   = { -- list of existing progression levels
 --      [1] = "",
 --      [2] = "",
 --      [3] = "",
@@ -4627,17 +4711,17 @@ The Avariel and Grugach, as far as I know, were not released.",
   -- Underdark's Chosen - Drow RP by BitterPast - https://www.nexusmods.com/baldursgate3/mods/3485
   --
   --	{
-  --		Name				=	"Assassin Drow",
-  --		modURL				=	{"https://www.nexusmods.com/baldursgate3/mods/3485"},
-  --		modGuid				=	"76015234-1bb4-42dc-adb9-c86c7f4cbb39",
-  --		progressionUUID		=	{
-  --									[1]	=	"4a634f24-bdcb-4559-b8be-7847133ad1c3"
-  --								},
-  --		Author				=	"BitterPast",
-  --		SourceBook			=	"",
-  --		MainRace			=	true,
-  --		Stats				=	{"0", "2", "0", "0", "0", "1"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-  --		NoDefStats			=	false
+  --		Name            =	"Assassin Drow",
+  --		modURL          =	{"https://www.nexusmods.com/baldursgate3/mods/3485"},
+  --		modGuid         =	"76015234-1bb4-42dc-adb9-c86c7f4cbb39",
+  --		progressionUUID = { -- list of existing progression levels
+  --		  [1] = "4a634f24-bdcb-4559-b8be-7847133ad1c3"
+  --		},
+  --		Author          =	"BitterPast",
+  --		SourceBook      =	"",
+  --		MainRace        =	true,
+  --		Stats           =	{"0", "2", "0", "0", "0", "1"}, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+  --		NoDefStats      =	false
   --	},
 
 }
