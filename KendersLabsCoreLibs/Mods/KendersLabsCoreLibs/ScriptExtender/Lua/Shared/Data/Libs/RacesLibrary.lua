@@ -1812,6 +1812,38 @@ The Avariel and Grugach, as far as I know, were not released.",
     Name            = "Half-Dragon",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/2634" },
     modGuid         = "16ba58e4-3ee5-4cfd-81e8-5a9f6d3f6b46",
+    presetUUID      = { -- charactersPresetUUID
+      "fa3f3c18-89a2-49c0-a63f-c3e4c5c264ce",
+      "c5836b74-cec3-45f6-80a1-49bf5684a0c8",
+      "327166da-3982-49a0-9f1d-bd688a74cce0",
+      "2ce4d3f0-d2fa-4640-9a65-d6b6f6ae889f",
+      "1950511c-e0a6-45a5-95b7-4aa97b76cc02",
+      "e14bc583-aad4-4416-bd9d-bd8a09b0c5ac",
+      "6481ce1b-70a6-4104-8e08-5036c62f36f0",
+      "af2418ec-2a0d-46d3-9344-ae764ac57353",
+      "dde407a0-05b5-4f0d-8b4f-62b3c4ecef19",
+      "b7a52798-d2b8-4833-8eca-8ad9f72b5a34",
+      "cca76d36-be7f-411b-97ae-8d9eb9e5bd12",
+      "2455dc69-7697-483b-b1b1-de7c3672bb60",
+      "67e52082-dfbc-4848-a2c8-50e3703c4709",
+      "596ebadf-60b7-4256-81e1-d162e618cba5",
+      "4d20542b-c166-4900-b8c5-1910fcf27345",
+      "f6626579-5f67-4629-85b2-9ad676c2d5cf"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "b5383ac7-75a7-4795-bc5a-3ec2df2dac4f",
+      "1a8dedc1-b043-4d44-b4da-56bf0914c873",
+      "3039a21d-5058-4e8b-8595-0217bd112d56",
+      "5edd9168-717e-46e8-b96b-efc561ab5fda",
+      "892b03b1-6ba1-43c9-ba2b-983f46b10112",
+      "e78abd00-484c-48ae-b226-e6f0346a1fa2",
+      "9f97ddb2-8ac0-476c-969d-4f862a606b0f",
+      "57db9402-5c78-4b50-a649-891889b78eb6",
+      "1c8a1f65-c7e9-42d4-923e-948dae703d71",
+      "f3e57825-3f30-4b2e-a777-bf263f500584",
+      "24245944-41b6-4b2f-bd0a-844efc0406dd",
+      "6160803e-9b76-414c-b864-2803d4e8edcb"
+    },
     progressionTable  = "0c8e8bd7-d950-4bd0-849a-a2cca7d8d6ab",
     progressionUUID = {
       [1] = "72a06fbf-e1b3-4321-b975-a4a26d9b4b71"
@@ -1819,8 +1851,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "Val aka Jo",
     SourceBook      = "",
     MainRace        = true,
-    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
-    NoDefStats      = true --cuz not have subrace
+    NoDefStats      = false --cuz have subrace
   },
   {
     Name            = "Half-Dragon - High",
@@ -1843,7 +1874,8 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "Val aka Jo",
     SourceBook      = "",
     MainRace        = false,
-    NoDefStats      = false
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
   },
   {
     Name            = "Half-Dragon - Lesser",
@@ -1860,7 +1892,8 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "Val aka Jo",
     SourceBook      = "",
     MainRace        = false,
-    NoDefStats      = false
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
   },
   {
     Name            = "Half-Dragon - Draconic Soul",
@@ -1874,7 +1907,8 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "Val aka Jo",
     SourceBook      = "",
     MainRace        = false,
-    NoDefStats      = false
+    Sab             = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
   },
   --
   -- Hobgoblin by GentlemanBabbo - https://github.com/GentlemanBabbo/Hobgoblin/tree/main
