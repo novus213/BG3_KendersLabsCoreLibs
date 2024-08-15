@@ -1,21 +1,30 @@
 local function checkHumanFM()
   if Ext.Mod.IsModLoaded(Data.Deps.Framework_FM_GUID.ModuleUUID) and Ext.Mod.IsModLoaded(Data.Deps.VariantHuman_FM_GUID.ModuleUUID) then
+    local Wyll = "efc9d114-0296-4a30-b701-365fc07d44fb"
+    local Gale = "35c3caad-5543-4593-be75-e7deba30f062" 
+    local resW = Ext.StaticData.Get(Wyll, "Origin")
+    local resG = Ext.StaticData.Get(Gale, "Origin")
+    resW.RaceUUID = "db0262f7-8c73-43b5-ad69-7451089ff1a1" --Human default Fantastic M RACEUUID
+    resG.RaceUUID = "db0262f7-8c73-43b5-ad69-7451089ff1a1" --Human default Fantastic M RACEUUID
+
     return {
       humanMainRace = false,
       humanUUID     = "139e1b8c-dfa1-4b2d-895c-efb170736093", --Human default Fantastic M
       modGuid       = Data.Deps.VariantHuman_FM_GUID.ModuleUUID,
       Author        = "Dungeons and Souls",
       modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
-      NoDefStats      = false
+      NoDefStats      = false,
+      Stats           = { "1", "1", "1", "1", "1", "1" } --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     }
   else
     return {
       humanMainRace = true,
-      humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian,
+      humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian
       modGuid       = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
       Author        = "Larian",
       modURL        = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" },
-      NoDefStats      = true
+      NoDefStats      = true,
+      Stats           = { "1", "1", "1", "1", "1", "1" } --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     }
   end
 end
@@ -44,8 +53,8 @@ Data.Libs.RaceLibrary = {
     Author          = HumanFix["Author"],
     SourceBook      = "PHB",
     MainRace        = HumanFix["humanMainRace"],
-    Stats           = { "1", "1", "1", "1", "1", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = HumanFix["NoDefStats"]
+    NoDefStats      = HumanFix["NoDefStats"],
+    Stats           =  HumanFix["Stats"]
   },
   {
     Name             = "Elf default",
