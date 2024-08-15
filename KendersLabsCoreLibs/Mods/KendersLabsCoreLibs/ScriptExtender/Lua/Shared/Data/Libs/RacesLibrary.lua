@@ -1182,42 +1182,6 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
-    presetUUID      = { --CharacterCreationPresetUuid
-      "a893ed44-9838-419c-a0eb-7d198b078867",
-      "1d02e09e-e71c-4c56-a905-c68829bbb3d8",
-      "e2130959-2c58-40d1-9c71-f71db51edf12",
-      "4b9132e1-e0ac-4155-9d8a-b8cad1d41cda",
-      "13d68870-f968-479f-b953-9e9738b90a3d",
-      "41e3c26c-e020-4661-a9eb-b0f6a409a754",
-      "68b24041-4919-40ed-a4a6-08913c9784a7",
-      "c5b9b034-f157-4d51-ae36-09c6ca447940",
-      "5e2f8738-1aa2-4fdf-968b-0af9a1f2f41a",
-      "4121a4e8-3242-4260-8e53-63af94899d6f",
-      "1bc2e36b-26ef-4f50-8fdf-04b309481145",
-      "c95f796d-8888-4def-8e08-58655d1a4c9d",
-      "3fd1e3cf-041c-4860-af65-a6298f2ea27f",
-      "cc1bc1c8-4797-4e43-8c71-61b58de5fa31",
-      "a65ea3d8-546b-48c3-a264-6d762bddc9cd",
-      "8139f78b-c57c-4baa-b7fe-b01a439d53cd",
-    },
-    compPresetUUID = { --companion Preset UUID // not Used for now
-      "4c1dd831-9a0a-4555-bd17-8aca3133b76b",
-      "02ef647c-cf12-4d7e-874d-a2b9160cbab1",
-      "a8b73569-0219-485f-bcd3-9656fa3978cf",
-      "cd2003e2-e3c9-491f-b5cd-2277f4b009e3",
-      "98338452-57fe-4821-9d15-bd6512b0b01c",
-      "86384df6-ab0e-4158-ab2b-1df37ead895b",
-      "dcf0c17a-ad8e-447a-ab38-ba1e7228daad",
-      "bdc8fbfd-6f3d-42cd-84d1-1ef4f187024a",
-      "43d25d38-66b9-4a45-be7c-7c4f4c9b94f6",
-      "e305f811-0443-47c4-85e6-038600bd5da1",
-      "7ff6739f-6222-4b89-bd3e-7649f758e119",
-      "7c7c1b92-0110-4064-8179-bbfeaa378849",
-      "79829a65-6773-424f-b493-2602f4aba3ee",
-      "97d9e1f6-8860-4a5f-80d3-57e8947b0b35",
-      "2aa7ca98-7a08-4191-ac32-b8826b5c0131",
-      "6a8f48e8-56c5-4468-a886-3ce7be51b1cb"
-    },
     originPresetUUID  = { "10721afe-d6b6-46f6-975c-828d8de713d3" },
     progressionTable  = "829a8a20-3d8f-4b69-b9bc-97d1e99f2f81",
     progressionUUID   = { -- list of existing progression levels
@@ -1267,6 +1231,18 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar - Protector",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    presetUUID      = { --CharacterCreationPresetUuid
+      "a893ed44-9838-419c-a0eb-7d198b078867",
+      "1d02e09e-e71c-4c56-a905-c68829bbb3d8",
+      "e2130959-2c58-40d1-9c71-f71db51edf12",
+      "4b9132e1-e0ac-4155-9d8a-b8cad1d41cda"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "4c1dd831-9a0a-4555-bd17-8aca3133b76b",
+      "02ef647c-cf12-4d7e-874d-a2b9160cbab1",
+      "a8b73569-0219-485f-bcd3-9656fa3978cf",
+      "cd2003e2-e3c9-491f-b5cd-2277f4b009e3"
+    },
     progressionTable  = "33223fd6-6eeb-4581-8368-3edef0225e95",
     progressionUUID   = { -- list of existing progression levels
       [1] = "63e0259e-4721-4f7e-bb75-c5d26a55dc74",
@@ -1300,6 +1276,18 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar - Scourge",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    presetUUID      = { --CharacterCreationPresetUuid
+      "13d68870-f968-479f-b953-9e9738b90a3d",
+      "41e3c26c-e020-4661-a9eb-b0f6a409a754",
+      "68b24041-4919-40ed-a4a6-08913c9784a7",
+      "c5b9b034-f157-4d51-ae36-09c6ca447940"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "98338452-57fe-4821-9d15-bd6512b0b01c",
+      "86384df6-ab0e-4158-ab2b-1df37ead895b",
+      "dcf0c17a-ad8e-447a-ab38-ba1e7228daad",
+      "bdc8fbfd-6f3d-42cd-84d1-1ef4f187024a"
+    },
     progressionTable  = "5ff931a1-6120-4bd6-ba72-cb0864cbad04",
     progressionUUID   = { -- list of existing progression levels
       [1] = "2d88948b-45ec-42ce-8dc9-755b6987a8f6",
@@ -1333,6 +1321,18 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar - Fallen",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    presetUUID      = { --CharacterCreationPresetUuid
+      "5e2f8738-1aa2-4fdf-968b-0af9a1f2f41a",
+      "4121a4e8-3242-4260-8e53-63af94899d6f",
+      "1bc2e36b-26ef-4f50-8fdf-04b309481145",
+      "c95f796d-8888-4def-8e08-58655d1a4c9d"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "43d25d38-66b9-4a45-be7c-7c4f4c9b94f6",
+      "e305f811-0443-47c4-85e6-038600bd5da1",
+      "7ff6739f-6222-4b89-bd3e-7649f758e119",
+      "7c7c1b92-0110-4064-8179-bbfeaa378849"
+    },
     progressionTable  = "9fb769b4-b7a1-43d2-bc9b-95bea9d58258",
     progressionUUID   = { -- list of existing progression levels
       [1] = "adab8d9e-904b-436e-ba9b-9657dd5216c6",
@@ -1366,6 +1366,18 @@ Data.Libs.RaceLibrary = {
     Name              = "Aasimar - Harbinger",
     modURL            = { "https://www.nexusmods.com/baldursgate3/mods/8932" },
     modGuid           = "4806bd2a-929b-406e-b1d4-2e0e9cc23bb2",
+    presetUUID      = { --CharacterCreationPresetUuid
+      "3fd1e3cf-041c-4860-af65-a6298f2ea27f",
+      "cc1bc1c8-4797-4e43-8c71-61b58de5fa31",
+      "a65ea3d8-546b-48c3-a264-6d762bddc9cd",
+      "8139f78b-c57c-4baa-b7fe-b01a439d53cd"
+    },
+    compPresetUUID = { --companion Preset UUID // not Used for now
+      "79829a65-6773-424f-b493-2602f4aba3ee",
+      "97d9e1f6-8860-4a5f-80d3-57e8947b0b35",
+      "2aa7ca98-7a08-4191-ac32-b8826b5c0131",
+      "6a8f48e8-56c5-4468-a886-3ce7be51b1cb"
+    },
     progressionTable  = "54d12c65-ae54-4acf-9e38-66acb975da16",
     progressionUUID   = { -- list of existing progression levels
       [1] = "70ed9582-33c5-44c1-8710-2fbf8281543d",
