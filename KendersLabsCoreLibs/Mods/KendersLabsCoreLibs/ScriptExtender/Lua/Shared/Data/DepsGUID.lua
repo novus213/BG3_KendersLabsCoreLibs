@@ -25,8 +25,14 @@ Data.Deps = {
   },
   Framework_FM_GUID        = {
     Directory  = "Fantastical Compendium",
-    ModuleUUID = "ff9844a0-a097-4149-bbca-ee0da5b937d7",   -- FM Framework
+    ModuleUUID = "128025b9-5168-f4a0-fa19-676f0c244d24", -- OLD UUID "ff9844a0-a097-4149-bbca-ee0da5b937d7",   -- FM Framework
     Name       = "Fantastical Compendium",
+    Author     = "Dungeons and Souls"
+  },
+  VariantHuman_FM_GUID        = {
+    Directory  = "Fantastical Variant Human",
+    ModuleUUID = "5e53f556-ba7a-46fd-9dee-ba1ff456d8db",   -- Fantastical Variant Human
+    Name       = "Fantastical Variant Human",
     Author     = "Dungeons and Souls"
   },
   Framework_WotD_GUID      = {

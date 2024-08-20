@@ -1,6 +1,6 @@
 RequireFiles("Shared/Data/Libs/", {
-    "OptionsActionsLib",
-    "BooksLibrary",
-    "ClassesLibrary",
-    "RacesLibrary",
+  "OptionsActionsLib",
+  "BooksLibrary",
+  "ClassesLibrary",
+  "RacesLibrary",
 })

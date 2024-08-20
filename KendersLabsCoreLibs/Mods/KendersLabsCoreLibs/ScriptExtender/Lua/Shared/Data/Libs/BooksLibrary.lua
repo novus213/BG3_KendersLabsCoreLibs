@@ -1,3 +1,4 @@
+---@diagnostic disable: whitespace
 Data.Libs.Books = {}
 
 --[[Books = { Officials Sources list ]]
