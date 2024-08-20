@@ -1,17 +1,30 @@
 local function checkHumanFM()
-  if Ext.Mod.IsModLoaded(Data.Deps.Framework_FM_GUID.ModuleUUID) then
+  if Ext.Mod.IsModLoaded(Data.Deps.Framework_FM_GUID.ModuleUUID) and Ext.Mod.IsModLoaded(Data.Deps.VariantHuman_FM_GUID.ModuleUUID) then
+    local Wyll = "efc9d114-0296-4a30-b701-365fc07d44fb"
+    local Gale = "35c3caad-5543-4593-be75-e7deba30f062" 
+    local resW = Ext.StaticData.Get(Wyll, "Origin")
+    local resG = Ext.StaticData.Get(Gale, "Origin")
+    resW.RaceUUID = "db0262f7-8c73-43b5-ad69-7451089ff1a1" --Human default Fantastic M RACEUUID
+    resG.RaceUUID = "db0262f7-8c73-43b5-ad69-7451089ff1a1" --Human default Fantastic M RACEUUID
+
     return {
       humanMainRace = false,
       humanUUID     = "139e1b8c-dfa1-4b2d-895c-efb170736093", --Human default Fantastic M
-      modGuid       = Data.Deps.Framework_FM_GUID.ModuleUUID,
-      Author        = "Fantastic Multiverse",
+      modGuid       = Data.Deps.VariantHuman_FM_GUID.ModuleUUID,
+      Author        = "Dungeons and Souls",
+      modURL           = { "https://www.nexusmods.com/baldursgate3/mods/215" },
+      NoDefStats      = false,
+      Stats           = { "1", "1", "1", "1", "1", "1" } --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     }
   else
     return {
       humanMainRace = true,
-      humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian,
-      modGuid       = "28ac9ce2-2aba-8cda-b3b5-6e922f71b6b8", --GustavDev modGuid
-      Author        = "Larian"
+      humanUUID     = "dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", --Human default Larian
+      modGuid       = Data.Deps.GustavDev_GUID.ModuleUUID, --GustavDev modGuid
+      Author        = "Larian",
+      modURL        = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" },
+      NoDefStats      = true,
+      Stats           = { "1", "1", "1", "1", "1", "1" } --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     }
   end
 end
@@ -62,7 +75,7 @@ IDEA ?????
 ]] --
   {
     Name            = "Human default",
-    modURL          = { "https://bg3.wiki/wiki/Human", "https://baldursgate3.wiki.fextralife.com/Human" },
+    modURL          = HumanFix["modURL"],
     modGuid         = HumanFix["modGuid"],
     progressionUUID = {
       [1] = HumanFix["humanUUID"]
@@ -71,8 +84,8 @@ IDEA ?????
     Author          = HumanFix["Author"],
     SourceBook      = "PHB",
     MainRace        = HumanFix["humanMainRace"],
-    Stats           = { "1", "1", "1", "1", "1", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = false
+    NoDefStats      = HumanFix["NoDefStats"],
+    Stats           =  HumanFix["Stats"]
   },
   {
     Name             = "Elf default",
@@ -1281,13 +1294,36 @@ IDEA ?????
 |	         \_Custom Races from Nexus
 ]] --
   {
+    Name            = "Ulitharid - playable Mind Flayers's race by JBJ_3Dart",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
+    modGuid         = "5eaac82e-4eda-4a8d-a406-a8b40b5ca9ab",
+
+    presetUUID          = { --CharacterCreationPresetUuid
+      "01bce76b-cb46-470e-a3a9-5196ca62feea",
+      "623fa5dc-35eb-4c8e-82a8-e1852a80f8f7",
+      "773c507e-0ade-461c-a1b1-3095e1c0000c",
+      "8283c50b-784a-4ab4-b39b-9b1227012a34"
+    },
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
+    progressionUUID   = {
+      [1] = "26836ca5-8bb4-4b29-bdc6-e4626769adde",
+    },
+    raceLsxUUID     = "bed0ede2-e7c0-455e-9a1c-443add9c10e2",
+    Author          = "JBJ_3Dart",
+    SourceBook      = "",
+    MainRace        = true,
+    Stats           = {"1", "0", "0", "2", "0", "0"},
+    Sab             = {"1"},
+    NoDefStats      = false
+  },
+  {
     Name            = "Aasimar Main",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
     modGuid         = "ab267ed4-b3b5-4b4f-a62c-7dbc95c968fa",
     progressionUUID = {
-      [1]         = "06e918ad-be2c-48b6-a098-0288539de744",
-      raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298"
+      [1]         = "06e918ad-be2c-48b6-a098-0288539de744"
     },
+    raceLsxUUID = "31c1d14f-2a46-4507-b9ba-b993bdffd298",
     Author          = "DarthRen",
     SourceBook      = "VGtML",
     MainRace        = true,
