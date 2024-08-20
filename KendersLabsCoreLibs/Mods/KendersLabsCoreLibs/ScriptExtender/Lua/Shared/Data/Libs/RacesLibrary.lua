@@ -1407,9 +1407,29 @@ Data.Libs.RaceLibrary = {
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
 ]]
-  --
-  -- Half angel - Aasimar by DarthRen - https://www.nexusmods.com/baldursgate3/mods/1824
-  --
+  {
+    Name            = "Ulitharid - playable Mind Flayers's race by JBJ_3Dart",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
+    modGuid         = "5eaac82e-4eda-4a8d-a406-a8b40b5ca9ab",
+
+  presetUUID      = { --CharacterCreationPresetUuid
+      "01bce76b-cb46-470e-a3a9-5196ca62feea",
+      "623fa5dc-35eb-4c8e-82a8-e1852a80f8f7",
+      "773c507e-0ade-461c-a1b1-3095e1c0000c",
+      "8283c50b-784a-4ab4-b39b-9b1227012a34"
+    },
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
+    progressionUUID = {
+      [1] = "26836ca5-8bb4-4b29-bdc6-e4626769adde",
+    },
+    raceLsxUUID = "bed0ede2-e7c0-455e-9a1c-443add9c10e2",
+    Author          = "JBJ_3Dart",
+    SourceBook      = "",
+    MainRace        = true,
+    NoDefStats      = false,
+    Stats       = {"1", "0", "0", "2", "0", "0"},
+    Sab         = {"1"} 
+  },
   {
     Name            = "Aasimar",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/1824" },
