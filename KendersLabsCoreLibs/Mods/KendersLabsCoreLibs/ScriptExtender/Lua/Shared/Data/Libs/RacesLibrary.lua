@@ -2958,7 +2958,7 @@ The Avariel and Grugach, as far as I know, were not released.",
     Author          = "tepkunset and neonbutchery",
     SourceBook      = "",
     MainRace        = true,
-    Stats           = { "0", "0", "0", "1", "2", "0" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
+    Stats           = { "0", "0", "0", "1", "0", "2" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
     NoDefStats      = false
   },
   --
