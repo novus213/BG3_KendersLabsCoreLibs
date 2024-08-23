@@ -1407,12 +1407,43 @@ Data.Libs.RaceLibrary = {
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
 ]]
+
+  {
+    Name            = "GenericCompanion",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
+    modGuid         = "a6b6aaa8-88bd-11ee-908e-13034502ea2b",
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
+    progressionUUID = {
+      [1] = "4df91dd9-0164-4486-b3d9-7906d2348cac",
+    },
+    raceLsxUUID = "6a4ebcd2-896b-11ee-9032-17e9c66bb7f5",
+    Author          = "adriant1978",
+    SourceBook      = "",
+    MainRace        = true,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
+  {
+    Name            = "GenericCompanionClass",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
+    modGuid         = "a6b6aaa8-88bd-11ee-908e-13034502ea2b",
+    progressionTable  = "cec721dd-6533-4749-b4fe-fbc168e2f92e",
+    progressionUUID = {
+      [1] = "aa424cf3-4871-49bb-9a31-fac355ba352e",
+    },
+    raceLsxUUID = "6a4ebcd2-896b-11ee-9032-17e9c66bb7f5",
+    Author          = "adriant1978",
+    SourceBook      = "",
+    MainRace        = true,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
   {
     Name            = "Ulitharid - playable Mind Flayers's race by JBJ_3Dart",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
     modGuid         = "5eaac82e-4eda-4a8d-a406-a8b40b5ca9ab",
 
-  presetUUID      = { --CharacterCreationPresetUuid
+    presetUUID      = { --CharacterCreationPresetUuid
       "01bce76b-cb46-470e-a3a9-5196ca62feea",
       "623fa5dc-35eb-4c8e-82a8-e1852a80f8f7",
       "773c507e-0ade-461c-a1b1-3095e1c0000c",
