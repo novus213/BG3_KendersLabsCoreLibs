@@ -1407,7 +1407,75 @@ Data.Libs.RaceLibrary = {
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
 ]]
+{
+    Name            = "DriderRace",
+    modURL          = { "https://github.com/queenplouton/DriderRace/" },
+    modGuid         = "3e4b5838-575a-42eb-a01d-74b2947e1023",
 
+    presetUUID      = { --CharacterCreationPresetUuid
+      "2b28a550-83fa-4549-a9ca-7cda54ce7cdb",
+      "b18416e6-c81b-4ad5-86f9-4529e30a3556"
+    },
+    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
+    progressionUUID = {
+      [1] = "346a8016-8ae7-46a1-ab47-a2f61b5c95ee",
+    },
+    raceLsxUUID = "96de3d33-8a91-44cf-a157-1bb4d8f6358a",
+    Author          = "queenplouton",
+    SourceBook      = "",
+    MainRace        = true,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
+  {
+    Name            = "Custom Race Reborn",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7030?tab=files/" },
+    modGuid         = "315ce1a1-0f24-4777-90d9-06b01a93a716",
+
+    presetUUID      = { --CharacterCreationPresetUuid
+      "1314e99e-3fdf-4fe9-a942-6e3c6668daa5",
+      "2db2465e-3bbe-4ffd-be05-931e64b4c891"
+    },
+    progressionTable  = "217432be-30d9-4e39-b05b-fdb8baf38905",
+    progressionUUID = {
+      [1] = "346a8016-8ae7-46a1-ab47-a2f61b5c95ee",
+    },
+    raceLsxUUID = "89928a6d-7365-4d08-afef-900179a4adba",
+    Author          = "Zer0",
+    SourceBook      = "",
+    MainRace        = true,
+    NoDefStats      = false
+  },
+  {
+    Name            = "Custom Race Reborn DeathTouched_SubRace_1",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7030?tab=files/" },
+    modGuid         = "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "3e46f833-54fd-4e3c-bfba-02dbfce04fb1",
+    progressionUUID = {
+      [1] = "7ce89127-7f75-4e40-ac9e-7f17e48d264e",
+    },
+    raceLsxUUID = "89928a6d-7365-4d08-afef-900179a4adba",
+    Author          = "Zer0",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
+  {
+    Name            = "Custom Race Reborn DeathBringer_SubRace_1",
+    modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7030?tab=files/" },
+    modGuid         = "315ce1a1-0f24-4777-90d9-06b01a93a716",
+    progressionTable  = "49532417-266b-41d7-9b6a-735d7cb58182",
+    progressionUUID = {
+      [1] = "656f8a90-5730-424a-8474-5d3b826cffd1",
+    },
+    raceLsxUUID = "89928a6d-7365-4d08-afef-900179a4adba",
+    Author          = "Zer0",
+    SourceBook      = "",
+    MainRace        = false,
+    Sab               = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
+    NoDefStats      = true
+  },
   {
     Name            = "GenericCompanion",
     modURL          = { "https://www.nexusmods.com/baldursgate3/mods/7610" },
