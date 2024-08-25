@@ -1416,7 +1416,7 @@ Data.Libs.RaceLibrary = {
       "2b28a550-83fa-4549-a9ca-7cda54ce7cdb",
       "b18416e6-c81b-4ad5-86f9-4529e30a3556"
     },
-    progressionTable  = "257bb459-3a9e-4bea-b4e2-349e3a9ac3ef",
+    progressionTable  = "4f8ce985-3519-4a9f-9163-abde532518aa",
     progressionUUID = {
       [1] = "346a8016-8ae7-46a1-ab47-a2f61b5c95ee",
     },
