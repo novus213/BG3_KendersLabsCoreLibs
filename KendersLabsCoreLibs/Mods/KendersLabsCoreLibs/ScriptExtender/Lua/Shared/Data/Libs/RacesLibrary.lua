@@ -1407,7 +1407,7 @@ Data.Libs.RaceLibrary = {
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
 ]]
-{
+  {
     Name            = "DriderRace",
     modURL          = { "https://github.com/queenplouton/DriderRace/" },
     modGuid         = "3e4b5838-575a-42eb-a01d-74b2947e1023",
