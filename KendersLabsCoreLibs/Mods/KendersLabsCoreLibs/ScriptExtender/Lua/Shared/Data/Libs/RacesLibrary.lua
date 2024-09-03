@@ -1158,7 +1158,6 @@ Data.Libs.RaceLibrary = {
     Author           = "Astralities",
     SourceBook       = "PHB",
     MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = true
   },
   {
@@ -1174,7 +1173,6 @@ Data.Libs.RaceLibrary = {
     Author           = "Astralities",
     SourceBook       = "PHB",
     MainRace         = false,
-    Sab              = { "2", "1" }, --[[ valeurs autorisé : {"0","0","0"} ou {"0","0"} ou {"0"} ]]
     NoDefStats       = true
   },
 
@@ -1407,31 +1405,6 @@ Data.Libs.RaceLibrary = {
 |	        \/           \/                    \/          \/      \/     \/    \/     \/
 |	         \_Custom Races from Nexus
 ]]
-
-  {
-    Name            = "tabaxi",
-    modURL          = { "https://www.patreon.com/user?u=856703" },
-    modGuid         = "98320004-771f-4905-986e-62afffb0e458",
-
-    presetUUID      = { --CharacterCreationPresetUuid
-      "ebae82cc-9a62-4118-a503-26378e1a75c4",
-      "4a755201-9b8e-4739-8bc0-d74761a226ae",
-      "2dd6134d-b7f6-436e-a6c2-a135e4e1bb25",
-      "b4d9113e-871a-4fc0-8e58-77b0c5b97432",
-      "74d79b97-3268-4abd-9036-3c840f67e537",
-      "fdf6cfa0-f8f1-42b2-86ce-4ab57f947c9c"
-    },
-    progressionTable  = "72e5c3eb-8513-4c8e-afaf-05d2b39c234e",
-    progressionUUID = {
-      [1] = "fddd306f-5a7b-4f2d-bf0e-69b3ff452d25",
-    },
-    raceLsxUUID = "604f88be-53bf-49f6-913a-9804b54cbeb7",
-    Author          = "CobaltOwl",
-    SourceBook      = "VGtML",
-    MainRace        = true,
-    Stats           = { "0", "2", "0", "0", "0", "1" }, --[[ "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" ]]
-    NoDefStats      = true
-  },
   {
     Name            = "DriderRace",
     modURL          = { "https://github.com/queenplouton/DriderRace/" },
